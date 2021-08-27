@@ -1,0 +1,11 @@
+{
+    "Lua.diagnostics.enable": false,
+    "Lua.runtime.path": [],
+    "Lua.runtime.version": "Lua 5.1",
+    "Lua.workspace.maxPreload": 0,
+    "Lua.workspace.preloadFileSize": 0,
+    "Lua.workspace.library": [
+        "\"\""
+    ],
+    "Lua.workspace.checkThirdParty": false
+}

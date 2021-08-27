@@ -1,0 +1,45 @@
+GetModConfigData("name")	--返回modinfo里面的data，
+全局表:TUNING , TheWorld
+需GLOBAL.require的表： STRINGS	ACTION	
+建议前面加 GLOBAL（非强制的）: LootTables  ThePlayer
+参考代码：数值（全）.lua    strings     constants(键盘控制等)
+KEY:  	TheInput:IsKeyDown(KEY_CTRL)
+KEY_R
+KEY_CTRL
+KEY_SHIFT
+
+
+
+回san大小：dapperness 衣冠楚楚
+TUNING.DAPPERNESS_TINY  
+TUNING.DAPPERNESS_SMALL  
+TUNING.DAPPERNESS_MED
+TUNING.DAPPERNESS_LARGE
+
+燃料效率：
+TUNING.LARGE_FUEL
+
+腐烂速度
+TUNING.PERISH_FAST	--6
+TUNING.PERISH_FASTISH	--8
+TUNING.PERISH_MED	--10
+TUNING.PERISH_SLOW	--15
+自然几率：
+TUNING.SMALL_BURNTIME
+
+
+耐久：
+TUNING.ARMORWOOD（木甲）
+
+防御力：
+TUNING.ARMORWOOD_ABSORPTION（木甲）
+
+装备位置：
+EQUIPSLOTS.HANDS 
+EQUIPSLOTS.BODY
+EQUIPSLOTS.HEAD
+
+
+
+
+
