@@ -37,6 +37,7 @@ c_save()  --保存
 c_spawn("prefab",num or 1)  --local prefab = SpawnPrefab(name,skin,skin_id=nil,creator_id)	prefab.Transform:SetPosition(inst.Transform:GetWorldPosition())
 c_give("prefab",num or 1)  -->   player:GiveItem(prefab)	||  player.components.inventory:GiveItem(prefab, nil, pos)
 c_select()c_sel():Remove -->   inst:DoTaskInTime(time,inse.Remove)	inst:Remove() <--> inst.Remove(inst)					
+c_despawn()  -- 重新选人
 
 组件：
 inst.components.xxx  --可以去看官scripts里的xxx.lua
@@ -65,7 +66,7 @@ TUNING{  --游戏数值常量表
 
 CONSTANTS  --颜色、输入等常量表
 STRINGS  --检查表
-PREFAB_SKINS  --皮肤
+PREFAB_SKINS  --皮肤表
 GROUND  --地板
 GLOBAL{ --参考代码：main.lua里的东东都要加GLOBAL才能用。
 	ThePlayer
@@ -81,7 +82,8 @@ GLOBAL{ --参考代码：main.lua里的东东都要加GLOBAL才能用。
 		:ReskinEntity( target.GUID, target.skinname, tool._cached_reskinname[prefab_to_skin], nil, tool.parent.userid )
 	}
 	TheInventory{
-		:CheckClientOwnership(player.userid, PREFAB_SKINS[prefabname][index])
+		:CheckClientOwnership(player.userid:number, PREFAB_SKINS[prefabname][index]:string)   --检查用户是否含哟此皮肤，服务器
+		:CheckOwnershipGetLatest(skin:string)	-->bool,number   客户端检查皮肤
 	}
 	TheWorld{
 		GroundCreep{
@@ -134,7 +136,8 @@ TheInput:IsKeyDown(KEY_LCTRL)
 TheInput:GetWorldEntityUnderMouse()
 TheWorld 
 TheSim
-ThePlayer
+ThePlayer  --> ThePlayer.HUD or TheFrontEnd.screenstack[1]
+TheFrontEnd
 
 
 --打印

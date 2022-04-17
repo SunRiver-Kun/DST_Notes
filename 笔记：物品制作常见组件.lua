@@ -24,13 +24,13 @@
 初始化
 --参考代码： modutil.lua   entityscript.lua    entityreplica
 --不想要的直接覆盖掉，或者保存到另一个函数备用，可以在modmain外面用但必须modimport在modmain到里 
-AddPrefabPostInit("prefabsname",函数名)	--函数的参数只有inst，表示这个物品；使用API无法修改目标文件的局部函数，局部定义
+AddPrefabPostInit("prefabsname",function(inst) end)	--函数的参数只有inst，表示这个物品；使用API无法修改目标文件的局部函数，局部定义
 AddPlayerPostInit(fn)  --初始化客机玩家，可用GLOBAL.ThePlayer  fn参数为inst
 AddComponentPostInit(component, postfn) --components（组建）修改,postfn的参数是(self)
 AddComponentAction(typename, component, fn)	--fn参数是component除self后的参数+自己定义的参数
 AddReplicableComponent("组件名")	--设置replica
 AddStategraphPostInit(stategraph, postfn) --SG修改（联机版要对wilson和wilson_cient两个sg都进行state绑定）,状态图（动作）,设置动作触发时播放的动画等 actionhandler，
-AddClassPostConstruct(class,postfn) --普通class修改，注意逗号	playerhud  contraols  修改UI用到
+AddClassPostConstruct(class,postfn(self)) --普通class修改，注意逗号	playerhud  contraols  修改UI用到
 AddGlobalClassPostConstruct(GlobalClass, classname, postfn) --全局的class修改
 AddBrainPostInit(brain, fn)  
 AddSimPostInit(函数名)	--添加到世界诞生目录
