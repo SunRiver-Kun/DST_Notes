@@ -30,7 +30,7 @@ AddComponentPostInit(component, postfn) --components（组建）修改,postfn的
 AddComponentAction(typename, component, fn)	--fn参数是component除self后的参数+自己定义的参数
 AddReplicableComponent("组件名")	--设置replica
 AddStategraphPostInit(stategraph, postfn) --SG修改（联机版要对wilson和wilson_cient两个sg都进行state绑定）,状态图（动作）,设置动作触发时播放的动画等 actionhandler，
-AddClassPostConstruct(class,postfn(self)) --普通class修改，注意逗号	playerhud  contraols  修改UI用到
+AddClassPostConstruct(class,postfn(self)) --普通class修改，注意逗号	playerhud  controls  修改UI用到
 AddGlobalClassPostConstruct(GlobalClass, classname, postfn) --全局的class修改
 AddBrainPostInit(brain, fn)  
 AddSimPostInit(函数名)	--添加到世界诞生目录

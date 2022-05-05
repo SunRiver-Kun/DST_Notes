@@ -27,9 +27,9 @@ configuration_options=
 	{
 		name = "MinWaitTime",
 		label = "最小等待时间",
-		hover = "Minimum time to wait before you hook a fish.",
+		--hover = "Minimum time to wait before you hook a fish.",
 		options =		{
-				{description = "0 秒", data = 0},
+				{description = "0 秒", data = 0--[[,hover=""]]},
 					},
 		default = 2,
 	},
@@ -37,3 +37,14 @@ configuration_options=
 和上面一样的表
 	},
 }
+
+
+--[[  包含的东西
+包含
+for、#tb、function、str..num、可以共用一个options表（自动拷贝）
+
+不包含
+pairs/ipairs
+table.xxx
+tostring
+]]
