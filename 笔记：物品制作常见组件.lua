@@ -22,7 +22,7 @@
 
 --------------------------------------------------------------------------------------------------
 初始化
---参考代码： modutil.lua
+--参考代码： modutil.lua   entityscript.lua    entityreplica
 --不想要的直接覆盖掉，或者保存到另一个函数备用，可以在modmain外面用但必须modimport在modmain到里 
 AddPrefabPostInit("prefabsname",函数名)	--函数的参数只有inst，表示这个物品；使用API无法修改目标文件的局部函数，局部定义
 AddPlayerPostInit(fn)  --初始化客机玩家，可用GLOBAL.ThePlayer  fn参数为inst

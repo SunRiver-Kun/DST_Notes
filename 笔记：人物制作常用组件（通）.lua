@@ -1,6 +1,35 @@
-一些特定的函数：
-inst.OnSave	--保存函数
-inst.OnPreLoad	--预加载函数
+entityscript:
+OnSave(self, data)
+OnPreLoad(data, newents)
+OnLoad(data, newents)
+OnLongUpdate(dt)
+OnLoadPostPass(newents, savedata)
+OnBuiltFn(builder)
+OnRemoveEntity()
+
+components:
+OnSave()
+OnPreLoad()
+OnLoad(data)
+OnBuilt(builder)
+OnRemoveEntity()
+OnUsedAsItem(action, doer, target)
+OnLoadPostPass(newents, savedata)
+OnLoad(data, newents)
+LongUpdate(dt)
+--update.lua
+--StaticComponentUpdates  
+OnUpdate()
+--RegisterStaticComponentLongUpdate(classname, fn)  --独立线，换世界等长时间时的
+OnWallUpdate()	--独立线
+
+
+网络：netvar    SendModRpcHandler/AddModRPCHandler
+网络通信好像就这两个，在组件里面是会自动找 _replica的，而这里面是处理netvar数据的
+
+
+
+
 
 控制台命令： --参考代码:mainfunction  cosolecommand   debugcommands(内有debug key快捷键设置)  
 c_reset()  --出现加载代码，动画不行
@@ -173,7 +202,6 @@ end)
 local assets = {
 	Asset( "SOUND", "sound/wilson.fsb" ),		--声音
 	Asset( "ANIM", "anim/sollyz.zip" ),					--加载资源(”类型”, “位置与名字”),
-	Asset( "ANIM", "anim/ghost_sollyz_build.zip" ), 
 	Asset( "SCRIPT", "scripts/prefabs/player_common.lua"),
 	Asset( "ATLAS", "images/inventoryimages/nohat.xml"),	
 	Asset( "SHADER", "shaders/minimapfs.ksh"),
@@ -255,17 +283,39 @@ inst.components.locomotor.walkspeed =
 inst.components.locomotor.runspeed=
 --inst.components.eater:SetOnEatFn(函数名)		如果吃东西有效果就加，没有就忽略
 
---计时，参考代码：entityscript.lua
+计时：参考代码：entityscript.lua
 inst:DoPeriodicTask(time, fn, initialdelay, ...)
 inst:DoTaskInTime(time, fn, ...)
---组件 
---ctor 里调用后来定义的函数，用self.xxx
-function OnLoad(data) {...}
-function OnSave() {return {} }
---StaticComponentUpdates  RegisterStaticComponentUpdate(classname, fn)
-function OnUpdate()
 
-RegisterStaticComponentLongUpdate(classname, fn)  --独立线，换世界等长时间时的
-function OnWallUpdate(){}	--独立线
 
-		StaticComponentLongUpdates
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
