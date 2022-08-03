@@ -198,7 +198,7 @@ table.insert(name,[index,]value)
 table.remove(table,index=#table)	--> 返回被删除的元素值
 table.maxn(table) --最大的数字index
 table.concat(table,seq="",begin=1,end=#table)  --table全是字符串或数字， table[1]..seq..table[2]...seq...table[end]
-table.pack(...) --> table
+table.pack(...) --> table，...放在了arg这个table里
 table.unpack(table) --> table[1],..,table[#table]
 table.sort(table,[function(a,b) return a<b end])
 next(table,[index=initial index])  --> next_index,table[next_index]

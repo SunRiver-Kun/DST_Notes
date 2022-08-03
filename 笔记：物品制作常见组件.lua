@@ -33,7 +33,7 @@ AddStategraphPostInit(stategraph, postfn) --SG修改（联机版要对wilson和w
 AddClassPostConstruct(class,postfn) --普通class修改，注意逗号	playerhud  contraols  修改UI用到
 AddGlobalClassPostConstruct(GlobalClass, classname, postfn) --全局的class修改
 AddBrainPostInit(brain, fn)  
-AddSimPostInit(函数名)	--添加到世界诞生目录
+AddSimPostInit(fn)	--添加到世界诞生目录，参数是player
 AddSkinnableCharacter(prefab)
 AddGameMode()
 AddGamePostInit()
@@ -130,8 +130,11 @@ AnimState：动画组件，控制Prefab的材质（scmlname）(Build)，动画�
 	--build.bin  包含tex的分割信息，文件夹信息。通过BuildReName改信息(这个在OverrideSymbol的第二个参数用到)
 	--atlas-0.tex  纯粹的一张图片。可以转png改了再转回来
 	--anim.bin  包含动画信息
-	inst.AnimState:SetBank("entity")  --一般与scamlname同，就是那个anim的父文件夹
-	inst.AnimState:SetBuild("scmlname") --材质
+	inst.AnimState:SetBank("entityname")  --对应sprite里右下角的第一层名字
+	inst.AnimState:SetBuild("scmlname") --scml名字自动打包成同名zip，同时也是这个参数
+	inst.AnimState:PlayAnimation("idle")	--第一个参数是动画名，对应sprite里右下角的第二层名字；第二个是否重复播放(默认为false)
+
+	sprite左边的x，y对应物体的坐标。改变图片的轴点，再把其x，y改回去，就可以在同一个地方显示。而旋转直接改变angle就行。
 
 	inst.AnimState:GetBuild()  -->string
 
@@ -194,7 +197,7 @@ AnimState：动画组件，控制Prefab的材质（scmlname）(Build)，动画�
 	--常用监视事件
 	inst:ListenForEvent("animover", function() inst:Remove() end)	--动画放完会有个animover事件，当前动画播放完就移除它
 	inst:ListenForEvent("animqueueover", function() inst:Remove() end)		--一个列表的动画播放完就移除它 ]]
-Phiysics：物理组件，控制Prefab的物理行为，比如速度，碰撞类型等等。下面这些不能同时对一个prefab里使用
+Phiysics：物理组件，控制Prefab的物理行为，比如速度，碰撞类型等等。下面这些不能同时对一个prefab里使用	--standardcomponents.lua
 --[[
 	参考代码：standardcomponents.lua  
 	1.物品栏物品（各种可以放进物品栏的小物品）

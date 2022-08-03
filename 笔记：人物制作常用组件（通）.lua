@@ -7,6 +7,23 @@ OnLoadPostPass(newents, savedata)
 OnBuiltFn(builder)
 OnRemoveEntity()
 
+player:  --player_common.lua
+master_postinit()  -->  这里可以直接写的有OnNewSpawn、OnPreLoad、OnLoad、OnSave、OnDespawn，而OnSleepIn和OnWakeUp用DoTaskInTime改
+
+inst.OnSleepIn = OnSleepIn
+inst.OnWakeUp = OnWakeUp
+
+inst._OnSave = inst.OnSave
+inst._OnPreLoad = inst.OnPreLoad
+inst._OnLoad = inst.OnLoad
+inst._OnNewSpawn = inst.OnNewSpawn
+inst._OnDespawn = inst.OnDespawn
+inst.OnSave = OnSave
+inst.OnPreLoad = OnPreLoad
+inst.OnLoad = OnLoad
+inst.OnNewSpawn = OnNewSpawn
+inst.OnDespawn = OnDespawn
+
 components:
 OnSave()
 OnPreLoad()
@@ -27,7 +44,9 @@ OnWallUpdate()	--独立线
 网络：netvar    SendModRpcHandler/AddModRPCHandler
 网络通信好像就这两个，在组件里面是会自动找 _replica的，而这里面是处理netvar数据的
 
-
+steam DST Tool自动打包：有修改重新生成
+.png文件 -> tex, xml	
+exported -> 里面是一个个动画文件夹，每个文件夹包含贴图和scml，自动打包成放到anim文件夹内(没创建文件夹自动创建)
 
 
 
@@ -36,8 +55,9 @@ c_reset()  --出现加载代码，动画不行
 c_save()  --保存
 c_spawn("prefab",num or 1)  --local prefab = SpawnPrefab(name,skin,skin_id=nil,creator_id)	prefab.Transform:SetPosition(inst.Transform:GetWorldPosition())
 c_give("prefab",num or 1)  -->   player:GiveItem(prefab)	||  player.components.inventory:GiveItem(prefab, nil, pos)
-c_select()c_sel():Remove -->   inst:DoTaskInTime(time,inse.Remove)	inst:Remove() <--> inst.Remove(inst)					
+c_select():Remove() -->   inst:DoTaskInTime(time,inse.Remove)	inst:Remove() <--> inst.Remove(inst)					
 c_remote(fnstr)
+c_despawn(player=ThePlayer) -->重新选人
 
 组件：
 inst.components.xxx  --可以去看官scripts里的xxx.lua
@@ -84,7 +104,7 @@ GLOBAL{ --参考代码：main.lua里的东东都要加GLOBAL才能用。
 	TheInventory{
 		:CheckClientOwnership(player.userid, PREFAB_SKINS[prefabname][index])
 	}
-	TheWorld{
+	TheWorld{	--world.lua		worldstate.lua
 		GroundCreep{
 			:OnCreep(pt)   --> bool  地上有无鸟 
 		}
@@ -143,16 +163,19 @@ GLOBAL.io		os.date("%Y-%m-%d_%H-%M-%S")
 client_log.txt  --在这里看print的，不过有其他不想要的数据就是了
 for k,v in pairs(ThePlayer.event_listeners) do print(k,v) end --在C:\Users\Administrator.SUNRIVER\Documents\Klei\DoNotStarveTogetherRail\client_log.txt 
 
--- 各种Make
+-- 各种Make		standardcomponents.lua
 MakeInventoryFloatable(inst, "med", 0.05, {0.8, 0.4, 0.8}, true, -12, {sym_build = "swap_sr_fishingrod"})--,sym_name = "swap_fishingrod",bank="reskin_tool"})	--可以飘在水上,  参考代码：components/floater.lua
 MakeSnowCoveredPristine(inst)	--可被雪覆盖
 if not TheWorld.ismastersim then return inst end
 MakeHauntableLaunch(inst)		--可被作祟
-MakeLargeBurnable(inst)			--自然
-MakeMediumPropagator(inst)		--传播？
+MakeHauntableLaunchAndPerish(inst)	--可被作祟和腐败
+MakeLargeBurnable(inst)			--可烧
+MakeMediumPropagator(inst)		--火焰传播，和Burnable一起出现
 MakeSnowCoveredPristine(inst)   --被雪覆盖
 MakeMediumBurnableCharacter(inst, "torso")	--"torso"是躯干   components.burnable
 MakeLargeFreezableCharacter(inst, "torso")  -- components.freezable
+
+
 
 --标签	重复添加标签或者删除不存在的标签都没有影响
 inst:AddTag("标签名")	--人物制作时目标为
@@ -287,7 +310,10 @@ inst.components.locomotor.runspeed=
 inst:DoPeriodicTask(time, fn, initialdelay, ...)
 inst:DoTaskInTime(time, fn, ...)
 
-
+大小：
+modicon: 128x128
+inventoryimage: 64x64
+screen: 1280x720
 
 
 
