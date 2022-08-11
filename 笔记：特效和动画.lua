@@ -38,15 +38,17 @@ green_leaves green_leaves_chop  red_leaves  red_leaves_chop   orange_leaves   or
 2.自定义动作
 参考代码：playercontroller.lua（输入）（input.lua） playeractionpicker（处理） actionhandler（实现） bufferedaction.lua（继承此类）  actions.lua（参考动作写法）   componentactions.lua（动作收集器）
 【1】用到的MOD API（modutil）：	--动作在GLOBAL.ACTION全局表里，参见actions.lua
-AddAction = function( id, str, fn ) 		--向游戏注册一个动作
-AddStategraphActionHandler = function(stategraph, handler) --将一个动作与state绑定,即用来播放动画
+AddAction = function( id, str, fn ) 		--向游戏注册一个动作，定义ACTION的具体函数
+AddStategraphActionHandler = function(stategraph, handler) --将一个动作与state绑定,即用来播放动画，根据ACTIONS.XXX播放动画，并在合适时间调用ACTION的具体函数
+AddComponentAction = function(actiontype, component, fn) --将一个动作与component绑定，判断并插入ACTIONS.XXX
+
 AddStategraphState = function(stategraph, state)
 AddStategraphEvent = function(stategraph, event)
 AddStategraphPostInit = function(stategraph, fn)
-AddComponentAction = function(actiontype, component, fn) --将一个动作与component绑定
 
-
-
+actions：具体效果，server   AddAction
+componentactions：判断和插入ACTION，client  AddComponentAction
+stategraph：动画，回应componentactions，并调用actions的具体效果     AddStategraphActionHandler
 
 【2】动作类型：
 "SCENE"(自可点,拖动,物品栏)，"POINT"(多:唯一地面,手持,拖动)，"USEITEM"(鼠标拖动)，"EQUIPPED"(装备特殊物品)，"INVENTORY"(物品栏)		
@@ -63,17 +65,13 @@ XXX.fn = function (act)	---- act相对于bufferedaction.lua里的self
 AddAction(XXX)
 
 二：
-AddAction(id,name,function(act)
-	act.doer ...
-end)
- 	
----------------------------
+---------------------------文件SGXXX.lua，但注册的时候都不带SG
 AddStategraphActionHandler("wilson", GLOBAL.ActionHandler(ACTIONS.ID, "动作state"))	--sg设置，联机版要两个都加 wilson，wilson_client
 AddStategraphActionHandler("wilson_client", GLOBAL.ActionHandler(XXX, "动作state"))--这个函数是用来给指定的SG添加ActionHandler的。
 
 AddComponentAction("动作类型", "挂名组件名", function(inst, doer, actions, right)	--动作类型，挂名组件，在playeractionpicker中执行的判断函数
     if right then	--right表示的是右键
-        if not inst:HasTag("...") then
+        if not inst:HasTag("...") then  --doer.replica.health
             table.insert(actions, GLOBAL.ACTIONS.id)
             ----满足判定条件后，就用table.insert函数将你想要添加的动作插入到actions表中。
         end

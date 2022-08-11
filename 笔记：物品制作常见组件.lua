@@ -25,7 +25,7 @@
 --参考代码： modutil.lua   entityscript.lua    entityreplica
 --不想要的直接覆盖掉，或者保存到另一个函数备用，可以在modmain外面用但必须modimport在modmain到里 
 AddPrefabPostInit("prefabsname",函数名)	--函数的参数只有inst，表示这个物品；使用API无法修改目标文件的局部函数，局部定义
-AddPlayerPostInit(fn)  --初始化客机玩家，可用GLOBAL.ThePlayer  fn参数为inst
+AddPlayerPostInit(fn)  --初始化客机玩家，fn参数为player  客户端不能用GLOBAL.ThePlayer 
 AddComponentPostInit(component, postfn) --components（组建）修改,postfn的参数是(self)
 AddComponentAction(typename, component, fn)	--fn参数是component除self后的参数+自己定义的参数
 AddReplicableComponent("组件名")	--设置replica
@@ -33,7 +33,7 @@ AddStategraphPostInit(stategraph, postfn) --SG修改（联机版要对wilson和w
 AddClassPostConstruct(class,postfn) --普通class修改，注意逗号	playerhud  contraols  修改UI用到
 AddGlobalClassPostConstruct(GlobalClass, classname, postfn) --全局的class修改
 AddBrainPostInit(brain, fn)  
-AddSimPostInit(fn)	--添加到世界诞生目录，参数是player
+AddSimPostInit(fn)	--添加到世界诞生目录，服务器参数是player，客户端没有参数
 AddSkinnableCharacter(prefab)
 AddGameMode()
 AddGamePostInit()
@@ -50,7 +50,7 @@ AddPrefabPostInit('axe', function(inst)
  end) 
 -----------------------------------------------------------------------------------------------
 物品： 
---	代码参考：recipe.lua  recipes.lua  
+--	代码参考：recipe.lua  recipes.lua  recipes_filter.lua
 first：	GLOBAL.setmetatable(env,{__index=function(t,k) return GLOBAL.rawget(GLOBAL,k) end}) 
 																--CHARACTER_INGREDIENT.SANITY/HEALTH
 [1] local myprefab = AddRecipe("prefabname or sanity与health", {Ingredient("材料物品代码名", 数量, new_atlas.xml),...}, RECIPETABS.（物品栏编号）, TECH.科技编号 , 
@@ -63,7 +63,9 @@ isneedplayer,mininterval,isneedlock,num,tag,"xml","tex",testfn)		--返回一个r
 例子：Asset( "IMAGE", "images/sollyztab.tex" ),-------------------------专属科技图片
     Asset( "ATLAS", "images/sollyztab.xml" )
 SollyzTab = AddRecipeTab(STRINGS.SOLLYZ,234(还是511不清楚), "images/sollyztab.xml", "sollyztab.tex", "tag")
-AddRecipe(...,SollyzTab,THCH.SCIENCE_TWO,...)
+--AddRecipe(...,SollyzTab,THCH.SCIENCE_TWO,...)
+AddRecipe2(name, ingredients, tech, config, filters)
+AddCharacterRecipe(name, ingredients, tech, config, extra_filters)
 [4]地图图标 
 AddMinimapAtlas("images/map_icons/photon_cannon.xml")
 [5]设置placer，一般写在最后的return inst 上面
@@ -95,7 +97,7 @@ if inst.replica.inventory ~= nil and inst.replica.inventory:EquipHasTag("golden_
 
 local inst = CreateEntity()
 -- for k,v in pairs(getmetatable(ThePlayer.AnimState).__index) do print(k,v) end
-Transform：变换组件，控制Prefab的位置、方向、缩放等等	
+Transform：变换组件，控制Entity的位置、方向、缩放等等	
 --[[  														   y
 	位置:	y是高，常为0										| z（内）	
 	inst.Transform:GetWorldPosition()	--返回x,y,z				./->x
@@ -106,7 +108,7 @@ Transform：变换组件，控制Prefab的位置、方向、缩放等等
    
 	inst:GetPosition():Get()	--inst:GetPosition()返回对象Vector3，后面加入的:Get()可以获取x,y,z
 	inst.Transform:GetPredictionPosition()		--得到客机预判的x,y,z，减低网络延迟影响
-	inst.Transform:GetLocalPosition()			--对Prefab来说和GetWorldPosition没有区别。但实体不止可以表示Prefab，也可以表示UI组件。这个方法一般是用在UI组件上
+	inst.Transform:GetLocalPosition()			--对Entity来说和GetWorldPosition没有区别。但实体不止可以表示Entity，也可以表示UI组件。这个方法一般是用在UI组件上
 	inst.Transform:SetPosition(x, y, z)	--设置位置
 
 	角度：-180° ~ 180° ， 超过会自动转换
@@ -123,7 +125,7 @@ Transform：变换组件，控制Prefab的位置、方向、缩放等等
 	inst.Transform:SetFourFaced() --4面，上下左右
 	inst.Transform:SetSixFaced() --6面，上下左右+左下、右上
 	inst.Transform:SetEightFaced() --8面，上下左右+四个斜向]]
-AnimState：动画组件，控制Prefab的材质（scmlname）(Build)，动画集合(anims)(Bank)和动画播放(idle)(Animation)，Symbol表示某实物可以被替换的部分,动画播完了不会自己移除的
+AnimState：动画组件，控制Entity的材质（scmlname）(Build)，动画集合(anims)(Bank)和动画播放(idle)(Animation)，Symbol表示某实物可以被替换的部分,动画播完了不会自己移除的
 --[[ 
 	
 	--设置build,bank  需要重新开服
@@ -149,7 +151,7 @@ AnimState：动画组件，控制Prefab的材质（scmlname）(Build)，动画�
 
 	--高级设置
 	inst.AnimState:SetLayer(LAYER_WORLD)	--LAYER_BACKGROUND(人物后面),设置层级，会影响到多个物体重叠时的动画呈现（谁在最前面）
-	inst.AnimState:SetOrientation(ANIM_ORIENTATION.OnGround)	--设置朝向，在设置Prefab紧贴地面时会很有用，比如农场，池塘都是紧贴地面
+	inst.AnimState:SetOrientation(ANIM_ORIENTATION.OnGround)	--设置朝向，在设置Entity紧贴地面时会很有用，比如农场，池塘都是紧贴地面
 	inst.AnimState:SetSortOrder(3)	--设置排序顺序，在层级相同时有影响
 	inst.AnimState:SetFinalOffset(偏移值)	--一般只用到上面3个,1~3
 
@@ -197,7 +199,7 @@ AnimState：动画组件，控制Prefab的材质（scmlname）(Build)，动画�
 	--常用监视事件
 	inst:ListenForEvent("animover", function() inst:Remove() end)	--动画放完会有个animover事件，当前动画播放完就移除它
 	inst:ListenForEvent("animqueueover", function() inst:Remove() end)		--一个列表的动画播放完就移除它 ]]
-Phiysics：物理组件，控制Prefab的物理行为，比如速度，碰撞类型等等。下面这些不能同时对一个prefab里使用	--standardcomponents.lua
+Phiysics：物理组件，控制Entity的物理行为，比如速度，碰撞类型等等。下面这些不能同时对一个实体里使用	--standardcomponents.lua
 --[[
 	参考代码：standardcomponents.lua  
 	1.物品栏物品（各种可以放进物品栏的小物品）
@@ -257,7 +259,7 @@ Phiysics：物理组件，控制Prefab的物理行为，比如速度，碰撞类
 	inst.Physics:GetMotorVel()	--获取实体的当前速度
 
 	inst.Physics:SetVel(x,y,z)	--设置初速度，针对物品栏的物品，坐标系和世界坐标系对应,物品栏物品的运动会受到重力、摩擦力、弹力等影 ]]
-Light：光照组件，添加该组件可使得Prefab成为一个光源
+Light：光照组件，添加该组件可使得Entity成为一个光源
 --[[
 	inst.entity:AddLight()
 		inst.Light:SetRadius(6)	--设置半径,过低会被查理打，
@@ -272,7 +274,7 @@ Light：光照组件，添加该组件可使得Prefab成为一个光源
 	inst.Light:GetIntensity()  	--可以获取强度
 	inst.Light:GetCalculatedRadius()	--获取实际照明范围
 	inst.Light:GetColour()		--获取颜色 ]]	
-Network：网络组件，添加与否决定了一个Prefab在主机上生成时，是否会被客户端“看”到。
+Network：网络组件，添加与否决定了一个Entity在主机上生成时，是否会被客户端“看”到。
 --[[ 
 	参考代码：playerstatusscreen.lua    networkclientrpc.lua   netvars.lua
 		inst.entity:AddNetwork()		--像大多数的客户端mod都不加网络组件的，这样别人就看不见了
@@ -298,7 +300,7 @@ Network：网络组件，添加与否决定了一个Prefab在主机上生成时�
 	如果你想给人物添加一个网络变量，必须要写在common_init函数里。
 	写在其它prefab里，则要在TheWorld.ismastersim的判断语句块之前写。
 	如果要写在组件里，则必须要保证组件也在客机上存在（否则你应该写在replica里)]]
-MiniMapEntity：地图实体组件，使用该组件可以为Prefab在小地图上创建一个图标。	
+MiniMapEntity：地图实体组件，使用该组件可以为Entity在小地图上创建一个图标。	
 --[[  
 	参考代码：components/maprevealable.lub
 	inst.MiniMapEntity:SetIcon("twiggy.png")
@@ -322,7 +324,7 @@ MiniMap：c side renderer，一般用在生成地图
                 resolvefilepath("levels/textures/ocean_noise.tex")
             )
         )]]
-SoundEmitter：声音组件，控制Prefab的声音集合和播放	
+SoundEmitter：声音组件，控制Entity的声音集合和播放	
 --[[ 
 	RemapSoundEvent( "dontstarve/characters/sora/hurt", "sora/characters/hurt" )
 	inst.SoundEmitter:PlaySound("dontstarve/characters/wendy/abigail/attack_LP", "angry")	--播放声音
@@ -333,7 +335,7 @@ Follower:  inst.Follower:FollowSymbol(parent.GUID, "fxname", x, y, z)
 xxx.entity:SetParent(inst.entity)
 --]]
 添加方法： 	inst.entity:AddXXX()	--例如:inst.entity.AddTransform()
-使用方法：	inst.XXX:YYY()			--例如： inst.AnimState:SetBuild("scmlname")
+使用方法：	inst.XXX:YYY()			--例如： inst.Transform:SetPosition(0, 0, 0)
 ------------------------------检查与介绍方面的
 
 STRINGS.NAMES.NOHAT = "猫妹子的发夹"
@@ -353,12 +355,16 @@ local function fn() -- 描述函数
     
     -------------- 网络代码 -----------------
     inst.entity:AddNetwork()
-    inst.entity:SetPristine()  --初始化
+	inst:AddTag("_named")
+    inst.entity:SetPristine()  --初始化，客户端根据_component，寻找并添加组件component_repica
     if not TheWorld.ismastersim then	--客机到这就没了，毕竟客机那没那么多组件，运行后面的会蹦
         return inst						--如果主机运行组件的函数时，客机的replica有同名的也会一起调用
     end									--客机调用组件等是replica  classified
 										--客机通过发送RPC码向主机发出要求,主机则改变netvar(参考netvar.lua)的值来向客机传递数据（大多数被储存在了classified中）
 	-------------- END 网络代码 -------------
+	--Remove these tags so that they can be added properly when replicating components below
+	inst:RemoveTag("_named")
+	inst:AddComponent("named")	--自动寻找_replica，并添加对应标签_named
     -- 从这里往下的代码，只会在主机上运行。
     -- 大多数Component
     -- sg和brain
@@ -416,7 +422,7 @@ local fn(inst)
 end	
 
 --食物
-参考代码：cooking.lua、preparedfoods.lua
+参考代码：cooking.lua、preparedfoods.lua、prefabs/preparedfoods.lua
 	
 	
 --UI
