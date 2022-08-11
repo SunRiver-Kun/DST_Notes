@@ -92,6 +92,8 @@ if inst.replica.inventory ~= nil and inst.replica.inventory:EquipHasTag("golden_
 --------------------------------------------------------------------------------------------------
 
 -- 建立一个物品
+--UI原点在左下，右x上y
+--世界坐标系，原点地图中心，右手系
 ----------------------------Entity组件，必须下在network上面的
 参考代码： mainfunctions.lua    entityscript.lua    prefabs.lua
 
@@ -99,13 +101,13 @@ local inst = CreateEntity()
 -- for k,v in pairs(getmetatable(ThePlayer.AnimState).__index) do print(k,v) end
 Transform：变换组件，控制Entity的位置、方向、缩放等等	
 --[[  														   y
-	位置:	y是高，常为0										| z（内）	
-	inst.Transform:GetWorldPosition()	--返回x,y,z				./->x
-															    \θ		
+	位置:	y是高，常为0										| 	
+	inst.Transform:GetWorldPosition()	--返回x,y,z			   /.->x    右手系（OpenGL ?）
+															  z \θ		
    local offset = Vector3(radius * math.cos( angle ), 0, -radius * math.sin( angle ))	--封装成3维矢量(x,y,z),x,0,z, angle
    local spawn_point = pt + offset	--矢量坐标相加
-   player:GetDistanceSqToPoint(x, y, z) < 4 	--玩家距离一点的距离
-   
+   player:GetDistanceSqToPoint(x, y, z) < 4 	--玩家距离一点的距离的平方（有Sq的，基本是距离的平方）
+
 	inst:GetPosition():Get()	--inst:GetPosition()返回对象Vector3，后面加入的:Get()可以获取x,y,z
 	inst.Transform:GetPredictionPosition()		--得到客机预判的x,y,z，减低网络延迟影响
 	inst.Transform:GetLocalPosition()			--对Entity来说和GetWorldPosition没有区别。但实体不止可以表示Entity，也可以表示UI组件。这个方法一般是用在UI组件上
@@ -140,11 +142,11 @@ AnimState：动画组件，控制Entity的材质（scmlname）(Build)，动画�
 
 	inst.AnimState:GetBuild()  -->string
 
-	--设置颜色(红绿蓝透) 0~1(x/255)		rgb对照表：https://tool.oschina.net/commons?type=3
+	--设置颜色(红绿蓝透) 范围0~1，即x/255	rgb对照表：https://tool.oschina.net/commons?type=3
 	inst.AnimState:SetMultColour(r, g, b, l)	
 	inst.AnimState:SetAddColour(r, g, b, l)	
 
-	--设置bloom（开花）处理
+	--设置bloom（开花）？
 	inst.AnimState:SetBloomEffectHandle("shaders/anim.ksh")
 	inst.AnimState:ClearBloomEffectHandle()
 
@@ -278,17 +280,18 @@ Network：网络组件，添加与否决定了一个Entity在主机上生成时�
 --[[ 
 	参考代码：playerstatusscreen.lua    networkclientrpc.lua   netvars.lua
 		inst.entity:AddNetwork()		--像大多数的客户端mod都不加网络组件的，这样别人就看不见了
-
-	TheNet:GetServerGameMode()  --游戏模式, "survival"/"quagmire"/"endless"
-	TheNet:GetIsServer() -- 判断是否是主机（创建游戏者） <--> TheWorld.ismastersim
-	TheNet:GetIsClient() -- 判断是否是客机（加入游戏者）
-	TheNet:IsDedicated() -- 判断是否是服务器
-	TheNet:Announce(message) -- 发送服务器公告，典型例子是XX死于XXX
-	TheNet:Say(message, whisper) -- 在聊天框里显示信息，如果whisper的值为true，则这个消息只会被附近的人看到   实际上是玩家说
-
+	
 	--自我检查的  components/skinner
 	inst.Network:SetPlayerSkin( self.skin_name or "", self.clothing["body"] or "", self.clothing["hand"] or "", self.clothing["legs"] or "", self.clothing["feet"] or "" )
-	
+
+	使用TheNet
+		TheNet:GetServerGameMode()  --游戏模式, "survival"/"quagmire"/"endless"
+		TheNet:GetIsServer() -- 判断是否是主机（创建游戏者） <--> TheWorld.ismastersim
+		TheNet:GetIsClient() -- 判断是否是客机（加入游戏者）
+		TheNet:IsDedicated() -- 判断是否是服务器
+		TheNet:Announce(message) -- 发送服务器公告，典型例子是XX死于XXX
+		TheNet:Say(message, whisper) -- 在聊天框里显示信息，如果whisper的值为true，则这个消息只会被附近的人看到   实际上是玩家说
+
 	定义与使用网络变量
 		ReferenceName = NetvarType(entity.GUID, "UniqueName", "DirtyEvent") 
 
@@ -334,15 +337,8 @@ Follower:  inst.Follower:FollowSymbol(parent.GUID, "fxname", x, y, z)
 --[[ Others:
 xxx.entity:SetParent(inst.entity)
 --]]
-添加方法： 	inst.entity:AddXXX()	--例如:inst.entity.AddTransform()
+添加方法： 	inst.entity:AddXXX()	--例如:inst.entity:AddTransform()
 使用方法：	inst.XXX:YYY()			--例如： inst.Transform:SetPosition(0, 0, 0)
-------------------------------检查与介绍方面的
-
-STRINGS.NAMES.NOHAT = "猫妹子的发夹"
-STRINGS.CHARACTERS.SOLLYZ.DESCRIBE.NOHAT = "那是来着姐姐的礼物"		--特定人物检查时说的话
-STRINGS.CHARACTERS.GENERIC.DESCRIBE.NOHAT = "多么可爱，多么迷人"
-
-STRINGS.RECIPE_DESC.NOHAT = "伴有淡淡花香的发夹" 	--物品栏上的介绍文字
 
 --------------------------------------- 描述函数 -----------------------------------
 ... 一些定义在外部的函数
@@ -374,6 +370,16 @@ local function fn() -- 描述函数
     return inst
 end
 --------------------------------------- end 描述函数  -----------------------------------
+
+------------------------------检查与介绍方面的
+
+--NOHAT，对应我们的预设物 nohat， SOLLYZ对应我们人物的预设物名
+STRINGS.NAMES.NOHAT = "猫妹子的发夹"
+STRINGS.CHARACTERS.SOLLYZ.DESCRIBE.NOHAT = "那是来着姐姐的礼物"		--特定人物检查时说的话
+STRINGS.CHARACTERS.GENERIC.DESCRIBE.NOHAT = "多么可爱，多么迷人"
+
+STRINGS.RECIPE_DESC.NOHAT = "伴有淡淡花香的发夹" 	--物品栏上的介绍文字
+
 
 --物品腐烂
 参考代码：perishable.lua
@@ -426,11 +432,12 @@ end
 	
 	
 --UI
-RESOLUTION_X
+--widgets/   screens/
+RESOLUTION_X	RESOLUTION_Y
 widget: scale默认是1,1,1. 即整个屏幕大小	
 Anchor: 左上角在父窗口边界的位置
 y
-|->x	左手
+|->x	
 
 SetHAnchor(ANCHOR_MIDDLE)
 SetVAnchor(ANCHOR_MIDDLE)
