@@ -23,22 +23,91 @@
 --------------------------------------------------------------------------------------------------
 初始化
 --参考代码： modutil.lua   entityscript.lua    entityreplica
+--modutil中env.postinitfns.XXX，在mods.lua中 ModManager:GetPostInitData("XX", key)
 --不想要的直接覆盖掉，或者保存到另一个函数备用，可以在modmain外面用但必须modimport在modmain到里 
-AddPrefabPostInit("prefabsname",函数名)	--函数的参数只有inst，表示这个物品；使用API无法修改目标文件的局部函数，局部定义
-AddPlayerPostInit(fn)  --初始化客机玩家，fn参数为player  客户端不能用GLOBAL.ThePlayer 
-AddComponentPostInit(component, postfn) --components（组建）修改,postfn的参数是(self)
-AddComponentAction(typename, component, fn)	--fn参数是component除self后的参数+自己定义的参数
-AddReplicableComponent("组件名")	--设置replica
-AddStategraphPostInit(stategraph, postfn) --SG修改（联机版要对wilson和wilson_cient两个sg都进行state绑定）,状态图（动作）,设置动作触发时播放的动画等 actionhandler，
-AddClassPostConstruct(class,postfn) --普通class修改，注意逗号	playerhud  contraols  修改UI用到
-AddGlobalClassPostConstruct(GlobalClass, classname, postfn) --全局的class修改
-AddBrainPostInit(brain, fn)  
-AddSimPostInit(fn)	--添加到世界诞生目录，服务器参数是player，客户端没有参数
-AddSkinnableCharacter(prefab)
-AddGameMode()
-AddGamePostInit()
+--预设物
+AddPrefabPostInitAny(fn(inst))	
+AddPrefabPostInit(prefab, fn(inst))		
+AddMinimapAtlas(atlaspath)  --对应 inst.MiniMapEntity:SetIcon( "xxx.tex" )
+--玩家
+AddPlayerPostInit(fn(player)) 
+---gender:"FEMALE/MALE/ROBOT/NEUTRAL/PLURAL" modes:选人动画 loadoutselect.lua skinutils.lua
+AddModCharacter(name, gender="NEUTRAL", modes=nil)	
+--组件 
+AddComponentPostInit(component, fn(self)) --Class中的self，类比其他语言的this
+AddReplicableComponent(component)	--例如xxx_replica.lua，就写"xxx"
+--动画、动作	
+--componentaction客户端判断能否执行，执行运行stategraph，执行完回调acion
+AddAction(id:string|Action, str, fn(act))	--actions.lua
+---stategraph对应stategraphs文件夹下的文件(无SG)，联机版wilson和wilson_cient
+---handle: ActionHandler(Action, "anim_name")	Action是自己注册的或ACTIONS.XXX
+AddStategraphActionHandler(stategraph, handler)	
+--actiontype: "SCENE/USEITEM/POINT/EQUIPPED/INVENTORY"  fn参数由actiontype决定
+AddComponentAction(actiontype, component, fn(...)) --componentactions.lua
+
+--参考 stategraph.lua	SGwilson.lua	SGwilson_client.lua
+AddStategraphState(stategraph, state)
+AddStategraphEvent(stategraph, event)
+AddStategraphPostInit(stategraph, postfn) 
+--类  class, globalclass，全路径文件名
+AddClassPostConstruct(class, fn(self)) --普通class修改
+--例 AddGlobalClassPostConstruct("mods","ModManager",function(self) end)
+AddGlobalClassPostConstruct(globalclass, classname, fn(self)) --全局的class修改
+--大脑（AI）
+AddBrainPostInit(brain, fn(self))  
+--游戏  可以修改main.lua中的全局变量，不过最好先判空
+AddGamePostInit(fn())	--先
+AddSimPostInit(fn())	--后，常用于生成prefab	
+AddGameMode(...)	--移除，在modinfo里改
+--物品栏制作
+--这里的recipename、name等指Recipe的name，一般也是预设物名
+--写法参照recipes.lua  repice.lua 即可
+AddRecipe2(name, ingredients, tech, config, filters)	--添加物品配方
+AddCharacterRecipe(name, ingredients, tech, config, extra_filters)	--filter是玩家
+AddDeconstructRecipe(name, return_ingredients)	--分解掉落物
+AddRecipeFilter(filter_def, index)	--自定义物品栏
+AddRecipeToFilter(recipe_name, filter_name)	--添加物品配方自定义物品栏
+RemoveRecipeFromFilter(recipe_name, filter_name)	
+AddRecipePostInit(recipename, fn(self)) 
+AddRecipePostInitAny(fn(self))
+RegisterInventoryItemAtlas(atlas, prefabname) --tex名要和prefab一样，一般不用
+--烹饪
+--食物的Prefab在prefabs/preparedfoods.lua和prefabs/preparedfoods_warly.lua
+---cooker："cookpot/portablecookpot"
+---recipe：参考scripts/preparedfoods.lua和scripts/preparedfoods_warly.lua
+AddCookerRecipe(cooker, recipe)	--烹饪配方
+AddIngredientValues(names, tags, cancook, candry)	--肉度/菜度等  参考cooking.lua
+--声音
+RemapSoundEvent(name, new_name)
+RemoveRemapSoundEvent(name)
+--RPC  RPC，服务器和客户端交流的一种方式，另一种是用网络变量(netvar.lua)
+---namespace用modname最好
+---name：独一无二的函数名
+---id_table：GetXXXRPC(...)
+AddModRPCHandler(namespace, name, fn(...))
+GetModRPCHandler(namespace, name)	--> Add时的fn
+GetModRPC( namespace, name )	--> id_table
+SendModRPCToServer( id_table, ... )	
+
+AddClientModRPCHandler(namespace, name, fn(...))
+GetClientModRPCHandler(namespace, name)	--> Add时的fn
+GetClientModRPC( namespace, name )	--> id_table
+SendModRPCToClient( id_table, ... )
+
+AddShardModRPCHandler(namespace, name, fn(...))
+GetShardModRPCHandler(namespace, name)	--> Add时的fn
+GetShardModRPC( namespace, name )	--> id_table
+SendModRPCToShard( id_table, ... )
+--命令、提示等
+AddUserCommand(command_name, data)
+AddVoteCommand(command_name, init_options_fn, process_result_fn, vote_timeout )
+AddLoadingTip(stringtable, id, tipstring, controltipdata)
+RemoveLoadingTip(stringtable, id)
+SetLoadingTipCategoryWeights(weighttable, weightdata)
+SetLoadingTipCategoryIcon(category, categoryatlas, categoryicon)
+--房间	生成世界时用
 AddRoomPreInit(name,function(room) end)
-AddTaskPreInit()
+AddTaskPreInit()  
 
 注意：大部分初始化只在主机上!  TheNet:GetIsServer()  或者直接用 inst:ListenForEvent 也可以
 if not TheWorld.ismastersim	then	return inst end --一般写在prefabs里的,TheWorld在modmain里面好像不加载
@@ -127,13 +196,13 @@ Transform：变换组件，控制Entity的位置、方向、缩放等等
 	inst.Transform:SetFourFaced() --4面，上下左右
 	inst.Transform:SetSixFaced() --6面，上下左右+左下、右上
 	inst.Transform:SetEightFaced() --8面，上下左右+四个斜向]]
-AnimState：动画组件，控制Entity的材质（scmlname）(Build)，动画集合(anims)(Bank)和动画播放(idle)(Animation)，Symbol表示某实物可以被替换的部分,动画播完了不会自己移除的
+AnimState：动画组件，控制Entity的, 动画播完了不会自己移除的
 --[[ 
 	
 	--设置build,bank  需要重新开服
-	--build.bin  包含tex的分割信息，文件夹信息。通过BuildReName改信息(这个在OverrideSymbol的第二个参数用到)
+	--build.bin  name=scmlname, Symbol.name=foldername, filename(w,h,-pivot_x,-pivot_y)	  Sprite中 →x	↓y
 	--atlas-0.tex  纯粹的一张图片。可以转png改了再转回来
-	--anim.bin  包含动画信息
+	--anim.bin  anim.name=animname  anim.root=entityname  numframes  framerate
 	inst.AnimState:SetBank("entityname")  --对应sprite里右下角的第一层名字
 	inst.AnimState:SetBuild("scmlname") --scml名字自动打包成同名zip，同时也是这个参数
 	inst.AnimState:PlayAnimation("idle")	--第一个参数是动画名，对应sprite里右下角的第二层名字；第二个是否重复播放(默认为false)
@@ -160,7 +229,7 @@ AnimState：动画组件，控制Entity的材质（scmlname）(Build)，动画�
 	--播放/暂停/刷新动画
 	inst.AnimState:PlayAnimation(anim)	--第一个参数是动画名，第二个是否重复播放(默认为false)
 	inst.AnimState:PushAnimation("idle")	--play是直接打断来播放，push是等上一个放完了再放，参数同上play，一般是第一个是play后面都是push
- 	:SetBankAndPlayAnimation(bank, anim)
+ 	inst.AnimState:SetBankAndPlayAnimation(bank, anim)
 
 	inst.AnimState:Pause()
 	inst.AnimState:Resume()
@@ -173,6 +242,7 @@ AnimState：动画组件，控制Entity的材质（scmlname）(Build)，动画�
 	
 	inst.AnimState:SetSkin(build_name, def_build)  --defualt_bulid，只能设置成自己有的皮肤。注意: willow_none的皮肤参数应该是 willow
 
+	--自动打包生成在exported下的zip中的build.xml中有Symbol.name是foldername
 	inst.AnimState:OverrideSymbol("symbol_old", "buildname", "symbol")	-- Symbol一般是文件夹名字，build一般是scaml名字
 	inst.AnimState:ClearOverrideSymbol("swap_object")	--因为常替换的是人物的，所以写在物品的unequip时用owner代替inst，只有body需要这个
 	inst.AnimState:OverrideItemSkinSymbol("swap_spear", old_skin_build, sym_name, inst.GUID, sym_build)  --换官方皮肤. sym_name一般等于sym_bulid  swap_prefab
@@ -197,6 +267,9 @@ AnimState：动画组件，控制Entity的材质（scmlname）(Build)，动画�
 	--判断动画时间
 	inst.AnimState:IsCurrentAnimation("idle")
 	inst.AnimState:GetCurrentAnimationLength()
+
+	--暂停
+	inst.AnimState:AnimateWhilePaused(false)
 
 	--常用监视事件
 	inst:ListenForEvent("animover", function() inst:Remove() end)	--动画放完会有个animover事件，当前动画播放完就移除它

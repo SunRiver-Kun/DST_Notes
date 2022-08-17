@@ -79,6 +79,14 @@ AddComponentAction("动作类型", "挂名组件名", function(inst, doer, actio
 end)
 3.StateGraph(sg)介绍：
 参考代码：stategraphs
+--EventHandler("equip"  SG_wilson.lua
+      SG_wilson  player_actions_item
+类型    State    Anim 
+带帽子：
+item_hat    
+item_in
+item_out
+
 --需要用到AnimState,有时还用到Physics等
 --[[ AnimState：动画组件，控制Prefab的材质（scmlname）(Build)，动画集合(Bank)和动画播放(Animation)，Symbol表示某实物可以被替换的部分,动画播完了不会自己移除的
 inst.AnimState:SetBuild("scmlname")		--转入官方代码的这两个省略，直接inst.AnimState:PlayAnimation("xxx")
