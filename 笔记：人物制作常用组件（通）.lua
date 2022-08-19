@@ -244,8 +244,9 @@ inst:RemoveEventCallback("事件",函数,监视对象)	--有函数名好像就�
 世界{
 	玩家：playerexited(服/客),ms_playerleft,ms_newplayerspawned,ms_playerspawn(还没有prefab),ms_playerjoined,playerexited	
 	植物：plantkilled,itemplanted
-	时间：phase,clocktick
+	时间：phase,clocktick	--worldstate.lua
 	UI：screenflash
+	是否在洞穴：TheWorld:HasTag("cave")
 }		
 物品：		equipped, unequipped, onremove,  onclose, onopen, worked,ondropped,onpickup,percentusedchange,onlimbo,exitlimbo
 建筑:		onbuilt		
@@ -292,7 +293,7 @@ GetString(inst, "ANNOUNCE_KILLEDPLANT")		--可以返回speech里对应的字符�
 inst.components.talker:Say("Level : ".. (inst.level))	--“..”是字符串连接符
 TheNet:Say(str)  --服主说话
 
-声音名字设置：
+声音名字设置：	--SGwilson.lua  soundsname or prefab
 inst.soundsname = "willow"	--薇洛
 
 地图标志：

@@ -200,13 +200,47 @@ AnimState：动画组件，控制Entity的, 动画播完了不会自己移除的
 --[[ 
 	
 	--设置build,bank  需要重新开服
-	--build.bin  name=scmlname, Symbol.name=foldername, filename(w,h,-pivot_x,-pivot_y)	  Sprite中 →x	↓y
-	--atlas-0.tex  纯粹的一张图片。可以转png改了再转回来
-	--anim.bin  anim.name=animname  anim.root=entityname  numframes  framerate
+	build.bin{	Build	引用scml名，描述图片信息
+		name = scmlname.scml
+		Symbol={
+			name = filename,
+			Frame = {
+				framenum = 0, 
+				duration = 1,
+				image = filename-0,
+				w, h,	--图片实际大小
+				x,  --pivot_x = 0.5-x/w 	x = (0.5-pivot_x)*w
+				y	--pivot_y = 0.5-y/h		y = (0.5-pivot_y)*h
+			}
+		}
+	}
+	atlas-0.tex  纯粹的一张图片。可以转png改了再转回来
+	anim.bin{	Animas	索引build中的图，制作动画
+		anim={
+			name = idle,
+			root = foldername,
+			numframes = length,
+			framerate = 40,
+			frame = {
+				idx = 0,	--time
+				w, h,	--不是图片实际大小 
+				x, y	--当位置在0,0时和build.bin中x,y同
+				element = {
+					name = ,
+					layername = ,
+					frame = 0,  --对应build中的framenum?
+					z_index = 1,
+					m_a,m_b,m_c,m_d,
+					m_tx = 0,
+					m_ty = 0
+				}
+			}
+		}
+	}
 	inst.AnimState:SetBank("entityname")  --对应sprite里右下角的第一层名字
 	inst.AnimState:SetBuild("scmlname") --scml名字自动打包成同名zip，同时也是这个参数
 	inst.AnimState:PlayAnimation("idle")	--第一个参数是动画名，对应sprite里右下角的第二层名字；第二个是否重复播放(默认为false)
-
+	inst.AnimState:AddOverrideBuild("player_hit_darkness")	--添加格外的动画scml
 	sprite左边的x，y对应物体的坐标。改变图片的轴点，再把其x，y改回去，就可以在同一个地方显示。而旋转直接改变angle就行。
 
 	inst.AnimState:GetBuild()  -->string
@@ -239,7 +273,7 @@ AnimState：动画组件，控制Entity的, 动画播完了不会自己移除的
  	--一般只有物品有下面这两个
  	inst.skinname  
 	inst:GetSkinBuild() 
-	
+	--prefabskin.lua	skinner.lua		skinprefabs.lua		CreatePrefabSkin()
 	inst.AnimState:SetSkin(build_name, def_build)  --defualt_bulid，只能设置成自己有的皮肤。注意: willow_none的皮肤参数应该是 willow
 
 	--自动打包生成在exported下的zip中的build.xml中有Symbol.name是foldername
@@ -254,7 +288,7 @@ AnimState：动画组件，控制Entity的, 动画播完了不会自己移除的
 		swap_object：手上的物品
 	}
 
-	--展示/隐藏部位
+	--展示/隐藏部位	大小写不敏感
 	inst.AnimState:Show("ARM_carry")
 	inst.AnimState:Hide("ARM_normal")
 

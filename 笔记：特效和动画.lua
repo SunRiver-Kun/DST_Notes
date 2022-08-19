@@ -318,7 +318,8 @@ AddClassPostConstruct("widgets/controls", addHelloWidget) -- 这个函数是官�
 --]]
 
 
-
+--材质
+fx:SetMaterial("wood")
 
 
 

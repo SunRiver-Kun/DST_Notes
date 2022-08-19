@@ -7,6 +7,7 @@ author = "Haruz"
 version = "1.10"
 forumthread = ""   --可以填mod的来源网站，也可忽略
 api_version = 10	--显示版本，更新它
+priority = 0
 
 dst_compatible = true		--联机版兼容
 dont_starve_compatible = false	--单机版兼容
@@ -36,4 +37,12 @@ configuration_options=
 	{
 和上面一样的表
 	},
+}
+
+mod_dependencies = {	--priority大的先运行！
+    {	
+        workshop = "workshop-XXXXXXXXX",	--依赖workshop的mod
+        ["FolderName"] = false,	--依赖mods/FolderName
+        ["ModName"] = true,		--依赖name=Modname的mod
+    },
 }
