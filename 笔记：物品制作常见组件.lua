@@ -302,12 +302,12 @@ AnimState：动画组件，控制Entity的, 动画播完了不会自己移除的
 	inst.AnimState:IsCurrentAnimation("idle")
 	inst.AnimState:GetCurrentAnimationLength()
 
-	--暂停
-	inst.AnimState:AnimateWhilePaused(false)
+	--暂停时继续播放
+	inst.AnimState:AnimateWhilePaused(true)
 
 	--常用监视事件
-	inst:ListenForEvent("animover", function() inst:Remove() end)	--动画放完会有个animover事件，当前动画播放完就移除它
-	inst:ListenForEvent("animqueueover", function() inst:Remove() end)		--一个列表的动画播放完就移除它 ]]
+	inst:ListenForEvent("animover", inst.Remove)	--动画放完会有个animover事件，当前动画播放完就移除它
+	inst:ListenForEvent("animqueueover", inst.Remove)		--一个列表的动画播放完就移除它 ]]
 Phiysics：物理组件，控制Entity的物理行为，比如速度，碰撞类型等等。下面这些不能同时对一个实体里使用	--standardcomponents.lua
 --[[
 	参考代码：standardcomponents.lua  

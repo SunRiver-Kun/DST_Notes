@@ -24,10 +24,11 @@ return Prefab("xxx", fn, assets)
 B:生成特效
 	local xxx = SpawnPrefab("xxx")	xxx.Transform:SetPosition(inst.Transform:GetWorldPosition())
 	
-参考代码：特效(全)fx.lua
+参考代码：特效(全)fx.lua    scml中是毫秒，inst:DoXXXTime是秒
 cane_ancient_fx  cane_victorian_fx  cane_candy_fx  cane_sharp_fx  --手杖特效
 lighterfire  lighterfire_haunteddoll		--鬼火特效
 lightning		--闪电
+lavaarena_portal_player_fx、spawn_fx_medium  --换皮肤
 ice_projectile(螺旋丸)  ice_puddle(融合后的水)	ice_splash(水泡)   
 deer_ice_burst  deer_ice_charge   deer_ice_circle	 deer_ice_flakes    deer_ice_fx		--冰鹿特效
 deer_fire_burst  deer_fire_charge   deer_fire_circle	 deer_fire_flakes    	--火鹿特效
@@ -120,48 +121,6 @@ inst:ListenForEvent("animqueueover", function() inst:Remove() end)		--一个列�
 1.物品栏物品（各种可以放进物品栏的小物品）
 MakeInventoryPhysics(inst)
 特点：可以通过inst.Physics:SetVel(x,y,z)来提供初速度，并且遵循重力、摩擦、碰撞等物理规律。
-
-2.人物角色（人物，行走的生物）
-MakeCharacterPhysics(inst, mass, rad)
-其中，mass为质量，rad为碰撞半径，下面类似参数名也有同样含义。
-特点：无视摩擦力，无法越过障碍物（小型：浆果丛，一般：池塘、围墙）
-
-3.飞行生物（蚊子，蜜蜂）
-MakeFlyingCharacterPhysics(inst, mass, rad)
-特点：类似人物角色，但可以越过像池塘、浆果丛这样的障碍物。
-
-4.极小飞行生物（蝴蝶）
-MakeTinyFlyingCharacterPhysics(inst, mass, rad)
-特点：类似飞行生物，但不会和飞行生物发生碰撞（很多蝴蝶可以在同一个位置重叠，而蜜蜂不行）
-
-5.巨型生物（各大BOSS）
-MakeGiantCharacterPhysics(inst, mass, rad)
-特点：类似人物角色，但会越过浆果丛等小型障碍物。
-
-6.飞行巨型生物（龙蝇，蜂后）
-MakeFlyingGiantCharacterPhysics(inst, mass, rad)
-特点：类似巨型生物，但可以越过池塘这样的一般障碍物
-
-7.幽灵（阿比盖尔，蝙蝠，格罗姆，幽灵，玩家的灵魂）
-MakeGhostPhysics(inst, mass, rad)
-特点：类似人物角色，但无视障碍物
-
-8.障碍物（围墙，各种建筑，猪王等等）
-MakeObstaclePhysics(inst, rad, height)
-特点：无
-
-9.小型障碍物（浆果丛，尸骨）
-MakeObstaclePhysics(inst, rad, height)
-特点：无
-
-10.重型障碍物（各种可以背的石块）
-MakeHeavyObstaclePhysics(inst, rad, height)
-特点：类似障碍物，需要结合组件heavyobstaclephysics使用
-
-小型重型障碍物（knighthead，bishophead，rooknose）
-MakeSmallHeavyObstaclePhysics(inst, rad, height)
-特点：类似小型障碍物，需要结合组件heavyobstaclephysics使用
-
 通用的：
 	inst.entity:SetPristine()	--比较特殊的引用方法
 

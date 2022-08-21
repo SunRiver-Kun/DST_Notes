@@ -308,8 +308,12 @@ inst.components.locomotor.runspeed=
 --inst.components.eater:SetOnEatFn(函数名)		如果吃东西有效果就加，没有就忽略
 
 计时：参考代码：entityscript.lua
-inst:DoPeriodicTask(time, fn, initialdelay, ...)
-inst:DoTaskInTime(time, fn, ...)
+--Delay one frame	pre::Cancel()	
+inst:DoPeriodicTask(time, fn, initialdelay, ...)	--间隔时间，fn，初始延迟
+inst:DoTaskInTime(time, fn, ...)	--秒
+inst:DoStaticTaskInTime(time, fn, ...)	--世界暂停时继续更新
+:DoStaticPeriodicTask(time, fn, initialdelay, ...)	--世界暂停时继续更新
+inst:CancelAllPendingTasks()	--取消上面所以的定时任务
 
 大小：
 modicon: 128x128
