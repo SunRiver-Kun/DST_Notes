@@ -540,6 +540,7 @@ end
 	
 --UI
 --widgets/   screens/
+--UI初始化时可能没加repica组件，所以用prefab判断最保险
 RESOLUTION_X	RESOLUTION_Y
 widget: scale默认是1,1,1. 即整个屏幕大小	
 Anchor: 左上角在父窗口边界的位置

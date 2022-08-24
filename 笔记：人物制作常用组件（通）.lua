@@ -321,8 +321,8 @@ inventoryimage: 64x64
 screen: 1280x720
 
 
-
-
+跳转世界：
+重新生成prefab，但是upvalue不变，当心！
 
 
 
