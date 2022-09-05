@@ -1,4 +1,4 @@
---[[1.动画部分
+-1.动画部分
 
 A:建个prefab
 local assets =
@@ -34,7 +34,26 @@ deer_ice_burst  deer_ice_charge   deer_ice_circle	 deer_ice_flakes    deer_ice_f
 deer_fire_burst  deer_fire_charge   deer_fire_circle	 deer_fire_flakes    	--火鹿特效
 tree_petal_fx_chop   
 green_leaves green_leaves_chop  red_leaves  red_leaves_chop   orange_leaves   orange_leaves_chop   purple_leaves  purple_leaves_chop
---]]
+
+人物动画
+1. 画图
+2. 在人物的scml中，设置锚点；
+3. 复制粘贴人物的scml，删除多余的图，选择参考图，框选图，调节x，y	  方二：把人物scml的entityname改为wilson，新建个动画也行！
+4. 在第一帧删除不需要的图片，之后无法再删除
+5. 若需删除，找张透明贴图，长按图片切换到透明贴图
+5. _down, _side, _up，也可以不要后缀
+6. 动画打包后，只需要里面的anim，其他的文件会影响换皮肤		方二的不用删
+7. 更改动画之后，要重启游戏，不能用c_reset()
+8. 非png文件会影响打包，导致缺失某些图片，需删除anim中的zip重新生成
+
+循环模式，是否最后一帧逐渐转为第一帧
+新的图，命名要和官方的统一，不能太大！
+timeline id不能少，不能空！
+
+下面是饥荒！！不支持！！的Sprite功能
+帧设置（不支持！！）(instant ，只能是linear)
+骨动画（不支持！！）
+
 	
 2.自定义动作
 参考代码：playercontroller.lua（输入）（input.lua） playeractionpicker（处理） actionhandler（实现） bufferedaction.lua（继承此类）  actions.lua（参考动作写法）   componentactions.lua（动作收集器）
@@ -173,83 +192,7 @@ inst.sg:GoToState("hit",其他参数)	--跳转动画，可以加入其他参数�
 inst.sg:SetTimeout(23 * FRAMES)
 --FRAMES(帧) = 1/30 定义在constants里，用于动画时间轴定位, FPS(Frames Pre Second,一秒刷新图片的张数,例如:FPS = 30帧就是1秒刷30张图)
 --scml里的TimeLine里时间单位是毫秒, /1000就变成秒,例如:1200表示1.2秒
-local actionhandlers = 
-{
-	ActionHandler(ACTIONS.CHOP,	--可以直接写个字符串来代替fn
-        function(inst,act)	--act相对于bufferedaction.lua里的self
-            return "字符串" or nil 
-        end),
-}
 
-local events = 	--根据事件来GoToState的
-{				--可以稍微加一点其他功能，不过不建议这么做
-	EventHandler("unequip", function(inst, data)
-        if data.eslot == EQUIPSLOTS.BODY and data.item ~= nil and data.item:HasTag("heavy") then
-            if not inst.sg:HasStateTag("busy") then
-                inst.sg:GoToState("heavylifting_stop")
-            end
-        elseif inst.components.inventory:IsHeavyLifting()
-            and not inst.components.rider:IsRiding() then
-            if inst.sg:HasStateTag("idle") or inst.sg:HasStateTag("moving") then
-                inst.sg:GoToState("heavylifting_item_hat")
-            end
-        elseif inst.sg:HasStateTag("idle") or inst.sg:HasStateTag("channeling") then
-            inst.sg:GoToState(GetUnequipState(inst, data))
-        end
-    end),
-}
-
-local states =
-{
-	State
-    {
-        name = "idle",		--对应GoToState
-        tags = { "idle",...},		--对应HasStateTag,busy,pausepredict(暂停预判),nomorph(不变形),nodangle(不摇摆),nointerrupt(不打断),dismounting(下坐骑),transform
-									
-		onenter = function(inst)	--fn
-           
-                inst.AnimState:PlayAnimation("xxx")	--第二个参数是否循环播放，可省
-				inst.AnimState:PushAnimation("yyy", false)	--第二个参数好像不能省，是否循环播放
-				inst.AnimState:OverrideSymbol("hound_whistle01", "houndwhistle", "hound_whistle01")
-				inst.AnimState:Show("ARM_normal")
-				....
-        end,
-
-		-- onupdate = function(inst) ... end,  -- 可省略
-		
-		--[[
-		timeline = 
-        {
-            TimeEvent(n * FRAMES, function(inst) inst.SoundEmitter:PlaySound("dontstarve/characters/wendy/abigail/howl") end),	--动画的第n秒做...
-			TimeEvent(10 * FRAMES, function(inst)
-                inst:PerformBufferedAction()	--播放缓存动作，应该是xxx过长时才使用的，返回true or false
-            end),
-	   },  
-
-        ontimeout = function(inst)
-            inst.sg:GoToState("walk")
-        end,	--]]
-        
-		events =	--一般都是处理animover（动画播放结束）, animqueueover（动画序列结束）
-        {
-            EventHandler("animover", function(inst)		--onenter的xxx动画播放完了就触发
-                if inst.AnimState:AnimDone() then
-                    inst.sg:GoToState("idle")		--一般动画截止都要返回到原始动画
-                end
-            end),
-            EventHandler("unequip", function(inst)
-                inst.sg:GoToState("idle")
-            end),
-        },
-		
-		
-		--	onexit = function(inst) ...  end,	--可省略，与onenter对应
-
-    },	
-}
-
-
-return StateGraph("sgname", states, events, "idle(初始状态)", actionhandlers(人物类动作处理表))
 
 --[[4.界面类
 参考代码：sollyzwheel.lua

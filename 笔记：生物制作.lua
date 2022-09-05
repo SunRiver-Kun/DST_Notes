@@ -1,3 +1,6 @@
+BrainManager -manger> brain -> behaviourtree -> nodes -> components -event> stategraph
+brain.lua、behaviourtree.lua、stategraph.lua
+
 --设置大脑
 local brain = GLOBAL.require "brains/koalefantbrain"
 inst:SetBrain(brain)	--设置大脑
