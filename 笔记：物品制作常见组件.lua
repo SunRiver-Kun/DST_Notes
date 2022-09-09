@@ -56,8 +56,8 @@ AddGlobalClassPostConstruct(globalclass, classname, fn(self)) --全局的class�
 --大脑（AI）
 AddBrainPostInit(brain, fn(self))  
 --游戏  可以修改main.lua中的全局变量，不过最好先判空
-AddGamePostInit(fn())	--先
-AddSimPostInit(fn())	--后，常用于生成prefab	
+AddGamePostInit(fn())	--先，没有ThePlayer
+AddSimPostInit(fn())	--后，没有ThePlayer，常用于生成prefab	
 AddGameMode(...)	--移除，在modinfo里改
 --物品栏制作
 --这里的recipename、name等指Recipe的name，一般也是预设物名

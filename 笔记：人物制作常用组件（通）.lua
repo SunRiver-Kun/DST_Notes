@@ -138,7 +138,7 @@ GLOBAL{ --参考代码：main.lua里的东东都要加GLOBAL才能用。
 		:RebuildLayer(ground, x, y)  --再，rebuild旧层和新层
 		}
 
-		minimap{  --参考代码：widgets/screen
+		minimap{  --参考代码：widgets/screen	mapscreen   maowidget
 			MiniMap{
 			:IsVisible() 
 			:RebuildLayer(ground, x, y)  --小地图直接rebuild旧层和新层
@@ -146,6 +146,8 @@ GLOBAL{ --参考代码：main.lua里的东东都要加GLOBAL才能用。
 			:EnableFogOfWar(bool)  --一键全图不是？
 			:ContinuouslyClearRevealedAreas(bool)  --持续清理探索过的区域。会清空探索过的区域地图
 			:SetEffects( shader_filename, fs_shader ) -- 	local shader_filename = "shaders/minimap.ksh"		local fs_shader = "shaders/minimapfs.ksh"		 
+			:WorldPosToMapPos(x,y,z)
+			:MapPosToWorldPos(x,y,z)	--MapScreen:GetCursorPosition()
 		}
 	}
 
@@ -308,11 +310,11 @@ inst.components.locomotor.runspeed=
 --inst.components.eater:SetOnEatFn(函数名)		如果吃东西有效果就加，没有就忽略
 
 计时：参考代码：entityscript.lua
---Delay one frame	pre::Cancel()	
+--Delay one frame	task::Cancel()	
 inst:DoPeriodicTask(time, fn, initialdelay, ...)	--间隔时间，fn，初始延迟
 inst:DoTaskInTime(time, fn, ...)	--秒
 inst:DoStaticTaskInTime(time, fn, ...)	--世界暂停时继续更新
-:DoStaticPeriodicTask(time, fn, initialdelay, ...)	--世界暂停时继续更新
+inst:DoStaticPeriodicTask(time, fn, initialdelay, ...)	--世界暂停时继续更新
 inst:CancelAllPendingTasks()	--取消上面所以的定时任务
 
 大小：
