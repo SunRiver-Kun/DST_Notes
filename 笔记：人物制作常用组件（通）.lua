@@ -301,6 +301,9 @@ inst.soundsname = "willow"	--薇洛
 地图标志：
 inst.MiniMapEntity:SetIcon( "sollyz.tex" )	--”文件名”一般把地图标志放在images/map_icons
 
+人物动画
+inst.customidleanim = "idle_webber"
+
 人物基本属性设置：
 inst.components.hunger.max=
 inst.components.health.maxhealth =
@@ -327,7 +330,11 @@ screen: 1280x720
 重新生成prefab，但是upvalue不变，当心！
 
 
-
+保存和加载
+inst.persists = false	--不自动保存数据
+OnSave() -> ghost = self.ghost ~= nil and self.ghost:GetSaveRecord() or nil
+OnLoad(data) -> ghost = SpawnSaveRecord(data.ghost)		
+--util, mainfunction.lua
 
 
 

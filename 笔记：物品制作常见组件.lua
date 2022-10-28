@@ -370,6 +370,7 @@ Phiysics：物理组件，控制Entity的物理行为，比如速度，碰撞类
 	inst.Physics:SetMotorVel(x,y,z)		--设置各方向的初速度,该方法只对人物、生物类型有效。如果是延当前发现的话，y,z设置为0
 	inst.Physics:GetMotorVel()	--获取实体的当前速度
 
+	inst.Physics:Teleport(x, y, z)
 	inst.Physics:SetVel(x,y,z)	--设置初速度，针对物品栏的物品，坐标系和世界坐标系对应,物品栏物品的运动会受到重力、摩擦力、弹力等影 ]]
 Light：光照组件，添加该组件可使得Entity成为一个光源
 --[[
@@ -401,7 +402,9 @@ Network：网络组件，添加与否决定了一个Entity在主机上生成时�
 		TheNet:IsDedicated() -- 判断是否是服务器
 		TheNet:Announce(message) -- 发送服务器公告，典型例子是XX死于XXX
 		TheNet:Say(message, whisper) -- 在聊天框里显示信息，如果whisper的值为true，则这个消息只会被附近的人看到   实际上是玩家说
-
+		TheNet:GetClientTableForUser(inst.userid)
+		TheNet:AnnounceDeath(announcement_string, inst.entity)
+		
 	定义与使用网络变量
 		ReferenceName = NetvarType(entity.GUID, "UniqueName", "DirtyEvent") 
 
