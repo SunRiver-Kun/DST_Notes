@@ -1,0 +1,2211 @@
+[00:01:06]: GLOBAL+++++++++++++++	
+[00:01:06]: string_search_subwords	function: 00000000361092B0	
+[00:01:06]: UpsellShowing	function: 000000002A2C55C0	
+[00:01:06]: KEY_A	97	
+[00:01:06]: RCITimeout	function: 0000000035D5D590	
+[00:01:06]: CONTROL_ACCEPT	29	
+[00:01:06]: VecUtil_DistSq	function: 0000000013CC3DF0	
+[00:01:06]: ReduceAngleRad	function: 00000000116EF6E0	
+[00:01:06]: cane_init_fn	function: 00000000127BC340	
+[00:01:06]: createTable	function: 0000000036109C30	
+[00:01:06]: CONTROL_INV_9	23	
+[00:01:06]: IOprint	function: 00000000127AAA00	
+[00:01:06]: OnMouseButton	function: 0000000012023770	
+[00:01:06]: ShakeAllCameras	function: 0000000030FDC7F0	
+[00:01:06]: MakeInventoryFloatable	function: 00000000116EAEE0	
+[00:01:06]: sortedKeys	function: 0000000031190D70	
+[00:01:06]: DefaultBurnFn	function: 00000000116EA130	
+[00:01:06]: ValidateRecipeSkinRequest	function: 000000000ED8C600	
+[00:01:06]: grass_umbrella_clear_fn	function: 0000000026EE72E0	
+[00:01:06]: UpdateGamePurchasedState	function: 0000000012023D70	
+[00:01:06]: NO_DLC_TABLE	table: 00000000132418D0	
+[00:01:06]: IsUserCommerceAllowedOnItemType	function: 000000000C69DEA0	
+[00:01:06]: shovel_init_fn	function: 0000000026EE5B70	
+[00:01:06]: StaticShadow	table: 00000000129841D0	
+[00:01:06]: IsTechIngredient	function: 000000002A2B9040	
+[00:01:06]: MOD_ACTIONS_BY_ACTION_CODE	table: 0000000010412450	
+[00:01:06]: GetCharacterRequiredForItem	function: 000000000C69DF00	
+[00:01:06]: LEGACY_WORLD_TILES_OCEAN_START	201	
+[00:01:06]: GetPopupIDFromPopupCode	function: 000000000C6A0000	
+[00:01:06]: KEY_O	111	
+[00:01:06]: UserToClientID	function: 000000000ED8C210	
+[00:01:06]: Vec3Util_Lerp	function: 0000000013CC43F0	
+[00:01:06]: GetFlattenedSparse	function: 0000000031190440	
+[00:01:06]: yellowamulet_init_fn	function: 0000000026EE5D50	
+[00:01:06]: CONTROL_TOGGLE_LOG	43	
+[00:01:06]: _BonusItemRewarded	function: 000000000C660500	
+[00:01:06]: RELOADING	false	
+[00:01:06]: JoinServerFilter	function: 000000000ED8CAB0	
+[00:01:06]: WORMHOLETYPE	table: 0000000035FEFB20	
+[00:01:06]: IsPreviousFestivalEvent	function: 0000000035D1FF60	
+[00:01:06]: glommerflower_init_fn	function: 0000000026EE7F70	
+[00:01:06]: collectgarbage	function: 000000000E49FED0	
+[00:01:06]: FUELTYPE	table: 000000003628F160	
+[00:01:06]: exiting_game	false	
+[00:01:06]: ProfileStatsSetField	function: 0000000035D68B20	
+[00:01:06]: TEXT_FILTER_CTX_UNKNOWN	0	
+[00:01:06]: ANIM_ORIENTATION	table: 0000000036288810	
+[00:01:06]: OCEAN_WATERFALL_MAX_DIST	14	
+[00:01:06]: Vec3Util_Sub	function: 0000000013CC42A0	
+[00:01:06]: CARRAT_MUSIC_STATES	table: 0000000035FF05C0	
+[00:01:06]: supertacklecontainer_clear_fn	function: 0000000026EE75E0	
+[00:01:06]: CustomPresets	table: 000000000C688170	
+[00:01:06]: bundle_init_fn	function: 0000000026EE8090	
+[00:01:06]: AddWorldGenLevel	function: 000000000C654AC0	
+[00:01:06]: KEY_LSUPER	311	
+[00:01:06]: spear_init_fn	function: 0000000026EE5690	
+[00:01:06]: CHARACTER_VIDEOS	table: 00000000315BEDD0	
+[00:01:06]: SavePersistentString	function: 0000000035D6A5C0	
+[00:01:06]: ConstructAdjectivedName	function: 00000000127A34C0	
+[00:01:06]: FESTIVAL_EVENTS	table: 0000000036285840	
+[00:01:06]: wall_ruins_clear_fn	function: 0000000026EE8EA0	
+[00:01:06]: MakeMediumPropagator	function: 00000000116EA250	
+[00:01:06]: CHATFONT	bellefair	
+[00:01:06]: IsSpecialEventActive	function: 0000000035D1FDE0	
+[00:01:06]: WORLD_SPECIAL_EVENT	none	
+[00:01:06]: RENDER_QUALITY	table: 0000000036289B70	
+[00:01:06]: OnDynamicCloudSyncReload	function: 0000000035D5D0B0	
+[00:01:06]: MakeHauntableLaunchAndPerish	function: 00000000116EAAF0	
+[00:01:06]: do_search_subwords	function: 0000000036260040	
+[00:01:06]: net_tinybyte	table: 000000003611B420	
+[00:01:06]: CONTROL_FOCUS_DOWN	26	
+[00:01:06]: anglediff	function: 0000000036109CF0	
+[00:01:06]: WhileNode	function: 0000000030FE25B0	
+[00:01:06]: CONTROL_ATTACK	2	
+[00:01:06]: dumptablequiet	function: 000000001072D560	
+[00:01:06]: FACING_LEFT	2	
+[00:01:06]: USER_HISTORY_EXPIRY_TIME	2592000	
+[00:01:06]: OnFloatingTextInputDismissed	function: 00000000120236E0	
+[00:01:06]: utf8char	function: 0000000036109E10	
+[00:01:06]: ResolveModname	function: 00000000116AE3B0	
+[00:01:06]: spear_wathgrithr_clear_fn	function: 0000000026EE5720	
+[00:01:06]: MAZE_CELL_EXITS	table: 0000000036288180	
+[00:01:06]: LoopNode	table: 000000001041C2C0	
+[00:01:06]: Yield	function: 0000000035B17860	
+[00:01:06]: catcoonhat_clear_fn	function: 0000000026EE6500	
+[00:01:06]: IsWin32	function: 000000003346C9E0	
+[00:01:06]: PostPhysicsWallUpdate	function: 00000000116EB6F0	
+[00:01:06]: HandleShardRPC	function: 00000000116A43B0	
+[00:01:06]: KEY_RALT	307	
+[00:01:06]: StaticUpdate	function: 00000000116ABB30	
+[00:01:06]: UserToClient	function: 000000000ED8C1B0	
+[00:01:06]: SetCraftingAutopaused	function: 0000000035B17E60	
+[00:01:06]: ITEMTAG	table: 00000000362848F0	
+[00:01:06]: GroundCreepEntity	table: 0000000013C1E2F0	
+[00:01:06]: FACING_NONE	8	
+[00:01:06]: CONTROL_OPEN_CRAFTING	46	
+[00:01:06]: METRICS_ENABLED	true	
+[00:01:06]: MAINSCREEN_TOOL_LIST	table: 0000000036284210	
+[00:01:06]: VecUtil_LengthSq	function: 0000000013CC3D90	
+[00:01:06]: SHARD_RPC	table: 0000000011687090	
+[00:01:06]: TileGroupManager	TileGroupManager (0000000013FAEF80)	
+[00:01:06]: gravestone_clear_fn	function: 0000000026EE7A60	
+[00:01:06]: VIBRATION_BLOOD_FLASH	1	
+[00:01:06]: rabbithouse_init_fn	function: 0000000026EE7790	
+[00:01:06]: ACTION_MOD_IDS	table: 00000000104124A0	
+[00:01:06]: CONTROL_CRAFTING_PINRIGHT	76	
+[00:01:06]: MAINSCREEN_TORSO_LIST	table: 00000000362842B0	
+[00:01:06]: portablecookpot_item_init_fn	function: 0000000026EE8270	
+[00:01:06]: tostring	function: 0000000029B65DD0	
+[00:01:06]: yellowamulet_clear_fn	function: 0000000026EE5D80	
+[00:01:06]: GetSkinDescription	function: 000000000C660080	
+[00:01:06]: CONTROL_TOGGLE_DEBUGRENDER	44	
+[00:01:06]: mastupgrade_lightningrod_clear_fn	function: 0000000026EE8CC0	
+[00:01:06]: KEY_4	52	
+[00:01:06]: softresolvefilepath	function: 0000000031320E40	
+[00:01:06]: GetRandomMinMax	function: 0000000031190800	
+[00:01:06]: load	function: 00000000127EE880	
+[00:01:06]: cookpot_init_fn	function: 0000000026EE8210	
+[00:01:06]: RegisterStaticComponentLongUpdate	function: 00000000116ABAB0	
+[00:01:06]: sorted_pairs	function: 0000000031321000	
+[00:01:06]: DONT_STARVE_APPID	219740	
+[00:01:06]: critter_kitten_clear_fn	function: 0000000026EE8630	
+[00:01:06]: TheInputProxy	InputProxy (0000000013FAEF20)	
+[00:01:06]: ANCHOR_MIDDLE	0	
+[00:01:06]: CONTROL_FORCE_STACK	41	
+[00:01:06]: wall_moonrock_init_fn	function: 0000000026EE8DB0	
+[00:01:06]: PHYSICS_TYPE_ANIMATION_CONTROLLED	0	
+[00:01:06]: CHATFONT_OUTLINE	bellefair_outline	
+[00:01:06]: SpawnAt	function: 0000000031190170	
+[00:01:06]: IfThenDoWhileNode	function: 0000000030FE2610	
+[00:01:06]: MAIN_CHARACTERLIST	table: 00000000315BEB50	
+[00:01:06]: DISABLE_MOD_WARNING	false	
+[00:01:06]: State	table: 00000000104188A0	
+[00:01:06]: footballhat_init_fn	function: 0000000026EE65F0	
+[00:01:06]: GetClientModRPCHandler	function: 00000000116E1DC0	
+[00:01:06]: AllRecipes	table: 000000002A266760	
+[00:01:06]: GlobalInit	function: 0000000035D5CDB0	
+[00:01:06]: FindClosestPlayerInRangeSq	function: 0000000030FDC490	
+[00:01:06]: siestahut_clear_fn	function: 0000000026EE7AC0	
+[00:01:06]: portablecookpot_init_fn	function: 0000000026EE82D0	
+[00:01:06]: table	table: 0000000010BDC940	
+[00:01:06]: ProbeReload	function: 00000000116AF530	
+[00:01:06]: SetConsoleHistory	function: 000000002A2C8F00	
+[00:01:06]: IsDefaultClothing	function: 000000000C69E680	
+[00:01:06]: perdling_init_fn	function: 0000000026EE8510	
+[00:01:06]: BuildPriceStr	function: 000000000C69D8D0	
+[00:01:06]: OCEAN_MAPWRAPPER_WARN_RANGE	14	
+[00:01:06]: CONTROL_ROTATE_LEFT	11	
+[00:01:06]: ipairs	function: 0000000011F7DD00	
+[00:01:06]: KEY_LALT	308	
+[00:01:06]: PI	3.14159	
+[00:01:06]: GetAllGameplayItems	function: 000000000C69E740	
+[00:01:06]: GetRandomItemWithIndex	function: 0000000031190500	
+[00:01:06]: FESTIVAL_EVENT_MUSIC	table: 00000000362862E0	
+[00:01:06]: DefaultBurntStructureFn	function: 00000000116EA1C0	
+[00:01:06]: chester_eyebone_clear_fn	function: 0000000026EE7E20	
+[00:01:06]: CreateAreaEmitter	function: 000000001201EDF0	
+[00:01:06]: SCREEN_FADE_TIME	0.2	
+[00:01:06]: VecUtil_RotateAroundPoint	function: 0000000013CC3F10	
+[00:01:06]: DoesPackHaveItem	function: 000000000C69DC00	
+[00:01:06]: CanEntitySeeTarget	function: 0000000030FDCA60	
+[00:01:06]: DownloadMods	function: 000000000ED8C7E0	
+[00:01:06]: QUAGMIRE_RECIPETABS	table: 0000000036289580	
+[00:01:06]: CONSOLE_ENABLED	true	
+[00:01:06]: DynamicShadow	table: 00000000129842C0	
+[00:01:06]: DecodeAndUnzipString	function: 0000000035D93BA0	
+[00:01:06]: mushroom_light2_init_fn	function: 0000000026EE6AD0	
+[00:01:06]: ChangeToInventoryPhysics	function: 00000000116EA580	
+[00:01:06]: OnServerPauseDirty	function: 000000001323F670	
+[00:01:06]: IsTableEmpty	function: 0000000031190E60	
+[00:01:06]: wall_moonrock_clear_fn	function: 0000000026EE8DE0	
+[00:01:06]: SendModRPCToClient	function: 00000000116E1D30	
+[00:01:06]: DoLoadingPortal	function: 0000000035B17FE0	
+[00:01:06]: InGamePlay	function: 0000000035D5CFC0	
+[00:01:06]: DEFAULT_LOCATION	forest	
+[00:01:06]: ShowConnectingToGamePopup	function: 00000000116A0F30	
+[00:01:06]: OnPosition	function: 0000000012023710	
+[00:01:06]: bundle_clear_fn	function: 0000000026EE80C0	
+[00:01:06]: FindNearbyLand	function: 0000000030FDC6D0	
+[00:01:06]: SkinGridListConstructor	function: 000000000C69E0B0	
+[00:01:06]: APP_VERSION	521260	
+[00:01:06]: NUM_DST_SAVE_SLOTS	5	
+[00:01:06]: MakeSmallHeavyObstaclePhysics	function: 00000000116EA670	
+[00:01:06]: checkbit	function: 0000000031191640	
+[00:01:06]: ExecuteConsoleCommand	function: 0000000035D5D3B0	
+[00:01:06]: Map	table: 0000000026FFD0D0	
+[00:01:06]: COLLISION	table: 0000000036288680	
+[00:01:06]: DecodeAndUnzipSaveData	function: 0000000035D93BD0	
+[00:01:06]: mastupgrade_lamp_item_clear_fn	function: 0000000026EE8BA0	
+[00:01:06]: hotswap	function: 00000000116AF4F0	
+[00:01:06]: LANGUAGE	table: 0000000035FF07A0	
+[00:01:06]: FindNearbyOcean	function: 0000000030FDC700	
+[00:01:06]: GetPurchasePackCurrencyOutput	function: 000000000C69DB40	
+[00:01:06]: Networking_PartyChat	function: 00000000116A1170	
+[00:01:06]: KEY_KP_MINUS	269	
+[00:01:06]: rainometer_clear_fn	function: 0000000026EE6C20	
+[00:01:06]: bedroll_furry_init_fn	function: 0000000026EE5E10	
+[00:01:06]: VIBRATION_CAMERA_SHAKE	0	
+[00:01:06]: RunInSandboxSafe	function: 0000000031190BF0	
+[00:01:06]: OnInputKey	function: 00000000120237D0	
+[00:01:06]: OnSimPaused	function: 0000000035D5CB10	
+[00:01:06]: KEY_ENTER	13	
+[00:01:06]: Vec3Util_Length	function: 00000000127A4040	
+[00:01:06]: ToggleOnCharacterCollisions	function: 00000000116AB1F0	
+[00:01:06]: OnFocusLost	function: 0000000035D5D260	
+[00:01:06]: KEY_F7	288	
+[00:01:06]: KEYS_ARRAY	table: 00000000116990B0	
+[00:01:06]: minerhat_clear_fn	function: 0000000026EE65C0	
+[00:01:06]: watermelonhat_clear_fn	function: 0000000026EE6740	
+[00:01:06]: CONTROL_SPLITSTACK	35	
+[00:01:06]: MakeHauntableLaunchAndSmash	function: 00000000116EA940	
+[00:01:06]: inGamePlay	false	
+[00:01:06]: AddTaskSet	function: 000000000C653980	
+[00:01:06]: TrimString	function: 000000003625FEF0	
+[00:01:06]: DumpTableXML	function: 00000000311900E0	
+[00:01:06]: greenstaff_init_fn	function: 0000000026EE9770	
+[00:01:06]: FindWalkableOffset	function: 0000000030FDC880	
+[00:01:06]: ParallelNodeAny	table: 000000001041C900	
+[00:01:06]: ddump	function: 000000001072D770	
+[00:01:06]: DoesPackHaveBelongings	function: 000000000C69DBD0	
+[00:01:06]: SystemService	table: 0000000013C1E5C0	
+[00:01:06]: Hibernate	function: 0000000035B17820	
+[00:01:06]: debug	table: 0000000013C23230	
+[00:01:06]: SendRPCToClient	function: 00000000116A42F0	
+[00:01:06]: MakeFlyingGiantCharacterPhysics	function: 00000000116EA430	
+[00:01:06]: Start	function: 0000000035B17FA0	
+[00:01:06]: CONTROL_NEXTVALUE	34	
+[00:01:06]: escape_lua_pattern	function: 00000000359EA3B0	
+[00:01:06]: SaveIndex	table: 000000000C674DA0	
+[00:01:06]: NoWordFilterForChatType	table: 000000000DAA87A0	
+[00:01:06]: MakeSmallPerishableCreature	function: 00000000116AB0B0	
+[00:01:06]: IsUserCommerceBuyRestrictedDueToOwnership	function: 000000000C69DF60	
+[00:01:06]: ItemServerProxy	table: 0000000027420660	
+[00:01:06]: CONTROL_SCROLLFWD	32	
+[00:01:06]: WaitingForPurchaseState	function: 000000002A2C5600	
+[00:01:06]: FESTIVAL_EVENT_GLOBAL_PREFABS	table: 0000000036285DE0	
+[00:01:06]: JoinServer	function: 000000001076B300	
+[00:01:06]: BrainWrangler	table: 0000000013B9BAB0	
+[00:01:06]: PreventTargetingOnAttacked	function: 00000000116AB2B0	
+[00:01:06]: TickRPCQueue	function: 0000000011687630	
+[00:01:06]: GroundAtlas	function: 0000000030FE4C80	
+[00:01:06]: TrackedAssert	function: 0000000031190DA0	
+[00:01:06]: mod_protect_Recipe	true	
+[00:01:06]: ONE_PIECE_SKIRT	table: 000000000E92F260	
+[00:01:06]: sanityrock_clear_fn	function: 0000000026EE7700	
+[00:01:06]: AddNewSkinDLCEntitlement	function: 000000000C660740	
+[00:01:06]: RECIPETABS	table: 00000000362888B0	
+[00:01:06]: KEY_G	103	
+[00:01:06]: mast_malbatross_init_fn	function: 0000000026EE92F0	
+[00:01:06]: MonkeyPatchClasses	function: 000000000F438200	
+[00:01:06]: GetCircleEdgeSnapTransform	function: 0000000031191700	
+[00:01:06]: AddModRoom	function: 00000000116B5730	
+[00:01:06]: LAYER_WORLD	6	
+[00:01:06]: PREVIOUS_FESTIVAL_EVENTS	table: 0000000036285930	
+[00:01:06]: TheGameService	GameService (0000000013FAEF30)	
+[00:01:06]: eyebrellahat_init_fn	function: 0000000026EE67D0	
+[00:01:06]: pcall	function: 00000000127EE9A0	
+[00:01:06]: KEY_F5	286	
+[00:01:06]: ApplyLocalWordFilter	function: 0000000035D93C30	
+[00:01:06]: RemovePhysicsColliders	function: 00000000116EA6A0	
+[00:01:06]: GetShardModRPC	function: 00000000116E1E80	
+[00:01:06]: INGREDIENT_MOD	table: 000000003628FA70	
+[00:01:06]: LootTables	table: 0000000011694790	
+[00:01:06]: KEY_RIGHTBRACKET	93	
+[00:01:06]: birdcage_clear_fn	function: 0000000026EE7040	
+[00:01:06]: hivehat_clear_fn	function: 0000000026EE62C0	
+[00:01:06]: PrefabExists	function: 0000000035D5C480	
+[00:01:06]: LAYER_WORLD_DEBUG	7	
+[00:01:06]: NUM_TRINKETS	46	
+[00:01:06]: SLEEP	sleep	
+[00:01:06]: TheShard	ShardProxy (0000000013FAEF90)	
+[00:01:06]: armorskeleton_init_fn	function: 0000000026EE6110	
+[00:01:06]: POPUPS_BY_POPUP_CODE	table: 000000000DAA4510	
+[00:01:06]: _profiler	table: 000000002A2650E0	
+[00:01:06]: FindSafeSpawnLocation	function: 0000000030FDC6A0	
+[00:01:06]: UpdateSkinGrid	function: 000000000C69E0E0	
+[00:01:06]: GetDebugString	function: 0000000035B17C60	
+[00:01:06]: GetGenderStrings	function: 000000003625FB90	
+[00:01:06]: CreateBoxEmitter	function: 000000001201EDC0	
+[00:01:06]: chester_init_fn	function: 0000000026EE7E50	
+[00:01:06]: ShardSaveIndex	table: 000000000C676970	
+[00:01:06]: ShouldIgnoreResolve	function: 0000000035D6A680	
+[00:01:06]: OnEntityWake	function: 0000000035D5C840	
+[00:01:06]: KEY_K	107	
+[00:01:06]: CONSTRUCTION_PLANS	table: 000000001215FCF0	
+[00:01:06]: KEY_8	56	
+[00:01:06]: VecUtil_NormalizeNoNaN	function: 00000000127A3B80	
+[00:01:06]: chester_eyebone_init_fn	function: 0000000026EE7DF0	
+[00:01:06]: ShardClient	table: 000000002971D460	
+[00:01:06]: mastupgrade_lightningrod_top_clear_fn	function: 0000000026EE8D20	
+[00:01:06]: GetTotalMysteryBoxCount	function: 000000000C69E440	
+[00:01:06]: GROUND_NAMES	table: 0000000036284AD0	
+[00:01:06]: require	function: 00000000276BAEA0	
+[00:01:06]: MOD_POPUPS_BY_POPUP_CODE	table: 000000000DAA46F0	
+[00:01:06]: Recipe2	table: 000000002A266B70	
+[00:01:06]: PHYSICS_TYPE_PHYSICS_CONTROLLED	1	
+[00:01:06]: MOUSEBUTTON_RIGHT	1001	
+[00:01:06]: firesuppressor_init_fn	function: 0000000026EE8330	
+[00:01:06]: LightWatcher	table: 00000000129840E0	
+[00:01:06]: beehat_init_fn	function: 0000000026EE66B0	
+[00:01:06]: rawequal	function: 0000000032B2B820	
+[00:01:06]: LoadKlumpFile	function: 000000000C660E80	
+[00:01:06]: wateringcan_init_fn	function: 0000000026EE7430	
+[00:01:06]: MultiConditionNode	table: 000000001041B4B0	
+[00:01:06]: VecUtil_Slerp	function: 0000000013CC3EE0	
+[00:01:06]: DEFAULT_JOIN_IP	127.0.0.1	
+[00:01:06]: amulet_init_fn	function: 0000000026EE5CF0	
+[00:01:06]: RCIFileLock	function: 0000000035D5D590	
+[00:01:06]: KEY_X	120	
+[00:01:06]: MOUSEBUTTON_LEFT	1000	
+[00:01:06]: boat_item_init_fn	function: 0000000026EE88D0	
+[00:01:06]: PickSomeWithDups	function: 0000000031190560	
+[00:01:06]: ConcatArrays	function: 0000000031190590	
+[00:01:06]: tacklecontainer_clear_fn	function: 0000000026EE7580	
+[00:01:06]: MakeFeedableSmallLivestockPristine	function: 00000000116EA850	
+[00:01:06]: IsNotConsole	function: 000000003346C920	
+[00:01:06]: IsPackFeatured	function: 000000000C69D9C0	
+[00:01:06]: setfenv	function: 0000000029B65CB0	
+[00:01:06]: WORLD_TILES_IMPASSABLE_END	18691	
+[00:01:06]: KEY_LEFT	276	
+[00:01:06]: GetDefaultServerData	function: 000000000ED8CA50	
+[00:01:06]: IsRecipeValid	function: 0000000026F1A250	
+[00:01:06]: GameplayOptions	table: 0000000011E90D80	
+[00:01:06]: VERBOSITY_LEVEL	1	
+[00:01:06]: walltime	function: 000000003610A0B0	
+[00:01:06]: razor_clear_fn	function: 0000000026EE59C0	
+[00:01:06]: CalcQuickJoinServerScore	function: 000000000ED8CAE0	
+[00:01:06]: CheckDemoTimeout	function: 0000000012023E00	
+[00:01:06]: WORLD_TILES_NOISE_SIZE	2048	
+[00:01:06]: FACING_RIGHT	0	
+[00:01:06]: HexToPercentColor	function: 0000000035D93900	
+[00:01:06]: CraftGiberish	function: 000000003625FD40	
+[00:01:06]: GetGameModesSpinnerData	function: 000000000C65C840	
+[00:01:06]: featherfan_init_fn	function: 0000000026EE5E70	
+[00:01:06]: beehat_clear_fn	function: 0000000026EE66E0	
+[00:01:06]: INTENTIONS	table: 0000000035FEFEE0	
+[00:01:06]: MISC_ITEMS	table: 0000000035BCC9A0	
+[00:01:06]: AddPrintLogger	function: 00000000359E8AB0	
+[00:01:06]: OnControlMapped	function: 0000000012023860	
+[00:01:06]: CHARACTER_BUTTON_OFFSET	table: 0000000035FF10B0	
+[00:01:06]: fish_box_clear_fn	function: 0000000026EE6EC0	
+[00:01:06]: panflute_clear_fn	function: 0000000026EE9A40	
+[00:01:06]: GetMemoizedFilePaths	function: 0000000031320D00	
+[00:01:06]: CONTROL_TOGGLE_SAY	63	
+[00:01:06]: Networking_SystemMessage	function: 000000000ED8C330	
+[00:01:06]: bundlewrap_init_fn	function: 0000000026EE8030	
+[00:01:06]: saltbox_clear_fn	function: 0000000026EE7340	
+[00:01:06]: utf8strtolower	function: 0000000036109F90	
+[00:01:06]: WaitNode	table: 000000001041B960	
+[00:01:06]: SetMemoizedFilePaths	function: 0000000031320D40	
+[00:01:06]: mastupgrade_lamp_item_init_fn	function: 0000000026EE8B70	
+[00:01:06]: ProfileStatsAdd	function: 0000000035D68A30	
+[00:01:06]: SendModRPCToServer	function: 00000000116E1D00	
+[00:01:06]: MakeMediumBurnableCharacter	function: 00000000116AAEB0	
+[00:01:06]: CONTROL_FOCUS_UP	25	
+[00:01:06]: KEY_HOME	278	
+[00:01:06]: CONTROL_INVENTORY_DOWN	50	
+[00:01:06]: Task	table: 0000000011698520	
+[00:01:06]: Clamp	function: 00000000116EF560	
+[00:01:06]: GetModRPCHandler	function: 00000000116E1D90	
+[00:01:06]: Vec3Util_Dist	function: 00000000127A4080	
+[00:01:06]: UnloadFonts	function: 0000000035D5CC90	
+[00:01:06]: AddComponentAction	function: 000000002A2647D0	
+[00:01:06]: ErasePersistentString	function: 0000000035D6A5F0	
+[00:01:06]: LOADING_SCREEN_TIP_CATEGORY_WEIGHTS_START	table: 0000000035FF1740	
+[00:01:06]: KEY_PRINT	316	
+[00:01:06]: _profiler_hook_wrapper_by_call	function: 0000000026F15390	
+[00:01:06]: SimTearingDown	false	
+[00:01:06]: oar_clear_fn	function: 0000000026EE73A0	
+[00:01:06]: NEWFONT_OUTLINE	spirequal_outline	
+[00:01:06]: KEY_M	109	
+[00:01:06]: seedpouch_clear_fn	function: 0000000026EE74C0	
+[00:01:06]: utf8strlen	function: 0000000036109E70	
+[00:01:06]: umbrella_clear_fn	function: 0000000026EE5C60	
+[00:01:06]: GetMostRecentlySelectedItem	function: 000000000C69E980	
+[00:01:06]: RegisterFriendsManager	function: 00000000116A1030	
+[00:01:06]: HandleModRPC	function: 000000001076C380	
+[00:01:06]: GetStaticTime	function: 0000000035B17BA0	
+[00:01:06]: Ingredient	table: 000000002A265F90	
+[00:01:06]: NewStaticUpdatingEnts	table: 00000000135CEA60	
+[00:01:06]: LUABIT	table: 00000000362885E0	
+[00:01:06]: RemoveOnAccountEventListener	function: 0000000035D5D1D0	
+[00:01:06]: anchor_clear_fn	function: 0000000026EE8B40	
+[00:01:06]: CONTROL_CONTROLLER_ATTACK	56	
+[00:01:06]: LOCKS	table: 0000000011698930	
+[00:01:06]: Sim	table: 0000000013C234B0	
+[00:01:06]: walkingplank_init_fn	function: 0000000026EE8990	
+[00:01:06]: CONTROL_MAP	14	
+[00:01:06]: researchlab3_init_fn	function: 0000000026EE6A10	
+[00:01:06]: MakeFeedableSmallLivestock	function: 00000000116AB0F0	
+[00:01:06]: BT	table: 000000001041AE70	
+[00:01:06]: WRAP_MODE	table: 000000003628E2B0	
+[00:01:06]: NotDecorator	table: 000000001041BE10	
+[00:01:06]: NUM_HALLOWEEN_ORNAMENTS	6	
+[00:01:06]: REIGN_OF_GIANTS_APPID	282470	
+[00:01:06]: eyebrellahat_clear_fn	function: 0000000026EE6800	
+[00:01:06]: birdtrap_init_fn	function: 0000000026EE7250	
+[00:01:06]: CONTROL_MENU_MISC_4	71	
+[00:01:06]: OwnsSkinPack	function: 000000000C69DAE0	
+[00:01:06]: ORDERS	table: 0000000035FEF9E0	
+[00:01:06]: fence_gate_item_init_fn	function: 0000000026EE9110	
+[00:01:06]: Settings	table: 00000000135CF730	
+[00:01:06]: HALLOWEDNIGHTS_TINKET_START	32	
+[00:01:06]: GetPackTotalSets	function: 000000000C69D840	
+[00:01:06]: modprint	function: 00000000336AD0B0	
+[00:01:06]: SCALEMODE_FILLSCREEN	1	
+[00:01:06]: GetSkinModeFromBuild	function: 000000000C69ECE0	
+[00:01:06]: VecUtil_Sub	function: 0000000013CC3D30	
+[00:01:06]: krampus_sack_clear_fn	function: 0000000026EE5360	
+[00:01:06]: RunInSandbox	function: 0000000031320F40	
+[00:01:06]: MapExplorer	table: 0000000029614A70	
+[00:01:06]: RemoveDragonflyBait	function: 00000000116EA8B0	
+[00:01:06]: CONTROL_CONTROLLER_ALTACTION	58	
+[00:01:06]: glommerflower_clear_fn	function: 0000000026EE7FA0	
+[00:01:06]: FOODTYPE	table: 000000003628F2A0	
+[00:01:06]: PLATFORM	WIN32_STEAM	
+[00:01:06]: LEGACY_WORLD_TILES_NOISE_END	127	
+[00:01:06]: KEY_W	119	
+[00:01:06]: AddModSettingsPreset	function: 000000000C654A80	
+[00:01:06]: Networking_SkinAnnouncement	function: 000000000ED8C300	
+[00:01:06]: MakeInventoryPhysics	function: 00000000116EA310	
+[00:01:06]: GetDescription	function: 000000003619EEA0	
+[00:01:06]: resurrectionstone_init_fn	function: 0000000026EE7670	
+[00:01:06]: glasscutter_clear_fn	function: 0000000026EE9740	
+[00:01:06]: PlayFootstep	function: 0000000030FE5010	
+[00:01:06]: Remote_Spawn	function: 000000000ED84410	
+[00:01:06]: SaveAndShutdown	function: 0000000035D5D440	
+[00:01:06]: MODS_ROOT	../mods/	
+[00:01:06]: beefalohat_init_fn	function: 0000000026EE6770	
+[00:01:06]: nightsword_init_fn	function: 00000000127BC3C0	
+[00:01:06]: GetHasResourceRenewal	function: 000000000C65C980	
+[00:01:06]: TileGroups	table: 000000003628E8F0	
+[00:01:06]: lightning_rod_init_fn	function: 0000000026EE6CB0	
+[00:01:06]: DefaultExtinguishFn	function: 00000000116EA190	
+[00:01:06]: CHARACTER_INGREDIENT_SEG	5	
+[00:01:06]: GetClientMetricsData	function: 0000000035D67A40	
+[00:01:06]: minisign_init_fn	function: 0000000026EE8870	
+[00:01:06]: AddModStartLocation	function: 000000000C679AD0	
+[00:01:06]: StateGraphWrangler	table: 0000000010417540	
+[00:01:06]: DefaultBurntFn	function: 00000000116EA160	
+[00:01:06]: FALLBACK_FONT_FULL_OUTLINE	fallback_font_full_outline	
+[00:01:06]: ConsoleRemote	function: 000000000ED84440	
+[00:01:06]: CONTAINERTEST	table: 000000003628FB10	
+[00:01:06]: DEPLOYSPACING	table: 000000003628FD90	
+[00:01:06]: CUSTOM_RECIPETABS	table: 0000000036289170	
+[00:01:06]: SEAMLESSSWAP_CHARACTERLIST	table: 00000000315BED30	
+[00:01:06]: CLOTHING_SYMBOLS	table: 0000000035F8E260	
+[00:01:06]: LAYER_BACKDROP	0	
+[00:01:06]: nolineprint	function: 00000000359E8B30	
+[00:01:06]: RawImgui	table: 00000000131AA360	
+[00:01:06]: DEPLOYMODE	table: 000000003628FC50	
+[00:01:06]: CONTROL_SHOW_PLAYER_STATUS	67	
+[00:01:06]: ResumeRequestLoadComplete	function: 0000000035B18160	
+[00:01:06]: HandleRPCQueue	function: 000000000ED91A50	
+[00:01:06]: FailIfSuccessDecorator	table: 000000001041C130	
+[00:01:06]: GOLD	table: 00000000362902E0	
+[00:01:06]: VFXEffect	table: 00000000274783B0	
+[00:01:06]: GetTaskTime	function: 0000000031190CE0	
+[00:01:06]: KEY_SLASH	47	
+[00:01:06]: SAVELOAD	table: 000000003628EE40	
+[00:01:06]: sculptingtable_clear_fn	function: 0000000026EE6F20	
+[00:01:06]: ANIM_SORT_ORDER	table: 0000000036289C10	
+[00:01:06]: MakeLargePropagator	function: 00000000116EA280	
+[00:01:06]: ApplyExtraEvent	function: 00000000127AD500	
+[00:01:06]: RunInEnvironment	function: 0000000031190B60	
+[00:01:06]: ScrubClass	function: 000000000F4381A0	
+[00:01:06]: MAINSCREEN_HAT_LIST	table: 0000000036284350	
+[00:01:06]: critter_glomling_builder_clear_fn	function: 0000000026EE8600	
+[00:01:06]: TheNet	NetworkProxy (0000000026E1CBE0)	
+[00:01:06]: KEY_SHIFT	402	
+[00:01:06]: MODCHARACTEREXCEPTIONS_DST	table: 0000000036284490	
+[00:01:06]: supertacklecontainer_init_fn	function: 0000000026EE75B0	
+[00:01:06]: AnimState	table: 00000000274B0F20	
+[00:01:06]: firepit_clear_fn	function: 0000000026EE83C0	
+[00:01:06]: OnTwitchLoginAttempt	function: 000000000ED8C5A0	
+[00:01:06]: OnRemoveEntity	function: 0000000035B17B20	
+[00:01:06]: AddReplicableComponent	function: 00000000127BF8C0	
+[00:01:06]: dragonflyfurnace_clear_fn	function: 0000000026EE6FE0	
+[00:01:06]: GetTimeReal	function: 0000000035D5C720	
+[00:01:06]: CONTROL_MOVE_RIGHT	8	
+[00:01:06]: optuint	function: 00000000116E12B0	
+[00:01:06]: RunInEnvironmentSafe	function: 0000000031190B90	
+[00:01:06]: Brain	table: 0000000013B9BEC0	
+[00:01:06]: walrushat_clear_fn	function: 0000000026EE6440	
+[00:01:06]: optnumber	function: 00000000116E1280	
+[00:01:06]: KEY_MINUS	45	
+[00:01:06]: GetSpecialCharacterPostProcess	function: 000000003625FE30	
+[00:01:06]: LOADING_SCREEN_TIP_OPTIONS	table: 0000000035FF13D0	
+[00:01:06]: icestaff_init_fn	function: 0000000026EE9770	
+[00:01:06]: WORLD_TILES_OCEAN_END	14594	
+[00:01:06]: KEY_KP_8	264	
+[00:01:06]: AnimateUIScale	function: 0000000030FDC7C0	
+[00:01:06]: HasHeirloomItem	function: 000000000C660540	
+[00:01:06]: fence_gate_item_clear_fn	function: 0000000026EE9140	
+[00:01:06]: armorwood_init_fn	function: 0000000026EE5FF0	
+[00:01:06]: KEY_PERIOD	46	
+[00:01:06]: str_date	function: 000000003625FF80	
+[00:01:06]: GetModConfigData	function: 00000000336ACF60	
+[00:01:06]: TUNING	table: 0000000012FD7140	
+[00:01:06]: CompareReleaseGroup	function: 000000000C69D540	
+[00:01:06]: EnableAllMenuDLC	function: 0000000035D5E190	
+[00:01:06]: SimShuttingDown	false	
+[00:01:06]: VecUtil_Add	function: 0000000013CC3640	
+[00:01:06]: TheItems	ItemServerProxy (0000000010033BF0)	
+[00:01:06]: mermhouse_crafted_clear_fn	function: 0000000026EE7640	
+[00:01:06]: DEBUG_MENU_ENABLED	false	
+[00:01:06]: reflectivevest_clear_fn	function: 0000000026EE61A0	
+[00:01:06]: USERFLAGS	table: 0000000035FEF760	
+[00:01:06]: FRAMES	0.033333333333333	
+[00:01:06]: KEY_LEFTBRACKET	91	
+[00:01:06]: critter_lamb_builder_clear_fn	function: 0000000026EE86C0	
+[00:01:06]: CONTROL_TARGET_MODIFIER	69	
+[00:01:06]: FindClosestPlayerToInst	function: 0000000030FDC520	
+[00:01:06]: IsFestivalEventActive	function: 0000000035D1FF30	
+[00:01:06]: FALLOFF_IDS	table: 0000000036284D50	
+[00:01:06]: perlin	function: 0000000036109250	
+[00:01:06]: IAP_TYPE_REAL	0	
+[00:01:06]: ValidateItemsLocal	function: 000000000C69E800	
+[00:01:06]: net_hash	table: 00000000271B3510	
+[00:01:06]: IsXB1	function: 000000003346C980	
+[00:01:06]: IsAnyPlayerInRange	function: 0000000030FDC640	
+[00:01:06]: WHISPER_COLOR	table: 000000003628D270	
+[00:01:06]: PREVIOUS_FESTIVAL_EVENTS_ORDER	table: 00000000362859D0	
+[00:01:06]: CONTROL_TRADESTACK	37	
+[00:01:06]: IsOceanTile	function: 0000000013CC4C30	
+[00:01:06]: RaiseFlyingCreature	function: 0000000013CC5A40	
+[00:01:06]: GAME_MODES_ORDER	table: 000000000C689110	
+[00:01:06]: net_byte	table: 000000000E2CB850	
+[00:01:06]: GetString	function: 000000003619EE20	
+[00:01:06]: TALKINGFONT_HERMIT	talkingfont_hermit	
+[00:01:06]: RGBToPercentColor	function: 0000000035D938D0	
+[00:01:06]: GetTime	function: 0000000035B17B60	
+[00:01:06]: KEY_KP_PERIOD	266	
+[00:01:06]: _TRACEBACK	function: 00000000103A5130	
+[00:01:06]: cavein_boulder_clear_fn	function: 0000000026EE7820	
+[00:01:06]: telestaff_clear_fn	function: 00000000127BC480	
+[00:01:06]: CONTROL_SCROLLBACK	31	
+[00:01:06]: WORLD_TILES_IMPASSABLE_START	14595	
+[00:01:06]: GetSkinData	function: 000000000C65FFC0	
+[00:01:06]: MOVE_DOWN	2	
+[00:01:06]: Class	function: 0000000011CC57B0	
+[00:01:06]: MAP_SAMPLE_STYLE	table: 0000000036288540	
+[00:01:06]: dragonflychest_init_fn	function: 0000000026EE6DD0	
+[00:01:06]: CONTROL_PUTSTACK	55	
+[00:01:06]: OnTwitchChatStatusUpdate	function: 000000000ED8C5D0	
+[00:01:06]: FindValidPositionByFan	function: 0000000030FDC850	
+[00:01:06]: GetLoaderAtlasAndTex	function: 000000000C660600	
+[00:01:06]: GetColorForItem	function: 000000000C69DD50	
+[00:01:06]: CONTROL_MAP_ZOOM_OUT	61	
+[00:01:06]: resolvefilepath	function: 0000000031320E00	
+[00:01:06]: WET_TEXT_COLOUR	table: 000000003628D450	
+[00:01:06]: FALLBACK_FONT_OUTLINE	fallback_font_outline	
+[00:01:06]: RoundBiasedUp	function: 00000000116EF4A0	
+[00:01:06]: LOCKS_ARRAY	table: 0000000011698840	
+[00:01:06]: GetFEVisibleCharacterList	function: 0000000035D5E010	
+[00:01:06]: TextWidget	table: 0000000035812DE0	
+[00:01:06]: staticScheduler	Running Tasks: 0/0	
+[00:01:06]: gemsocket_clear_fn	function: 0000000026EE9DA0	
+[00:01:06]: RestoreSnapshotUserSession	function: 0000000035D5D380	
+[00:01:06]: fence_item_init_fn	function: 0000000026EE9050	
+[00:01:06]: SetClientRequestedAction	function: 000000001072E430	
+[00:01:06]: KEY_KP_MULTIPLY	268	
+[00:01:06]: GetClosestInstWithTag	function: 0000000030FDC760	
+[00:01:06]: armorruins_clear_fn	function: 0000000026EE6080	
+[00:01:06]: LOADING_SCREEN_TIP_CATEGORY_WEIGHTS_END	table: 0000000035FF17E0	
+[00:01:06]: armorruins_init_fn	function: 0000000026EE6050	
+[00:01:06]: whip_init_fn	function: 0000000026EE57B0	
+[00:01:06]: CheckFiles	function: 00000000116E28D0	
+[00:01:06]: GetGameModeString	function: 000000000C699B80	
+[00:01:06]: RegisterAllDLC	function: 0000000035B18720	
+[00:01:06]: WORLD_EXTRA_EVENTS	table: 00000000362857A0	
+[00:01:06]: seedpouch_init_fn	function: 0000000026EE7490	
+[00:01:06]: matches	table: 0000000013E46BB0	
+[00:01:06]: IsDynamicCloudShutdown	false	
+[00:01:06]: armordragonfly_clear_fn	function: 0000000026EE5F00	
+[00:01:06]: GetShardModRPCHandler	function: 00000000116E1DF0	
+[00:01:06]: KEY_RIGHT	275	
+[00:01:06]: MakeHauntableIgnite	function: 00000000116EAA00	
+[00:01:06]: JapaneseOnPS4	function: 0000000035D5CE40	
+[00:01:06]: Networking_LeftParty	function: 00000000116A10F0	
+[00:01:06]: IsPurchasePackCurrency	function: 000000000C69DB10	
+[00:01:06]: KEY_KP_0	256	
+[00:01:06]: GetCurrentLocale	function: 0000000013F92E80	
+[00:01:06]: IsDailyGiftItemPending	function: 000000000C6606C0	
+[00:01:06]: Vec3Util_DistSq	function: 0000000013CC4390	
+[00:01:06]: IsSkinDLCEntitlementReceived	function: 000000000C69EB00	
+[00:01:06]: GetReleaseGroup	function: 000000000C69DA50	
+[00:01:06]: basic_clear_fn	function: 0000000026EE52A0	
+[00:01:06]: fish_box_init_fn	function: 0000000026EE6E90	
+[00:01:06]: KEY_B	98	
+[00:01:06]: lighter_clear_fn	function: 0000000026EE5660	
+[00:01:06]: MakeSkinDLCPopup	function: 000000000C69EB90	
+[00:01:06]: SequenceNode	table: 000000001041BAF0	
+[00:01:06]: hutch_clear_fn	function: 0000000026EE7F40	
+[00:01:06]: net_bytearray	table: 000000003611B330	
+[00:01:06]: Shard_UpdatePortalState	function: 00000000116A49F0	
+[00:01:06]: winterometer_clear_fn	function: 0000000026EE6C80	
+[00:01:06]: KEY_U	117	
+[00:01:06]: KEY_7	55	
+[00:01:06]: wormhole_clear_fn	function: 0000000026EE78E0	
+[00:01:06]: ACTIONS	table: 0000000010408DB0	
+[00:01:06]: bernie_big_init_fn	function: 0000000026EE9410	
+[00:01:06]: KEY_5	53	
+[00:01:06]: GetInventoryItemAtlas	function: 00000000127AD580	
+[00:01:06]: armormarble_clear_fn	function: 0000000026EE5FC0	
+[00:01:06]: PLAYER_REVEAL_RADIUS	30	
+[00:01:06]: Networking_BanAnnouncement	function: 000000000ED8C4E0	
+[00:01:06]: BLENDMODE	table: 0000000036288770	
+[00:01:06]: strawhat_clear_fn	function: 0000000026EE63E0	
+[00:01:06]: FindPickupableItem	function: 00000000127AD400	
+[00:01:06]: walterhat_clear_fn	function: 0000000026EE6920	
+[00:01:06]: WillUnravelBreakEnsemble	function: 000000000C69E290	
+[00:01:06]: isbadnumber	function: 00000000311909E0	
+[00:01:06]: LaunchAndClearArea	function: 000000001168F880	
+[00:01:06]: GetAvailablePlayerColours	function: 000000000ED8C960	
+[00:01:06]: IsValidClothing	function: 000000000C69E770	
+[00:01:06]: setmetatable	function: 0000000029B65D10	
+[00:01:06]: MergeMapsDeep	function: 00000000311906B0	
+[00:01:06]: GetPlayer	function: 0000000030FDC400	
+[00:01:06]: Remap	function: 00000000116EF470	
+[00:01:06]: IsLandTile	function: 0000000013CC58F0	
+[00:01:06]: getmetatable	function: 0000000035B5E460	
+[00:01:06]: KEY_N	110	
+[00:01:06]: str_play_time	function: 000000003625FFB0	
+[00:01:06]: ActionNode	table: 000000001041B7D0	
+[00:01:06]: TimeEvent	table: 0000000010418710	
+[00:01:06]: oceanfishingrod_init_fn	function: 0000000026EE5C90	
+[00:01:06]: IsRail	function: 000000003346CA40	
+[00:01:06]: TITLEFONT	bp100	
+[00:01:06]: CanEntitySeeInDark	function: 00000000127AD440	
+[00:01:06]: TALKINGFONT_TRADEIN	talkingfont_tradein	
+[00:01:06]: Networking_RollAnnouncement	function: 000000000ED8C510	
+[00:01:06]: CreateEnvironment	function: 00000000336ADE30	
+[00:01:06]: LEVELTYPE	table: 0000000035FEFF80	
+[00:01:06]: KEY_DOWN	274	
+[00:01:06]: AddTuningModifier	function: 0000000035D03700	
+[00:01:06]: GetTableSize	function: 00000000311904A0	
+[00:01:06]: BASE_ALTERNATE_FOR_BODY	table: 000000000E92F0D0	
+[00:01:06]: IsSteamDeck	function: 000000003346CA70	
+[00:01:06]: GetNextOwnedSkin	function: 000000000C69E920	
+[00:01:06]: critter_dragonling_clear_fn	function: 0000000026EE8570	
+[00:01:06]: mast_malbatross_item_init_fn	function: 0000000026EE9290	
+[00:01:06]: mod_protect_TileManager	true	
+[00:01:06]: AddModWorldGenLevel	function: 000000000C654B00	
+[00:01:06]: os	table: 0000000013C23280	
+[00:01:06]: Shard_WorldSave	function: 00000000116E25D0	
+[00:01:06]: GetDailyGiftItem	function: 000000000C660700	
+[00:01:06]: ModUnloadFrontEndAssets	function: 0000000035B179A0	
+[00:01:06]: TERRAFORM_IMMUNE	table: 0000000036284B70	
+[00:01:06]: mushroom_light_init_fn	function: 0000000026EE6A70	
+[00:01:06]: CONTROL_MOVE_LEFT	7	
+[00:01:06]: lureplantbulb_init_fn	function: 0000000026EE7BB0	
+[00:01:06]: SpawnPrefabFromSim	function: 0000000035B17AA0	
+[00:01:06]: WorldResetFromSim	function: 00000000116A0F70	
+[00:01:06]: RoundToNearest	function: 00000000116EF500	
+[00:01:06]: whip_clear_fn	function: 0000000026EE57E0	
+[00:01:06]: batbat_clear_fn	function: 0000000026EE54E0	
+[00:01:06]: KEY_V	118	
+[00:01:06]: MiniMap	table: 00000000129843B0	
+[00:01:06]: DEFAULT_SKIN_COLOR	table: 000000000C68E520	
+[00:01:06]: KEY_TAB	9	
+[00:01:06]: BehaviourNode	table: 000000001041B000	
+[00:01:06]: PREFAB_SKINS	table: 00000000315BF5F0	
+[00:01:06]: Periodic	table: 000000001323D780	
+[00:01:06]: SetServerPaused	function: 0000000035D5CA50	
+[00:01:06]: toarray	function: 0000000036109FF0	
+[00:01:06]: NUMBERFONT	stint-ucr	
+[00:01:06]: NUM_HALLOWEENCANDY	14	
+[00:01:06]: cave_entrance_open_init_fn	function: 0000000026EE7970	
+[00:01:06]: HandleUpsellClose	function: 000000002A2C56C0	
+[00:01:06]: BEEFALO_HIDE_SYMBOLS	table: 0000000035BCC810	
+[00:01:06]: RENDERPASS	table: 00000000362898A0	
+[00:01:06]: goldenaxe_init_fn	function: 0000000026EE59F0	
+[00:01:06]: removesetter	function: 00000000359EB520	
+[00:01:06]: shuffledKeys	function: 0000000031190D40	
+[00:01:06]: CONTROL_INV_13	79	
+[00:01:06]: DIALOGFONT	opensans	
+[00:01:06]: GetPriceFromIAPDef	function: 000000000C69D8A0	
+[00:01:06]: FindRandomPointOnShoreFromOcean	function: 0000000013CC59E0	
+[00:01:06]: GetTimeRealSeconds	function: 0000000035D5C750	
+[00:01:06]: Shard_IsWorldAvailable	function: 00000000116A4970	
+[00:01:06]: StateGraphInstance	table: 0000000010418BC0	
+[00:01:06]: ArrayUnion	function: 0000000031190620	
+[00:01:06]: StartDedicatedServer	function: 000000000ED8CA80	
+[00:01:06]: EMOJI_ITEMS	table: 000000000DAA5780	
+[00:01:06]: CONTROL_CANCEL	30	
+[00:01:06]: AddModUserCommand	function: 00000000116A0D30	
+[00:01:06]: ClearClientRequestedAction	function: 000000001072E460	
+[00:01:06]: SnapToBoatEdge	function: 0000000031191730	
+[00:01:06]: mastupgrade_lightningrod_item_clear_fn	function: 0000000026EE8C60	
+[00:01:06]: UICOLOURS	table: 0000000036290970	
+[00:01:06]: CRAFTING_ICONS_ATLAS	images/crafting_menu_icons.xml	
+[00:01:06]: NEWFONT_SMALL	spirequal_small	
+[00:01:06]: SetDailyGiftItem	function: 000000000C660680	
+[00:01:06]: meatrack_init_fn	function: 0000000026EE7070	
+[00:01:06]: CacheCurrentVanityItems	function: 000000000C69E860	
+[00:01:06]: ToggleOffCharacterCollisions	function: 00000000116EAD60	
+[00:01:06]: featherhat_init_fn	function: 0000000026EE6650	
+[00:01:06]: tracked_assert	function: 000000000E49FE70	
+[00:01:06]: GetSineVal	function: 00000000116EED50	
+[00:01:06]: LandFlyingCreature	function: 0000000013CC5A10	
+[00:01:06]: CRAFTING_FILTER_DEFS	table: 0000000013B997B0	
+[00:01:06]: APP_ARCHITECTURE	x64	
+[00:01:06]: Networking_ResurrectAnnouncement	function: 000000000ED8C3F0	
+[00:01:06]: IsGamePurchased	function: 0000000012023950	
+[00:01:06]: CalcDiminishingReturns	function: 0000000035D93930	
+[00:01:06]: TwitchOptions	table: 0000000029789D70	
+[00:01:06]: CONTROL_TOGGLE_SLASH_COMMAND	65	
+[00:01:06]: GetWorld	function: 0000000030FDC3D0	
+[00:01:06]: KEY_DELETE	127	
+[00:01:06]: IsDefaultCharacterSkin	function: 000000000C69E650	
+[00:01:06]: InventoryProxy	table: 0000000027420570	
+[00:01:06]: RequestShutdown	function: 0000000035B18020	
+[00:01:06]: io	table: 0000000013C23370	
+[00:01:06]: CONTROL_USE_ITEM_ON_ITEM	59	
+[00:01:06]: KillThreadsWithID	function: 0000000035D6A560	
+[00:01:06]: ClassRegistry	table: 0000000011CC5670	
+[00:01:06]: GetAllActiveEvents	function: 0000000035D1FEA0	
+[00:01:06]: BGCOLOURS	table: 0000000036289DF0	
+[00:01:06]: CODEFONT	ptmono	
+[00:01:06]: firestaff_init_fn	function: 0000000026EE9770	
+[00:01:06]: TheConfig	PLATFORM CONFIGURATION OPTIONS
+force_netbookmode = false
+hide_vignette = false	
+[00:01:06]: ExtendedArray	function: 0000000031190740	
+[00:01:06]: TENDENCY	table: 0000000035FEFC60	
+[00:01:06]: EventLeaderboardProxy	table: 0000000027420750	
+[00:01:06]: RUN_GLOBAL_INIT	false	
+[00:01:06]: NUM_SAVE_SLOTS	5	
+[00:01:06]: telestaff_init_fn	function: 00000000127BC440	
+[00:01:06]: FRONTEND_CHARACTER_FAR_COLOUR	table: 000000003628D810	
+[00:01:06]: firepit_init_fn	function: 0000000026EE8390	
+[00:01:06]: VecUtil_GetAngleInDegrees	function: 0000000013CC3E80	
+[00:01:06]: StartStaticThread	function: 0000000035D6A4D0	
+[00:01:06]: GetOwnedItemCounts	function: 000000000C69E1D0	
+[00:01:06]: LOADING_SCREEN_TIP_CATEGORIES	table: 0000000035FF1470	
+[00:01:06]: saddle_basic_clear_fn	function: 0000000026EE7CA0	
+[00:01:06]: package	table: 0000000010BDC800	
+[00:01:06]: GetRandomKey	function: 00000000311907A0	
+[00:01:06]: GetItemCollectionName	function: 000000000C69E260	
+[00:01:06]: ConditionNode	table: 000000001041B320	
+[00:01:06]: KEY_RSUPER	312	
+[00:01:06]: MakeSmallPropagator	function: 00000000116EA220	
+[00:01:06]: MakeHauntableLaunchOrChangePrefab	function: 00000000116AB170	
+[00:01:06]: IsMigrating	function: 0000000035D5CFF0	
+[00:01:06]: CONTROL_CONTROLLER_ACTION	57	
+[00:01:06]: MakeMediumBurnable	function: 00000000116AADF0	
+[00:01:06]: CompareItemDataForSortByRelease	function: 000000000C6600C0	
+[00:01:06]: GetConsoleOutputList	function: 00000000359E8B70	
+[00:01:06]: VecUtil_Lerp	function: 0000000013CC3E50	
+[00:01:06]: KEY_H	104	
+[00:01:06]: CONTROL_ROTATE_RIGHT	12	
+[00:01:06]: LoadFonts	function: 0000000035D5CC60	
+[00:01:06]: GroundCreep	table: 00000000272EB060	
+[00:01:06]: UpdatingEnts	table: 00000000135CE7E0	
+[00:01:06]: TECH	table: 0000000036286DD0	
+[00:01:06]: Networking_PartyServer	function: 000000000ED8CC30	
+[00:01:06]: bushhat_clear_fn	function: 00000000127BC240	
+[00:01:06]: GetRandomWithVariance	function: 00000000311907D0	
+[00:01:06]: RegisterAchievements	function: 0000000035D5C330	
+[00:01:06]: OnDemoTimeout	function: 0000000035D5D140	
+[00:01:06]: GetAngleFromBoat	function: 0000000031191760	
+[00:01:06]: CONFIGURATION	PRODUCTION	
+[00:01:06]: ActionHandler	table: 00000000104183F0	
+[00:01:06]: TexSamplers	table: 000000003628E670	
+[00:01:06]: bushhat_init_fn	function: 00000000127BC200	
+[00:01:06]: GESTURE_MAX	904	
+[00:01:06]: Prefab	table: 0000000013247820	
+[00:01:06]: KEY_PAGEUP	280	
+[00:01:06]: CONTROL_FORCE_INSPECT	38	
+[00:01:06]: fence_item_clear_fn	function: 0000000026EE9080	
+[00:01:06]: SCALEMODE_FIXEDPROPORTIONAL	3	
+[00:01:06]: FALLBACK_FONT_FULL	fallback_font_full	
+[00:01:06]: isnan	function: 0000000031190980	
+[00:01:06]: piggyback_clear_fn	function: 0000000026EE53C0	
+[00:01:06]: DEBUGGER_ENABLED	false	
+[00:01:06]: resurrectionstone_clear_fn	function: 0000000026EE76A0	
+[00:01:06]: Networking_SlashCmd	function: 00000000116A0DB0	
+[00:01:06]: REIGN_OF_GIANTS	1	
+[00:01:06]: IsLinux	function: 000000003346CA10	
+[00:01:06]: Create2DTriEmitter	function: 000000001201EE20	
+[00:01:06]: KEY_KP_1	257	
+[00:01:06]: LatchNode	table: 000000001041CD10	
+[00:01:06]: PriorityNode	table: 000000001041C5E0	
+[00:01:06]: ShadeRenderer	ShadeRenderer (0000000013FAEF60)	
+[00:01:06]: portablecookpot_item_clear_fn	function: 0000000026EE82A0	
+[00:01:06]: BASE_TORSO_TUCK	table: 000000000E92B520	
+[00:01:06]: PhysicsWaker	table: 0000000013C1E3E0	
+[00:01:06]: DisableAllDLC	function: 0000000035D5E160	
+[00:01:06]: SetPause	function: 0000000035B17EE0	
+[00:01:06]: lantern_clear_fn	function: 00000000127BC5C0	
+[00:01:06]: ZipAndEncodeString	function: 0000000035D93B40	
+[00:01:06]: LAYER_FRONTEND	8	
+[00:01:06]: DumpMem	function: 0000000031191610	
+[00:01:06]: KEY_F9	290	
+[00:01:06]: WorldRollbackFromSim	function: 00000000116A0FB0	
+[00:01:06]: pighouse_clear_fn	function: 0000000026EE7D60	
+[00:01:06]: HEADERFONT	hammerhead	
+[00:01:06]: mast_clear_fn	function: 0000000026EE9260	
+[00:01:06]: REMOTESHARDSTATE	table: 0000000035FEFD00	
+[00:01:06]: KEY_3	51	
+[00:01:06]: AreAnyClientModsEnabled	function: 00000000336ADAA0	
+[00:01:06]: GetPlayerClientTable	function: 000000000ED8CB40	
+[00:01:06]: MakeHugeFreezableCharacter	function: 00000000116AB030	
+[00:01:06]: GetFestivalEventSeasons	function: 0000000035E57310	
+[00:01:06]: goldenshovel_clear_fn	function: 0000000026EE5C00	
+[00:01:06]: bedroll_furry_clear_fn	function: 0000000026EE5E40	
+[00:01:06]: DeleteCloseEntsWithTag	function: 0000000030FDC790	
+[00:01:06]: BACKEND_PREFABS	table: 00000000315BE880	
+[00:01:06]: ChatHistory	table: 000000000DAA8840	
+[00:01:06]: MakeHauntableGoToStateWithChanceFunction	function: 00000000116EABE0	
+[00:01:06]: PLANTREGISTRYUICOLOURS	table: 0000000036291410	
+[00:01:06]: VecUtil_Dist	function: 00000000127A3B40	
+[00:01:06]: WORLD_TILES_OCEAN_START	10498	
+[00:01:06]: fence_gate_init_fn	function: 0000000026EE9170	
+[00:01:06]: newProfiler	function: 0000000026F15330	
+[00:01:06]: armorwood_clear_fn	function: 0000000026EE6020	
+[00:01:06]: Vec3Util_NormalAndLength	function: 00000000127A4100	
+[00:01:06]: MAXITEMSLOTS	15	
+[00:01:06]: tophat_clear_fn	function: 0000000026EE6320	
+[00:01:06]: SerializeUserSession	function: 000000000ED8C720	
+[00:01:06]: RingBuffer	table: 00000000315B8530	
+[00:01:06]: RegisterOnAccountEventListener	function: 0000000035D5D1A0	
+[00:01:06]: boat_item_clear_fn	function: 0000000026EE8900	
+[00:01:06]: campfire_clear_fn	function: 0000000026EE8420	
+[00:01:06]: AddDefaultRippleSymbols	function: 00000000116EAEB0	
+[00:01:06]: FRONTEND_SMOKE_COLOUR	table: 000000003628D900	
+[00:01:06]: CONTROL_PAUSE	13	
+[00:01:06]: Shard_ReceiveVote	function: 00000000116E2660	
+[00:01:06]: SORTORDER_MAX	3	
+[00:01:06]: addsetter	function: 00000000359EB4F0	
+[00:01:06]: wall_stone_item_clear_fn	function: 0000000026EE8F00	
+[00:01:06]: oceanfishingrod_clear_fn	function: 0000000026EE5CC0	
+[00:01:06]: ANIM_SORT_ORDER_BELOW_GROUND	table: 0000000036289CB0	
+[00:01:06]: bit	table: 00000000131AA270	
+[00:01:06]: PostProcessorEffects	table: 000000003628E850	
+[00:01:06]: KEY_F	102	
+[00:01:06]: KEY_RCTRL	305	
+[00:01:06]: KEY_F4	285	
+[00:01:06]: ROAD_STRIPS	table: 000000003628E210	
+[00:01:06]: pitchfork_init_fn	function: 0000000026EE5AB0	
+[00:01:06]: GetFirstActiveSpecialEvent	function: 0000000035D1FE70	
+[00:01:06]: HexToRGB	function: 0000000035D938A0	
+[00:01:06]: MODS_ENABLED	true	
+[00:01:06]: KEY_SCROLLOCK	302	
+[00:01:06]: HALLOWEDNIGHTS_TINKET_END	46	
+[00:01:06]: CONTROL_INV_4	18	
+[00:01:06]: ENCODE_SAVES	true	
+[00:01:06]: PLAYER_SWAP_TRANSITIONS	table: 00000000315BF410	
+[00:01:06]: MakeTinyGhostPhysics	function: 00000000116EA490	
+[00:01:06]: FlattenTree	function: 0000000031320CC0	
+[00:01:06]: MOUSEBUTTON_SCROLLUP	1003	
+[00:01:06]: steeringwheel_item_clear_fn	function: 0000000026EE8A20	
+[00:01:06]: TheRawImgui	RawImgui (00000000333B33D0)	
+[00:01:06]: rawstring	function: 0000000035D93C60	
+[00:01:06]: DOUBLE_CLICK_TIMEOUT	0.5	
+[00:01:06]: INGREDIENT_MOD_LOOKUP	table: 000000003628F9D0	
+[00:01:06]: Action	table: 0000000010408C20	
+[00:01:06]: metaipairs	function: 0000000035D93AB0	
+[00:01:06]: ProcessJsonMessage	function: 0000000035D5CC30	
+[00:01:06]: CRAFTING_FILTERS	table: 0000000013B9A1B0	
+[00:01:06]: ProfileStatsAddItemChunk	function: 0000000035D68A60	
+[00:01:06]: AwakeEnts	table: 00000000135CE740	
+[00:01:06]: SANITY_MODE_INSANITY	0	
+[00:01:06]: MakeSmallObstaclePhysics	function: 00000000116EA610	
+[00:01:06]: ProfileStats	table: 000000001323BE30	
+[00:01:06]: TemporarilyRemovePhysics	function: 0000000030FDCAC0	
+[00:01:06]: NEWFONT	spirequal	
+[00:01:06]: DistPointToSegmentXYSq	function: 0000000035D93990	
+[00:01:06]: Roomify	function: 000000000F43D3C0	
+[00:01:06]: ReplicateEntity	function: 0000000035D5C960	
+[00:01:06]: DataGrid	table: 000000001279D170	
+[00:01:06]: str_seconds	function: 000000003625FF50	
+[00:01:06]: PrintTable	function: 0000000031190B00	
+[00:01:06]: EventProcessor	table: 0000000013B9F930	
+[00:01:06]: hambat_init_fn	function: 0000000026EE5450	
+[00:01:06]: RUNCA	table: 000000001169F5A0	
+[00:01:06]: GetRandomItem	function: 00000000311904D0	
+[00:01:06]: tent_clear_fn	function: 0000000026EE6B60	
+[00:01:06]: book_brimstone_init_fn	function: 0000000026EE5DB0	
+[00:01:06]: KEY_D	100	
+[00:01:06]: endtable_init_fn	function: 0000000026EE6F50	
+[00:01:06]: DynamicPosition	table: 00000000315B86C0	
+[00:01:06]: torch_clear_fn	function: 0000000026EE5600	
+[00:01:06]: AddClientModRPCHandler	function: 00000000116A4430	
+[00:01:06]: critter_perdling_clear_fn	function: 0000000026EE86F0	
+[00:01:06]: MakeAllSuffixes	function: 0000000013CC34C0	
+[00:01:06]: golden_farm_hoe_init_fn	function: 0000000026EE5930	
+[00:01:06]: SetInstanceParameters	function: 0000000035D5CB70	
+[00:01:06]: gravestone_init_fn	function: 0000000026EE7A30	
+[00:01:06]: Dbg	function: 00000000127AAA40	
+[00:01:06]: FindClosestPlayerToInstOnLand	function: 0000000030FDC580	
+[00:01:06]: ALL_DLC_TABLE	table: 0000000013241970	
+[00:01:06]: CONTROL_MENU_MISC_1	68	
+[00:01:06]: MakeHauntableWorkAndIgnite	function: 00000000116EA9A0	
+[00:01:06]: CONTROL_INV_1	15	
+[00:01:06]: HandleUserCmdQueue	function: 00000000116A08F0	
+[00:01:06]: MonkeyPatchClass	function: 000000000F4381D0	
+[00:01:06]: SubtractMapKeys	function: 0000000031190710	
+[00:01:06]: CONTROL_TARGET_CYCLE_BACK	11	
+[00:01:06]: debuglocals	function: 000000001072D500	
+[00:01:06]: ACTION_IDS	table: 0000000010412310	
+[00:01:06]: monkey_mediumhat_clear_fn	function: 0000000026EE6200	
+[00:01:06]: endtable_clear_fn	function: 0000000026EE6F80	
+[00:01:06]: RegisterSinglePrefab	function: 0000000035B17920	
+[00:01:06]: eprint	function: 000000001072D710	
+[00:01:06]: AddModReleaseID	function: 00000000336ACF00	
+[00:01:06]: KEY_KP_4	260	
+[00:01:06]: net_smallbyte	table: 000000003611B510	
+[00:01:06]: RegisterPrefabsImpl	function: 0000000035B178A0	
+[00:01:06]: utf8strtoupper	function: 0000000036109F30	
+[00:01:06]: RUNNING	RUNNING	
+[00:01:06]: tophat_init_fn	function: 0000000026EE62F0	
+[00:01:06]: LOADING_SCREEN_TIP_ICONS	table: 0000000035FF1510	
+[00:01:06]: CONTROL_SECONDARY	1	
+[00:01:06]: hash	function: 0000000036109D50	
+[00:01:06]: ApplyKlumpToStringTable	function: 000000000C69F7C0	
+[00:01:06]: CreateRingEmitter	function: 000000001201ED60	
+[00:01:06]: KEY_SPACE	32	
+[00:01:06]: CONTROL_TARGET_CYCLE_FORWARD	12	
+[00:01:06]: CONTROL_INV_3	17	
+[00:01:06]: KEY_PAGEDOWN	281	
+[00:01:06]: researchlab4_clear_fn	function: 0000000026EE94A0	
+[00:01:06]: LAYER_BACKGROUND	4	
+[00:01:06]: FALLBACK_FONT	fallback_font	
+[00:01:06]: OnAccountEventListeners	table: 00000000132406B0	
+[00:01:06]: WORLD_TILES	table: 0000000036284F30	
+[00:01:06]: mushroom_light_clear_fn	function: 0000000026EE6AA0	
+[00:01:06]: GetModRPC	function: 00000000116E1E20	
+[00:01:06]: NUM_WINTERFOOD	9	
+[00:01:06]: IsPaused	function: 0000000035B17D20	
+[00:01:06]: APP_BUILD_TIME	17:40:07	
+[00:01:06]: UpdateServerWorldGenDataString	function: 000000000ED8CA20	
+[00:01:06]: stagehand_clear_fn	function: 0000000026EE7880	
+[00:01:06]: next	function: 00000000127EE940	
+[00:01:06]: BufferedAction	table: 0000000010406150	
+[00:01:06]: EraseFiles	function: 00000000116E2780	
+[00:01:06]: KEY_T	116	
+[00:01:06]: requireeventfile	function: 0000000036109220	
+[00:01:06]: MakeHauntablePanicAndIgnite	function: 00000000116EAB50	
+[00:01:06]: FARM_PLANT_STRESS	table: 000000003628F7A0	
+[00:01:06]: pickaxe_init_fn	function: 0000000026EE5A50	
+[00:01:06]: OnInputText	function: 0000000012023800	
+[00:01:06]: TOOLACTIONS	table: 000000003628FBB0	
+[00:01:06]: printsel	function: 000000001072D3E0	
+[00:01:06]: select	function: 0000000032B2B940	
+[00:01:06]: OCEAN_DEPTH	table: 0000000036284990	
+[00:01:06]: backpack_clear_fn	function: 0000000026EE5300	
+[00:01:06]: DEFAULT_PLAYER_COLOUR	table: 000000003628D090	
+[00:01:06]: MOVE_RIGHT	4	
+[00:01:06]: BRANCH	release	
+[00:01:06]: INVERTED_WORLD_TILES	table: 0000000036284E90	
+[00:01:06]: Networking_PartyInvite	function: 00000000116A1070	
+[00:01:06]: GetDebugEntity	function: 0000000035B17CA0	
+[00:01:06]: reflectivevest_init_fn	function: 0000000026EE6170	
+[00:01:06]: CraftMonkeySpeech	function: 000000003625FD70	
+[00:01:06]: SPECIAL_EVENTS	table: 00000000362856B0	
+[00:01:06]: DEPLOYSPACING_RADIUS	table: 000000003628FE30	
+[00:01:06]: boat_clear_fn	function: 0000000026EE8960	
+[00:01:06]: KEY_PAUSE	19	
+[00:01:06]: QUAGMIRE_NUM_FOOD_PREFABS	69	
+[00:01:06]: toarrayornil	function: 000000003610A050	
+[00:01:06]: TintByOceanTile	function: 0000000013CC5B00	
+[00:01:06]: SerializeWorldSession	function: 000000000ED8C780	
+[00:01:06]: CONTROL_MENU_MISC_2	69	
+[00:01:06]: DoReload	function: 000000000F438230	
+[00:01:06]: SendRPCToServer	function: 00000000116A42B0	
+[00:01:06]: ParallelNode	table: 000000001041C770	
+[00:01:06]: WORLD_TILES_NOISE_START	8449	
+[00:01:06]: wateringcan_clear_fn	function: 0000000026EE7460	
+[00:01:06]: WORLD_TILES_OCEAN_SIZE	4096	
+[00:01:06]: dtable	function: 000000001072D7A0	
+[00:01:06]: VecUtil_Length	function: 00000000127A3B00	
+[00:01:06]: Client_IsTournamentActive	function: 0000000035D200B0	
+[00:01:06]: AddRoom	function: 00000000116B56F0	
+[00:01:06]: trap_teeth_init_fn	function: 0000000026EE7190	
+[00:01:06]: GetFestivalEventSkinTag	function: 0000000035E57290	
+[00:01:06]: SetDebugEntity	function: 0000000035B17CE0	
+[00:01:06]: AddTask	function: 00000000116BD9B0	
+[00:01:06]: RegisterInventoryItemAtlas	function: 00000000127AD540	
+[00:01:06]: MOVE_UP	1	
+[00:01:06]: Shard_IsWorldFull	function: 00000000116E2570	
+[00:01:06]: KEY_UP	273	
+[00:01:06]: GetProfileFlairAtlasAndTex	function: 000000000C69EA70	
+[00:01:06]: ValidateSpawnPrefabRequest	function: 000000000ED8C660	
+[00:01:06]: POT_GENERATION	false	
+[00:01:06]: watermelonhat_init_fn	function: 0000000026EE6710	
+[00:01:06]: HOUNDWARNINGTYPE	table: 0000000035FEFBC0	
+[00:01:06]: Network	table: 000000002971D280	
+[00:01:06]: CLIENT_MOD_RPC	table: 0000000011687810	
+[00:01:06]: GetConsoleLocalRemoteHistory	function: 000000002A2C8EC0	
+[00:01:06]: KEY_L	108	
+[00:01:06]: RemoveAllRecipes	function: 000000002A2B90C0	
+[00:01:06]: __genOrderedIndex	function: 0000000035D939C0	
+[00:01:06]: SetConsoleLocalRemoteHistory	function: 000000002A2C8F40	
+[00:01:06]: ruins_bat_init_fn	function: 0000000026EE53F0	
+[00:01:06]: mastupgrade_lightningrod_item_init_fn	function: 0000000026EE8C30	
+[00:01:06]: CONTROL_CRAFTING_PINLEFT	75	
+[00:01:06]: WORLD_TILES_LAND_SIZE	8192	
+[00:01:06]: EventHandler	table: 0000000010418580	
+[00:01:06]: anchor_item_clear_fn	function: 0000000026EE8AE0	
+[00:01:06]: CreateDiscEmitter	function: 000000001201ED30	
+[00:01:06]: MergeMaps	function: 0000000031190680	
+[00:01:06]: Account	table: 0000000013C23230	
+[00:01:06]: SetAutopaused	function: 0000000035B17E20	
+[00:01:06]: abigail_flower_clear_fn	function: 0000000026EE8120	
+[00:01:06]: lantern_init_fn	function: 00000000127BC580	
+[00:01:06]: EMOTE_ITEMS	table: 0000000036282A00	
+[00:01:06]: NUM_CRAFTING_RECIPES	10	
+[00:01:06]: ShouldEntitySink	function: 0000000013CC5A70	
+[00:01:06]: LAYOUT_ROTATION	table: 0000000036288400	
+[00:01:06]: ShardIndex	table: 000000000C677F50	
+[00:01:06]: FindSwimmableOffset	function: 0000000030FDC8B0	
+[00:01:06]: ReduceAngle	function: 00000000116EF680	
+[00:01:06]: RegisteredDLC	table: 0000000013241B50	
+[00:01:06]: RoundBiasedDown	function: 00000000116EF4D0	
+[00:01:06]: ResolveCommandStringProperty	function: 000000000ED8BCD0	
+[00:01:06]: FINALOFFSET_MAX	7	
+[00:01:06]: KEY_EQUALS	61	
+[00:01:06]: SetConsoleAutopaused	function: 0000000035B17EA0	
+[00:01:06]: COMMAND_PERMISSION	table: 0000000035FF0480	
+[00:01:06]: KEY_BACKSPACE	8	
+[00:01:06]: icestaff_clear_fn	function: 0000000026EE97A0	
+[00:01:06]: TUNING_MODIFIERS	table: 0000000012FE1CD0	
+[00:01:06]: FINALOFFSET_MIN	-7	
+[00:01:06]: VerifySpawnNewPlayerOnServerRequest	function: 000000000ED8C630	
+[00:01:06]: HandleClientRPC	function: 00000000116A4370	
+[00:01:06]: SCREEN_FLASH_SCALING	table: 00000000315BE7E0	
+[00:01:06]: GetActiveCharacterList	function: 0000000035D5DFB0	
+[00:01:06]: CreateRepeatedSoundVolumeReduction	function: 0000000035D5D4A0	
+[00:01:06]: heatrock_clear_fn	function: 0000000026EE98C0	
+[00:01:06]: CLIENT_MOD_RPC_HANDLERS	table: 00000000116878B0	
+[00:01:06]: armor_sanity_clear_fn	function: 0000000026EE60E0	
+[00:01:06]: TextEditWidget	table: 0000000035812ED0	
+[00:01:06]: CONTROL_MOVE_DOWN	6	
+[00:01:06]: CONTROL_ZOOM_IN	9	
+[00:01:06]: AddModTask	function: 00000000116BD9F0	
+[00:01:06]: unpack	function: 00000000279E3620	
+[00:01:06]: IsWorkshopMod	function: 00000000116AE430	
+[00:01:06]: HandleClientModRPC	function: 00000000116A44B0	
+[00:01:06]: global	function: 00000000359E8870	
+[00:01:06]: metarawset	function: 0000000035D93AE0	
+[00:01:06]: critter_puppy_builder_clear_fn	function: 0000000026EE8780	
+[00:01:06]: Input	table: 0000000013B9FB60	
+[00:01:06]: AwardFrontendAchievement	function: 0000000035D5C390	
+[00:01:06]: RemoveByValue	function: 0000000031190470	
+[00:01:06]: net_bool	table: 00000000271B3420	
+[00:01:06]: winterometer_init_fn	function: 0000000026EE6C50	
+[00:01:06]: GetIsSpawnModeFixed	function: 000000000C65C900	
+[00:01:06]: wormhole_init_fn	function: 0000000026EE78B0	
+[00:01:06]: ShardList	table: 0000000011688940	
+[00:01:06]: rawget	function: 0000000032B2B880	
+[00:01:06]: GetEnabledServerModsConfigData	function: 00000000336ADB90	
+[00:01:06]: MaybeMakeDragonflyBait	function: 00000000116EA8B0	
+[00:01:06]: net_smallbytearray	table: 000000003611B600	
+[00:01:06]: wall_ruins_init_fn	function: 0000000026EE8E70	
+[00:01:06]: RECIPE_PREFABS	table: 00000000315BEA10	
+[00:01:06]: IsPrefabSkinned	function: 000000000C69E620	
+[00:01:06]: EVENTSERVER_LEVEL_LOCATIONS	table: 0000000035FF00C0	
+[00:01:06]: SKIN_RARITY_COLORS	table: 000000000C68E5C0	
+[00:01:06]: critter_perdling_builder_clear_fn	function: 0000000026EE8720	
+[00:01:06]: UniformVariables	table: 000000003628E710	
+[00:01:06]: LookupPlayerInstByUserID	function: 000000000ED8CB10	
+[00:01:06]: MigrateToServer	function: 000000000ED8C930	
+[00:01:06]: GetEntityString	function: 0000000035D5C7E0	
+[00:01:06]: READY	READY	
+[00:01:06]: wall_ruins_item_clear_fn	function: 0000000026EE8E40	
+[00:01:06]: bernie_active_init_fn	function: 0000000026EE93B0	
+[00:01:06]: monkey_mediumhat_init_fn	function: 0000000026EE61D0	
+[00:01:06]: WillUnravelBreakRestrictedCharacter	function: 000000000C69E2F0	
+[00:01:06]: LEGACY_WORLD_TILES_LAND_END	127	
+[00:01:06]: NEWFONT_OUTLINE_SMALL	spirequal_outline_small	
+[00:01:06]: CheckForUpsellTimeout	function: 000000002A2C5680	
+[00:01:06]: DebugRender	table: 000000002981EB50	
+[00:01:06]: IsAnyItemNew	function: 000000000C69E500	
+[00:01:06]: Follower	table: 000000002981EA60	
+[00:01:06]: CONTROL_ACTION	4	
+[00:01:06]: Networking_JoinAnnouncement	function: 000000000ED8C450	
+[00:01:06]: Physics	table: 00000000274B1010	
+[00:01:06]: KEY_CTRL	401	
+[00:01:06]: batbat_init_fn	function: 0000000026EE54B0	
+[00:01:06]: LookupTileInfo	function: 00000000127B14C0	
+[00:01:06]: GREY	table: 00000000362903D0	
+[00:01:06]: GetMaxItemSlots	function: 000000000C65CB00	
+[00:01:06]: skeletonhat_init_fn	function: 0000000026EE69B0	
+[00:01:06]: MOD_API_VERSION	10	
+[00:01:06]: MAIN_GAME	0	
+[00:01:06]: BACK_BUTTON_Y	60	
+[00:01:06]: beemine_init_fn	function: 0000000026EE7130	
+[00:01:06]: alterguardianhat_clear_fn	function: 0000000026EE6980	
+[00:01:06]: PI2	6.28318	
+[00:01:06]: DamLevDist	function: 000000003625FFE0	
+[00:01:06]: ANCHOR_LEFT	1	
+[00:01:06]: STATIC_PRIORITY	10000	
+[00:01:06]: mast_malbatross_item_clear_fn	function: 0000000026EE92C0	
+[00:01:06]: PreloadSounds	function: 0000000035B18FA0	
+[00:01:06]: CONTROL_FORCE_ATTACK	39	
+[00:01:06]: MakeFlyingCharacterPhysics	function: 00000000116EA3A0	
+[00:01:06]: CAMERASHAKE	table: 0000000035FEF800	
+[00:01:06]: GetTaskRemaining	function: 0000000031190CB0	
+[00:01:06]: AreServerModsEnabled	function: 00000000336ADA40	
+[00:01:06]: MakeHauntableGoToState	function: 00000000116EABB0	
+[00:01:06]: GetBuildForItem	function: 000000000C69D690	
+[00:01:06]: TrackMem	function: 00000000311915E0	
+[00:01:06]: orderedPairs	function: 0000000035D93A20	
+[00:01:06]: GESTURE_ROTATE_LEFT	902	
+[00:01:06]: basic_init_fn	function: 0000000026EE5270	
+[00:01:06]: krampus_sack_init_fn	function: 0000000026EE5330	
+[00:01:06]: KEY_P	112	
+[00:01:06]: IsPS4	function: 000000003346C950	
+[00:01:06]: Networking_LeaveAnnouncement	function: 000000000ED8C480	
+[00:01:06]: IsPackRestrictedDueToOwnership	function: 000000000C69DF90	
+[00:01:06]: net_ushortint	table: 000000000E2CBA30	
+[00:01:06]: terrain	table: 00000000105F7290	
+[00:01:06]: MakeNoGrowInWinter	function: 00000000116AB070	
+[00:01:06]: SPECIAL_EVENT_MUSIC	table: 0000000036285FC0	
+[00:01:06]: debugstack	function: 0000000010407DC0	
+[00:01:06]: gemsocket_init_fn	function: 0000000026EE9D70	
+[00:01:06]: Dist2dSq	function: 0000000035D93960	
+[00:01:06]: KEY_KP_2	258	
+[00:01:06]: heatrock_init_fn	function: 0000000026EE9890	
+[00:01:06]: WORLD_TILES_NOISE_END	10497	
+[00:01:06]: Networking_ModOutOfDateAnnouncement	function: 000000000ED8C390	
+[00:01:06]: TheSystemService	SystemService (0000000013FAEF00)	
+[00:01:06]: KEY_F10	291	
+[00:01:06]: glomling_init_fn	function: 0000000026EE8540	
+[00:01:06]: mast_init_fn	function: 0000000026EE9230	
+[00:01:06]: GetFarmTillSpacing	function: 000000000C65CB40	
+[00:01:06]: AUTOSPAWN_MASTER_SECONDARY	false	
+[00:01:06]: FACING_UPLEFT	5	
+[00:01:06]: IsAnySpecialEventActive	function: 0000000035D1FE10	
+[00:01:06]: net_float	table: 0000000027420840	
+[00:01:06]: multitool_axe_pickaxe_clear_fn	function: 0000000026EE5840	
+[00:01:06]: json	table: 0000000013249080	
+[00:01:06]: ShardNetwork	table: 000000002971D370	
+[00:01:06]: CONTROL_MOVE_UP	5	
+[00:01:06]: DataDumper	function: 0000000013B9D9A0	
+[00:01:06]: CONTROL_INSPECT	3	
+[00:01:06]: MakeSnowCoveredPristine	function: 00000000116EA730	
+[00:01:06]: mermhouse_crafted_init_fn	function: 0000000026EE7610	
+[00:01:06]: STORM_TYPES	table: 0000000035FF1330	
+[00:01:06]: OnPhysicsCollision	function: 00000000116EB8A0	
+[00:01:06]: cleartable	function: 0000000031190E30	
+[00:01:06]: CONTROL_INVENTORY_EXAMINE	51	
+[00:01:06]: critter_puppy_clear_fn	function: 0000000026EE8750	
+[00:01:06]: LoadPrefabFile	function: 0000000035B17960	
+[00:01:06]: LAYER_WORLD_BACKGROUND	5	
+[00:01:06]: Entity	table: 000000000E22F390	
+[00:01:06]: GetExtendedDebugString	function: 0000000035B17C20	
+[00:01:06]: Networking_JoinedParty	function: 00000000116A10B0	
+[00:01:06]: moderror	function: 00000000336AD050	
+[00:01:06]: KEY_Z	122	
+[00:01:06]: SIZE_VARIATION	3	
+[00:01:06]: pitchfork_clear_fn	function: 0000000026EE5AE0	
+[00:01:06]: bugnet_clear_fn	function: 0000000026EE81E0	
+[00:01:06]: newproxy	function: 0000000011F7DDC0	
+[00:01:06]: Networking_RegenerateMetricsEvent	function: 00000000116A0EB0	
+[00:01:06]: DeconstructRecipe	table: 000000002A266D00	
+[00:01:06]: Networking_RollbackMetricsEvent	function: 00000000116A0E70	
+[00:01:06]: IS_YEAR_OF_THE_SPECIAL_EVENTS	table: 0000000036285B60	
+[00:01:06]: CONTROL_INV_12	78	
+[00:01:06]: seafaring_prototyper_init_fn	function: 0000000026EE74F0	
+[00:01:06]: SoundEmitter	table: 00000000274B0E30	
+[00:01:06]: weighted_random_choices	function: 0000000031190AD0	
+[00:01:06]: MAZE_CELL_EXITS_INV	table: 0000000036288220	
+[00:01:06]: GetSelectableCharacterList	function: 0000000035D5DFE0	
+[00:01:06]: winterhat_init_fn	function: 0000000026EE6470	
+[00:01:06]: KEY_BACKSLASH	92	
+[00:01:06]: MakeHauntableChangePrefab	function: 00000000116AB130	
+[00:01:06]: bernie_inactive_init_fn	function: 0000000026EE9350	
+[00:01:06]: FACING_DOWN	3	
+[00:01:06]: SamplerEffectBase	table: 000000003628E490	
+[00:01:06]: pairs	function: 0000000011F7DD80	
+[00:01:06]: DEFAULTFONT	opensans	
+[00:01:06]: DestroyEntity	function: 00000000116AC270	
+[00:01:06]: LEGACY_WORLD_TILES_IMPASSABLE_START	128	
+[00:01:06]: DEFAULT_SERVER_SAVE_FILE	/server_save	
+[00:01:06]: Shard_OnDiceRollRequest	function: 00000000116A4A70	
+[00:01:06]: SHARDID	table: 0000000035FEFDA0	
+[00:01:06]: IsPackClothingOnly	function: 000000000C69D960	
+[00:01:06]: GAME_SERVER	http://dontstarve-release.appspot.com	
+[00:01:06]: strawhat_init_fn	function: 0000000026EE63B0	
+[00:01:06]: MainMenuStats	table: 000000001323BED0	
+[00:01:06]: MakeGhostPhysics	function: 00000000116EA460	
+[00:01:06]: FirstToUpper	function: 000000003625FEC0	
+[00:01:06]: MOUSEBUTTON_MIDDLE	1002	
+[00:01:06]: armormarble_init_fn	function: 0000000026EE5F90	
+[00:01:06]: BuildTagsStringCommon	function: 0000000035D5D410	
+[00:01:06]: RunInSandboxSafeCatchInfiniteLoops	function: 0000000031190C20	
+[00:01:06]: MAX_VOTE_OPTIONS	6	
+[00:01:06]: TheInventory	InventoryProxy (0000000013FAEF40)	
+[00:01:06]: GetPrevOwnedSkin	function: 000000000C69E950	
+[00:01:06]: OnNetworkDisconnect	function: 0000000035B18120	
+[00:01:06]: cave_entrance_clear_fn	function: 0000000026EE7940	
+[00:01:06]: string	table: 0000000013C23140	
+[00:01:06]: OnPushPopupDialog	function: 0000000035B180E0	
+[00:01:06]: StopAllThreads	function: 0000000035D6A590	
+[00:01:06]: critterlab_init_fn	function: 0000000026EE6B90	
+[00:01:06]: TEXT_FILTER_CTX_GAME	1	
+[00:01:06]: cavein_boulder_init_fn	function: 0000000026EE77F0	
+[00:01:06]: GetPackSavings	function: 000000000C69D930	
+[00:01:06]: MakeSmallPerishableCreaturePristine	function: 00000000116EA7F0	
+[00:01:06]: CWD	F:\Steam\steamapps\common\Don't Starve Together\data	
+[00:01:06]: CONTROL_ZOOM_OUT	10	
+[00:01:06]: umbrella_init_fn	function: 0000000026EE5C30	
+[00:01:06]: lightning_rod_clear_fn	function: 0000000026EE6CE0	
+[00:01:06]: HandleRPC	function: 000000001076C0E0	
+[00:01:06]: MakeLargeBurnable	function: 00000000116AAE30	
+[00:01:06]: HUD_ATLAS	images/hud.xml	
+[00:01:06]: GetBigPortraitAnimForItem	function: 000000000C69D6C0	
+[00:01:06]: chester_clear_fn	function: 0000000026EE7E80	
+[00:01:06]: FACING_DOWNLEFT	7	
+[00:01:06]: UIFONT	bp50	
+[00:01:06]: ReloadedClass	function: 00000000359EB610	
+[00:01:06]: CONTROL_PREVVALUE	33	
+[00:01:06]: KEY_0	48	
+[00:01:06]: SAY_COLOR	table: 000000003628D180	
+[00:01:06]: EnableDebugOnEntity	function: 000000001072D740	
+[00:01:06]: LoadingStates	table: 0000000013240AC0	
+[00:01:06]: weighted_random_choice	function: 0000000031190AA0	
+[00:01:06]: BODYTEXTFONT	stint-ucr	
+[00:01:06]: NetworkProxy	table: 00000000273573B0	
+[00:01:06]: CONTROL_INV_5	19	
+[00:01:06]: IsAnyFestivalEventActive	function: 0000000035D1FF90	
+[00:01:06]: BROWN	table: 00000000362906A0	
+[00:01:06]: Shard_UpdateWorldState	function: 00000000116A49B0	
+[00:01:06]: metarawget	function: 0000000035D93B10	
+[00:01:06]: OnTwitchMessageReceived	function: 000000000ED8C570	
+[00:01:06]: isinf	function: 00000000311909B0	
+[00:01:06]: ModUnloadPreloadAssets	function: 0000000035B17A20	
+[00:01:06]: HUMAN_MEAT_ENABLED	false	
+[00:01:06]: GROUND	table: 0000000036284A30	
+[00:01:06]: NUM_SKIN_PRESET_SLOTS	25	
+[00:01:06]: SamplerEffects	table: 000000003628E7B0	
+[00:01:06]: Image	table: 0000000029977250	
+[00:01:06]: SGManager	table: 00000000104181C0	
+[00:01:06]: VIBRATION_BLOOD_OVER	2	
+[00:01:06]: MakeCharacterPhysics	function: 00000000116EA370	
+[00:01:06]: PerformingRestart	false	
+[00:01:06]: circular_index	function: 0000000031190EF0	
+[00:01:06]: MAX_HUD_SCALE	1.25	
+[00:01:06]: KEY_9	57	
+[00:01:06]: VecUtil_Normalize	function: 00000000127A3BC0	
+[00:01:06]: RunStaticScheduler	function: 0000000035D6A530	
+[00:01:06]: GetPortalRez	function: 000000000C65CA00	
+[00:01:06]: metanext	function: 0000000035D93A50	
+[00:01:06]: ChangeToGhostPhysics	function: 00000000116EA4C0	
+[00:01:06]: researchlab_init_fn	function: 0000000026EE7D90	
+[00:01:06]: APP_BUILD_DATE	1374	
+[00:01:06]: LAYER_FRONTEND_DEBUG	9	
+[00:01:06]: lighter_init_fn	function: 0000000026EE5630	
+[00:01:06]: CONTROL_SERVER_PAUSE	73	
+[00:01:06]: critter_dragonling_builder_clear_fn	function: 0000000026EE85A0	
+[00:01:06]: LEGACY_WORLD_TILES_OCEAN_END	247	
+[00:01:06]: PUBLIC_BETA	4	
+[00:01:06]: MakeLargeBurnableCharacter	function: 00000000116AAEF0	
+[00:01:06]: LEVELCATEGORY	table: 0000000036289AD0	
+[00:01:06]: JoinArrays	function: 00000000311905C0	
+[00:01:06]: TALKINGFONT_WORMWOOD	talkingfont_wormwood	
+[00:01:06]: NotifyPlayerPresence	function: 0000000035D5C420	
+[00:01:06]: OnControl	function: 0000000012023740	
+[00:01:06]: trap_teeth_clear_fn	function: 0000000026EE71C0	
+[00:01:06]: shuffleArray	function: 0000000031190D10	
+[00:01:06]: BUTTONFONT	buttonfont	
+[00:01:06]: LoadAchievements	function: 0000000035D5C360	
+[00:01:06]: BUILDMODE	table: 000000003628FCF0	
+[00:01:06]: VERBOSITY	table: 0000000036289800	
+[00:01:06]: reskin_tool_clear_fn	function: 0000000026EE5780	
+[00:01:06]: TheInput	table: 0000000013B9FCF0	
+[00:01:06]: IsDefaultMisc	function: 000000000C69E6E0	
+[00:01:06]: birdcage_init_fn	function: 0000000026EE7010	
+[00:01:06]: GetEntityDisplayName	function: 0000000035D5C630	
+[00:01:06]: DEGREES	0.017453277777778	
+[00:01:06]: PlaceLightBeam	table: 000000001169FAA0	
+[00:01:06]: tonumber	function: 0000000029B65D70	
+[00:01:06]: LAYOUT	table: 00000000362882C0	
+[00:01:06]: GetClosest	function: 0000000031190140	
+[00:01:06]: ProfileStatsAppendToField	function: 0000000035D68B50	
+[00:01:06]: GAME_MODES	table: 000000000C688D50	
+[00:01:06]: GetCharacterDescription	function: 000000003625FE90	
+[00:01:06]: Transform	table: 000000002971D190	
+[00:01:06]: VecUtil_Dot	function: 0000000013CC3E20	
+[00:01:06]: winterhat_clear_fn	function: 0000000026EE64A0	
+[00:01:06]: CONTROL_INVENTORY_UP	49	
+[00:01:06]: backpack_init_fn	function: 0000000026EE52D0	
+[00:01:06]: KEY_KP_5	261	
+[00:01:06]: WORLD_TILES_LAND_ONLY_END	8448	
+[00:01:06]: IS_STEAM_DECK	false	
+[00:01:06]: SpawnAttackWaves	function: 00000000127A48C0	
+[00:01:06]: fence_init_fn	function: 0000000026EE90B0	
+[00:01:06]: optentity	function: 00000000116E1310	
+[00:01:06]: Shard_UpdateMasterSessionId	function: 00000000116E25A0	
+[00:01:06]: LaunchAt	function: 00000000116EBF60	
+[00:01:06]: WORLD_TILES_IMPASSABLE_SIZE	4096	
+[00:01:06]: Purchases	table: 000000001323FD00	
+[00:01:06]: BEEFALO_CLOTHING_SYMBOLS	table: 0000000035BCC770	
+[00:01:06]: TWITCH	table: 0000000035FEF940	
+[00:01:06]: critter_glomling_clear_fn	function: 0000000026EE85D0	
+[00:01:06]: OnMouseMove	function: 00000000120237A0	
+[00:01:06]: kleifileexists	function: 000000003610A170	
+[00:01:06]: lureplant_clear_fn	function: 0000000026EE7C40	
+[00:01:06]: checkstring	function: 00000000116E1220	
+[00:01:06]: ANCHOR_BOTTOM	2	
+[00:01:06]: beebox_clear_fn	function: 0000000026EE7100	
+[00:01:06]: GROUND_FLOORING	table: 0000000036284C10	
+[00:01:06]: icebox_init_fn	function: 00000000127BC7C0	
+[00:01:06]: GetLockedSkinFilter	function: 000000000C69E3B0	
+[00:01:06]: ForceAssetReset	function: 0000000035D5CEA0	
+[00:01:06]: scheduler	Running Tasks: 0/0	
+[00:01:06]: math	table: 0000000013C231E0	
+[00:01:06]: SHARD_MOD_RPC	table: 0000000011687950	
+[00:01:06]: SERVER_LEVEL_LOCATIONS	table: 0000000035FF0020	
+[00:01:06]: CHEATS_ENABLED	false	
+[00:01:06]: RunScript	function: 0000000035D5C7B0	
+[00:01:06]: PushEntityEvent	function: 0000000035D5C600	
+[00:01:06]: GameService	table: 00000000273572C0	
+[00:01:06]: ReplacePrefab	function: 0000000035D5C510	
+[00:01:06]: SERVER_TERMINATION_TIMER	-1	
+[00:01:06]: WORLDSTATEDEBUG_ENABLED	false	
+[00:01:06]: mastupgrade_lightningrod_top_init_fn	function: 0000000026EE8CF0	
+[00:01:06]: AllPlayers	table: 00000000135CF1E0	
+[00:01:06]: MakeHauntablePerish	function: 00000000116EAAC0	
+[00:01:06]: CompareItemDataForSortByCount	function: 000000000C660180	
+[00:01:06]: opalstaff_init_fn	function: 00000000127BC440	
+[00:01:06]: FAILED	FAILED	
+[00:01:06]: wall_moonrock_item_clear_fn	function: 0000000026EE8D80	
+[00:01:06]: CreateEntity	function: 0000000035D5C570	
+[00:01:06]: NewWallUpdatingEnts	table: 00000000135CEBF0	
+[00:01:06]: WallUpdatingEnts	table: 00000000135CEB50	
+[00:01:06]: AddModRPCHandler	function: 0000000011687C70	
+[00:01:06]: StaticUpdatingEnts	table: 00000000135CE9C0	
+[00:01:06]: StopUpdatingEnts	table: 00000000135CE920	
+[00:01:06]: UPGRADETYPES	table: 000000003628F020	
+[00:01:06]: MAX_WRITEABLE_LENGTH	200	
+[00:01:06]: DrawLine	function: 000000001072D7D0	
+[00:01:06]: GetBoxBuildForItem	function: 000000000C69DAB0	
+[00:01:06]: BASE_ALTERNATE_FOR_SKIRT	table: 000000000E92F1C0	
+[00:01:06]: TheMixer	table: 00000000135CD840	
+[00:01:06]: KEY_F3	284	
+[00:01:06]: GetSkinsDataFromClientTableData	function: 000000000C69E8C0	
+[00:01:06]: IsEntityDeadOrGhost	function: 000000000C6A2820	
+[00:01:06]: IsHeirloomRarity	function: 000000000C69D630	
+[00:01:06]: GetPortraitNameForItem	function: 000000000C69D6F0	
+[00:01:06]: fastdump	function: 0000000031190E90	
+[00:01:06]: ChatTypes	table: 000000000DAA86B0	
+[00:01:06]: GetPopupFromPopupCode	function: 000000000C6A0060	
+[00:01:06]: boat_init_fn	function: 0000000026EE8930	
+[00:01:06]: CONTROL_OPEN_DEBUG_MENU	70	
+[00:01:06]: MOD_CRAFTING_AVATAR_LOCATIONS	table: 0000000013247F50	
+[00:01:06]: beebox_init_fn	function: 0000000026EE70D0	
+[00:01:06]: IsCharacterOwned	function: 000000000C69E590	
+[00:01:06]: MOD_POPUP_IDS	table: 000000000DAA4740	
+[00:01:06]: DEBUGRENDER_ENABLED	true	
+[00:01:06]: POPUP_IDS	table: 000000000DAA45B0	
+[00:01:06]: POPUPS	table: 000000000DAA4150	
+[00:01:06]: PopupManagerWidget	table: 000000000DAA4010	
+[00:01:06]: IsKlumpLoaded	function: 000000000C660F00	
+[00:01:06]: LoadKlumpString	function: 000000000C660EC0	
+[00:01:06]: CONTROL_INVENTORY_USEONSCENE	53	
+[00:01:06]: ArrayIntersection	function: 0000000031190650	
+[00:01:06]: LoadAccessibleKlumpFiles	function: 000000000C660E00	
+[00:01:06]: ApplySpecialEvent	function: 00000000127AD4C0	
+[00:01:06]: wxputils	table: 000000000DAA2F30	
+[00:01:06]: GetBoxPopupLayoutDetails	function: 000000000C69ED10	
+[00:01:06]: GetPlayerBadgeData	function: 000000000C69ECB0	
+[00:01:06]: ExceptionArrays	function: 00000000311905F0	
+[00:01:06]: GetSkinModes	function: 000000000DAA2CB0	
+[00:01:06]: DisplayInventoryFailedPopup	function: 000000000C69EBF0	
+[00:01:06]: DisplayCharacterUnownedPopup	function: 000000000C69EBC0	
+[00:01:06]: GetNewSkinDLCEntitlement	function: 000000000C6607C0	
+[00:01:06]: HasNewSkinDLCEntitlements	function: 000000000C660780	
+[00:01:06]: Wake	function: 0000000035B177E0	
+[00:01:06]: SetSkinDLCEntitlementReceived	function: 000000000C69EB30	
+[00:01:06]: GetPlayerPortraitAtlasAndTex	function: 000000000C660640	
+[00:01:06]: BuildListOfSelectedItems	function: 000000000C69E8F0	
+[00:01:06]: GetStackSize	function: 000000000C6A28B0	
+[00:01:06]: goldenpickaxe_clear_fn	function: 0000000026EE5B40	
+[00:01:06]: Vec3Util_Add	function: 0000000013CC4030	
+[00:01:06]: ValidateItemsInProfile	function: 000000000C69E830	
+[00:01:06]: ValidatePreviewItems	function: 000000000C69E7D0	
+[00:01:06]: Sleep	function: 000000001323E0E0	
+[00:01:06]: minisign_item_init_fn	function: 0000000026EE87B0	
+[00:01:06]: xpcall	function: 00000000279E3680	
+[00:01:06]: MakeObstaclePhysics	function: 00000000116EA5B0	
+[00:01:06]: IsValidBeefaloClothing	function: 000000000C69E7A0	
+[00:01:06]: GetClientModRPC	function: 00000000116E1E50	
+[00:01:06]: FOODGROUP	table: 000000003628F340	
+[00:01:06]: TranslateStringTable	function: 00000000361798E0	
+[00:01:06]: GetCharacterSkinBases	function: 000000000C69E710	
+[00:01:06]: DoesPackHaveSkinsForCharacter	function: 000000000C65FF40	
+[00:01:06]: CONTROL_INV_15	81	
+[00:01:06]: IsDefaultBeefClothing	function: 000000000C69E6B0	
+[00:01:06]: IsDefaultSkin	function: 000000000C69E5F0	
+[00:01:06]: LoadScript	function: 0000000035B17BE0	
+[00:01:06]: ZipAndEncodeSaveData	function: 0000000035D93B70	
+[00:01:06]: axe_init_fn	function: 0000000026EE5870	
+[00:01:06]: IsDefaultSkinOwned	function: 000000000C69E5C0	
+[00:01:06]: KillThread	function: 0000000035D6A440	
+[00:01:06]: LinkedList	table: 00000000315B8850	
+[00:01:06]: ShouldDisplayItemInCollection	function: 000000000C69E530	
+[00:01:06]: IsShopNew	function: 000000000C69E4D0	
+[00:01:06]: CalculateShopHash	function: 000000000C69E4A0	
+[00:01:06]: Shard_StopVote	function: 00000000116E2630	
+[00:01:06]: GetMysteryBoxItemID	function: 000000000C69E470	
+[00:01:06]: GetMysteryBoxCounts	function: 000000000C69E410	
+[00:01:06]: GetWeaveableSkinFilter	function: 000000000C69E3E0	
+[00:01:06]: ProfileStatsGet	function: 0000000035D68AC0	
+[00:01:06]: torch_init_fn	function: 0000000026EE55D0	
+[00:01:06]: GetAffinityFilterForHero	function: 000000000C6605C0	
+[00:01:06]: GetNullFilter	function: 000000000C69E380	
+[00:01:06]: GetGameModeDescriptionString	function: 000000000C699BB0	
+[00:01:06]: IsItemIsReward	function: 000000000C6604C0	
+[00:01:06]: SWIPE_FADE_TIME	0.4	
+[00:01:06]: IsItemInCollection	function: 000000000C660480	
+[00:01:06]: CopySkinsList	function: 000000000C69E230	
+[00:01:06]: minisign_drawn_init_fn	function: 0000000026EE8810	
+[00:01:06]: GetFirstOwnedItemId	function: 000000000C69E200	
+[00:01:06]: GetInventorySkinsList	function: 000000000C69E1A0	
+[00:01:06]: GetInventoryTimestamp	function: 000000000C69E170	
+[00:01:06]: ParseUserSessionData	function: 0000000035D5D320	
+[00:01:06]: Recipe	table: 000000002A2668F0	
+[00:01:06]: CompareItemDataForSortByRarity	function: 000000000C660140	
+[00:01:06]: Server_IsTournamentActive	function: 0000000035D20080	
+[00:01:06]: CompareItemDataForSortByName	function: 000000000C660100	
+[00:01:06]: GetSkinInvIconName	function: 000000000C69E080	
+[00:01:06]: GetSkinName	function: 000000000C660040	
+[00:01:06]: mast_malbatross_clear_fn	function: 0000000026EE9320	
+[00:01:06]: glommer_clear_fn	function: 0000000026EE8000	
+[00:01:06]: IsUserCommerceBuyAllowedOnItem	function: 000000000C69DFC0	
+[00:01:06]: IsUserCommerceBuyRestrictedDueType	function: 000000000C69DF30	
+[00:01:06]: VecUtil_Scale	function: 0000000013CC3D60	
+[00:01:06]: IsUserCommerceAllowedOnItemData	function: 000000000C69DE70	
+[00:01:06]: YOTB_COSTUMES	table: 0000000035FF11F0	
+[00:01:06]: GetSkinUsableOnString	function: 000000000C69DE40	
+[00:01:06]: GetEventIconForItem	function: 000000000C69DE10	
+[00:01:06]: GetRarityForItem	function: 000000000C69DDE0	
+[00:01:06]: GESTURE_ROTATE_RIGHT	903	
+[00:01:06]: researchlab3_clear_fn	function: 0000000026EE6A40	
+[00:01:06]: GetRarityModifierForItem	function: 000000000C69DDB0	
+[00:01:06]: GetModifiedRarityStringForItem	function: 000000000C69DD80	
+[00:01:06]: hutch_fishbowl_clear_fn	function: 0000000026EE7EE0	
+[00:01:06]: IsItemMarketable	function: 000000000C69DD20	
+[00:01:06]: IsItemId	function: 000000000C65FF80	
+[00:01:06]: minisign_drawn_clear_fn	function: 0000000026EE8840	
+[00:01:06]: ANNOUNCEMENT_ICONS	table: 000000003628DD60	
+[00:01:06]: Point	table: 000000000E30E7A0	
+[00:01:06]: IsGameplayItem	function: 000000000C69DCC0	
+[00:01:06]: CLOTHING	table: 00000000336A47D0	
+[00:01:06]: DoesPackHaveACharacter	function: 000000000C69DC30	
+[00:01:06]: Pathfinder	table: 0000000026FFD260	
+[00:01:06]: GetPurchasePackOutputItems	function: 000000000C69DBA0	
+[00:01:06]: GetPurchasePackDisplayItems	function: 000000000C69DB70	
+[00:01:06]: Prefabs	table: 00000000135CE650	
+[00:01:06]: SORTORDER_MIN	-3	
+[00:01:06]: GetPurchaseDisplayForItem	function: 000000000C69DA80	
+[00:01:06]: GetPackGiftDLCID	function: 000000000C69DA20	
+[00:01:06]: IsPackGiftable	function: 000000000C69D9F0	
+[00:01:06]: researchlab2_clear_fn	function: 00000000127BC780	
+[00:01:06]: IsPackBelongingsOnly	function: 000000000C69D990	
+[00:01:06]: Networking_KickAnnouncement	function: 000000000ED8C4B0	
+[00:01:06]: IsPackABundle	function: 000000000C65FF00	
+[00:01:06]: StateGraph	table: 0000000010418A30	
+[00:01:06]: IsItemInAnyPack	function: 000000000C69D810	
+[00:01:06]: _GetSubPacks	function: 000000000C65FEC0	
+[00:01:06]: assert	function: 000000000E49FE70	
+[00:01:06]: GetFeaturedPacks	function: 000000000C69D7B0	
+[00:01:06]: armordragonfly_init_fn	function: 0000000026EE5ED0	
+[00:01:06]: net_string	table: 00000000271B3600	
+[00:01:06]: GetPackTotalItems	function: 000000000C69D750	
+[00:01:06]: GetPackCollection	function: 000000000C69D720	
+[00:01:06]: IsEntityDead	function: 000000000C6A27C0	
+[00:01:06]: GetFrameSymbolForRarity	function: 000000000C69D660	
+[00:01:06]: GetNextRarity	function: 000000000C69D600	
+[00:01:06]: CompareRarities	function: 000000000C69D5D0	
+[00:01:06]: SetDefaultTimeScale	function: 0000000035B17DA0	
+[00:01:06]: RARITY_ORDER	table: 000000000C68F790	
+[00:01:06]: goldenaxe_clear_fn	function: 0000000026EE5A20	
+[00:01:06]: GetFestivalEventInfo	function: 0000000035E572D0	
+[00:01:06]: GetTimeForTick	function: 0000000031190C80	
+[00:01:06]: RESET_ACTION	table: 000000003628E990	
+[00:01:06]: Vec3Util_Normalize	function: 00000000127A40C0	
+[00:01:06]: Update	function: 00000000116ABB70	
+[00:01:06]: IsConsole	function: 000000003346C8F0	
+[00:01:06]: ACTIONS_BY_ACTION_CODE	table: 0000000010412270	
+[00:01:06]: SaveGame	function: 0000000035B17F20	
+[00:01:06]: EVENT_ICONS	table: 000000000C68F510	
+[00:01:06]: OnPhysicsWake	function: 0000000035D5C870	
+[00:01:06]: _profiler_hook_wrapper_by_time	function: 0000000026F153F0	
+[00:01:06]: SKIN_DEBUGGING	false	
+[00:01:06]: DeleteUserSession	function: 000000000ED8C750	
+[00:01:06]: OnEntitySleep	function: 0000000035D5C810	
+[00:01:06]: hammer_init_fn	function: 0000000026EE5570	
+[00:01:06]: CanProbablyReachTargetFromShore	function: 0000000013CC5AD0	
+[00:01:06]: GetWorldTileMap	function: 0000000035D1FD50	
+[00:01:06]: ANCHOR_RIGHT	2	
+[00:01:06]: CONTROL_INVENTORY_LEFT	47	
+[00:01:06]: KEY_6	54	
+[00:01:06]: mastupgrade_lamp_clear_fn	function: 0000000026EE8C00	
+[00:01:06]: GetGameModeMaxPlayers	function: 000000000C699BE0	
+[00:01:06]: WHITE	table: 00000000362905B0	
+[00:01:06]: IsDLCInstalled	function: 0000000035D5E100	
+[00:01:06]: Networking_KickMetricsEvent	function: 00000000116A0DF0	
+[00:01:06]: NewUpdatingEnts	table: 00000000135CE880	
+[00:01:06]: KEY_KP_ENTER	271	
+[00:01:06]: GetLevelType	function: 000000000C65CAC0	
+[00:01:06]: EnableExclusiveDLC	function: 0000000035D5E070	
+[00:01:06]: OnDynamicCloudSyncDelete	function: 0000000035D5D0E0	
+[00:01:06]: KEY_KP_9	265	
+[00:01:06]: GetResetTime	function: 000000000C65CA40	
+[00:01:06]: PREFABDEFINITIONS	table: 000000001323E810	
+[00:01:06]: hivehat_init_fn	function: 0000000026EE6290	
+[00:01:06]: MOUSEBUTTON_SCROLLDOWN	1004	
+[00:01:06]: CHARACTER_INGREDIENT	table: 000000003628F840	
+[00:01:06]: UpdateServerTagsString	function: 000000000ED8C9F0	
+[00:01:06]: SCALEMODE_FIXEDSCREEN_NONDYNAMIC	4	
+[00:01:06]: KEY_ESCAPE	27	
+[00:01:06]: deepcopy	function: 0000000031190DD0	
+[00:01:06]: SamplerSizes	table: 000000003628E530	
+[00:01:06]: mast_item_clear_fn	function: 0000000026EE9200	
+[00:01:06]: GetGhostSanityDrain	function: 000000000C65C8C0	
+[00:01:06]: minisign_item_clear_fn	function: 0000000026EE87E0	
+[00:01:06]: PROTOTYPER_DEFS	table: 000000002A266E90	
+[00:01:06]: Vector3	table: 000000000E30E7A0	
+[00:01:06]: flowerhat_clear_fn	function: 0000000026EE6380	
+[00:01:06]: KEY_LCTRL	306	
+[00:01:06]: TEXT_FILTER_CTX_NAME	3	
+[00:01:06]: PRINT_SOURCE	false	
+[00:01:06]: researchlab_clear_fn	function: 0000000026EE7DC0	
+[00:01:06]: printwrap	function: 000000001072D3B0	
+[00:01:06]: GetSkinCollectionCompletionForHero	function: 000000000C660580	
+[00:01:06]: ImageWidget	table: 000000002981ED30	
+[00:01:06]: LAYER_WIP_BELOW_OCEAN	2	
+[00:01:06]: dprint	function: 00000000127AA9C0	
+[00:01:06]: GetGameModeTag	function: 000000000C699B50	
+[00:01:06]: SetSuper	function: 0000000035B16C20	
+[00:01:06]: cane_clear_fn	function: 00000000127BC380	
+[00:01:06]: GetGameModeProperty	function: 000000000C65C800	
+[00:01:06]: NAUGHTY_VALUE	table: 000000003628FF70	
+[00:01:06]: Lerp	function: 00000000116EF440	
+[00:01:06]: AddGameMode	function: 000000000C699A90	
+[00:01:06]: AccountManager	table: 00000000272EAD90	
+[00:01:06]: LAYER_GROUND	3	
+[00:01:06]: SpawnPrefab	function: 0000000035B17AE0	
+[00:01:06]: CRAFTING_ATLAS	images/crafting_menu.xml	
+[00:01:06]: OnFocusGained	function: 0000000035D5D290	
+[00:01:06]: catcoonhat_init_fn	function: 0000000026EE64D0	
+[00:01:06]: Launch2	function: 00000000116EBF30	
+[00:01:06]: DEFAULT_GAME_MODE	survival	
+[00:01:06]: SKIN_TYPES_THAT_RECEIVE_CLOTHING	table: 0000000035FF1290	
+[00:01:06]: ToggleOffAllObjectCollisions	function: 00000000116EADC0	
+[00:01:06]: glommer_init_fn	function: 0000000026EE7FD0	
+[00:01:06]: PREFABFILES	table: 0000000011689430	
+[00:01:06]: loadfile	function: 00000000359E8530	
+[00:01:06]: walterhat_init_fn	function: 0000000026EE68F0	
+[00:01:06]: researchlab4_init_fn	function: 0000000026EE9470	
+[00:01:06]: ChangeToWaterObstaclePhysics	function: 00000000116EA550	
+[00:01:06]: CHARACTER_GENDERS	table: 0000000036284530	
+[00:01:06]: KEY_J	106	
+[00:01:06]: instrument_userdata	function: 000000001072D4D0	
+[00:01:06]: ShowUpsellScreen	function: 000000002A2C5640	
+[00:01:06]: spear_wathgrithr_init_fn	function: 0000000026EE56F0	
+[00:01:06]: AddSettingsPreset	function: 000000000C654A40	
+[00:01:06]: AddModLevel	function: 000000000C654A00	
+[00:01:06]: wall_stone_clear_fn	function: 0000000026EE8F60	
+[00:01:06]: ErodeAway	function: 0000000030FDCAF0	
+[00:01:06]: AddModLocation	function: 000000000C654980	
+[00:01:06]: AddLocation	function: 000000000C654940	
+[00:01:06]: SettingsPreset	table: 0000000010612CC0	
+[00:01:06]: Level	table: 0000000010612900	
+[00:01:06]: AddModTaskSet	function: 000000000C6539C0	
+[00:01:06]: RCIFileUnlock	function: 0000000035D5D590	
+[00:01:06]: CAN_USE_DBUI	false	
+[00:01:06]: ShardPortals	table: 0000000011688530	
+[00:01:06]: KEY_KP_DIVIDE	267	
+[00:01:06]: XBOX_CONTROLLER_ID	17	
+[00:01:06]: PLAYERSTUNLOCK	table: 0000000035FEFA80	
+[00:01:06]: cave_entrance_init_fn	function: 0000000026EE7910	
+[00:01:06]: gcinfo	function: 0000000035B5E3A0	
+[00:01:06]: steeringwheel_item_init_fn	function: 0000000026EE89F0	
+[00:01:06]: optbool	function: 00000000116E11C0	
+[00:01:06]: BLACK	table: 00000000362904C0	
+[00:01:06]: monkey_smallhat_clear_fn	function: 0000000026EE6260	
+[00:01:06]: LANGUAGE_STEAMCODE_TO_ID	table: 0000000035FF0840	
+[00:01:06]: QUAGMIRE_USE_KLUMP	false	
+[00:01:06]: bgwilds	table: 000000000F4889A0	
+[00:01:06]: WakeTask	function: 0000000035D6A470	
+[00:01:06]: coldfirepit_init_fn	function: 0000000026EE8450	
+[00:01:06]: lureplant_init_fn	function: 0000000026EE7C10	
+[00:01:06]: CHARACTER_COLOURS	table: 000000003628DCC0	
+[00:01:06]: FACING_UPRIGHT	4	
+[00:01:06]: MENU_DLC_LIST	table: 0000000013241A10	
+[00:01:06]: MakeSetpieceBlockerRoom	function: 000000000F43D390	
+[00:01:06]: modassert	function: 00000000336AD080	
+[00:01:06]: SEASONS	table: 0000000036289A30	
+[00:01:06]: KEY_ALT	400	
+[00:01:06]: wall_ruins_item_init_fn	function: 0000000026EE8E10	
+[00:01:06]: CONTROL_INV_6	20	
+[00:01:06]: mushroom_light2_clear_fn	function: 0000000026EE6B00	
+[00:01:06]: BASE_FEET_SIZE	table: 000000000E92F3A0	
+[00:01:06]: KEY_S	115	
+[00:01:06]: armor_sanity_init_fn	function: 0000000026EE60B0	
+[00:01:06]: abigail_init_fn	function: 0000000026EE8150	
+[00:01:06]: MakeHauntableLaunchAndIgnite	function: 00000000116EAA30	
+[00:01:06]: SetSharedLootTable	function: 000000000F437780	
+[00:01:06]: EmitterManagerClass	table: 0000000013B9C780	
+[00:01:06]: LOCKS_KEYS	table: 00000000116996F0	
+[00:01:06]: ParticleEmitter	table: 00000000274784A0	
+[00:01:06]: IsUserCommerceSellAllowedOnItem	function: 000000000C69DED0	
+[00:01:06]: armorgrass_init_fn	function: 0000000026EE5F30	
+[00:01:06]: CHARACTER_BUTTON_SCALE	table: 0000000035FF1150	
+[00:01:06]: MakeHauntableWork	function: 00000000116EA970	
+[00:01:06]: MakeSmallFreezableCharacter	function: 00000000116AAF70	
+[00:01:06]: MakeMediumFreezableCharacter	function: 00000000116AAFB0	
+[00:01:06]: CONTROL_INVENTORY_RIGHT	48	
+[00:01:06]: InvalidatedTables	table: 0000000011694A60	
+[00:01:06]: KEY_Y	121	
+[00:01:06]: FRONTEND_PORTAL_COLOUR	table: 000000003628D630	
+[00:01:06]: SCALEMODE_NONE	0	
+[00:01:06]: multitool_axe_pickaxe_init_fn	function: 0000000026EE5810	
+[00:01:06]: DiffAngleRad	function: 00000000116EF710	
+[00:01:06]: DARKGREY	table: 0000000036290880	
+[00:01:06]: CONTROL_MAP_ZOOM_IN	60	
+[00:01:06]: GetConsoleHistory	function: 000000002A2C8E80	
+[00:01:06]: spear_clear_fn	function: 0000000026EE56C0	
+[00:01:06]: ChangeToObstaclePhysics	function: 00000000116EA520	
+[00:01:06]: DistXZSq	function: 00000000116EF5F0	
+[00:01:06]: MakeDragonflyBait	function: 00000000116EA8B0	
+[00:01:06]: SCALEMODE_PROPORTIONAL	2	
+[00:01:06]: FindPlayersInRangeSq	function: 0000000030FDC5B0	
+[00:01:06]: DistXYSq	function: 00000000116EF5C0	
+[00:01:06]: PLAYERCOLOURS	table: 000000003628B830	
+[00:01:06]: SetUsesPrefix	function: 00000000127A3480	
+[00:01:06]: mem_report	function: 0000000031320F00	
+[00:01:06]: trap_clear_fn	function: 0000000026EE7220	
+[00:01:06]: wall_stone_item_init_fn	function: 0000000026EE8ED0	
+[00:01:06]: cave_exit_clear_fn	function: 0000000026EE7A00	
+[00:01:06]: ORIGINAL_TUNING	table: 0000000012FE1D20	
+[00:01:06]: CalledFrom	function: 00000000127AD380	
+[00:01:06]: IsNumberEven	function: 00000000116EF590	
+[00:01:06]: BACK_BUTTON_X	60	
+[00:01:06]: GetActiveFestivalEventServerName	function: 0000000035D20020	
+[00:01:06]: campfire_init_fn	function: 0000000026EE83F0	
+[00:01:06]: orangestaff_init_fn	function: 000000002A255CD0	
+[00:01:06]: tabletoliststring	function: 000000001072D5F0	
+[00:01:06]: MAX_PHYSICS_RADIUS	4	
+[00:01:06]: Ents	table: 00000000135CE6F0	
+[00:01:06]: PLACE_MASK	table: 00000000362884A0	
+[00:01:06]: BETA_INFO	table: 0000000035FF0BB0	
+[00:01:06]: SecondsToTimeString	function: 0000000035D6A650	
+[00:01:06]: CanEntitySeeInStorm	function: 00000000127AD480	
+[00:01:06]: LEGACY_WORLD_TILES_IMPASSABLE_END	200	
+[00:01:06]: WORLD_TILES_LAND_END	10497	
+[00:01:06]: AddLevel	function: 000000000C6549C0	
+[00:01:06]: footballhat_clear_fn	function: 0000000026EE6620	
+[00:01:06]: FindEntity	function: 0000000030FDC430	
+[00:01:06]: STRINGS	table: 000000002A305860	
+[00:01:06]: DLC_LIST	table: 0000000013241AB0	
+[00:01:06]: GESTURE_ZOOM_IN	900	
+[00:01:06]: KnownModIndex	table: 0000000011692FD0	
+[00:01:06]: GetWorkshopIdNumber	function: 00000000116AE470	
+[00:01:06]: allow_existing_GROUND_entry	false	
+[00:01:06]: RemoveEntity	function: 0000000035D5C5D0	
+[00:01:06]: GetModFancyName	function: 00000000336AE160	
+[00:01:06]: MakeSmallBurnable	function: 00000000116AADB0	
+[00:01:06]: MODCHARACTERLIST	table: 00000000362843F0	
+[00:01:06]: FE_MUSIC	dontstarve/music/music_FE_wickerbottom	
+[00:01:06]: BrainManager	table: 0000000013B9BCE0	
+[00:01:06]: RESOLUTION_Y	720	
+[00:01:06]: CONTROL_INVENTORY_USEONSELF	52	
+[00:01:06]: Launch	function: 00000000116EBF00	
+[00:01:06]: MODCHARACTERMODES	table: 0000000036284760	
+[00:01:06]: monkey_smallhat_init_fn	function: 0000000026EE6230	
+[00:01:06]: FindClosestPlayerInRange	function: 0000000030FDC4C0	
+[00:01:06]: SpawnAttackWave	function: 0000000013CC5980	
+[00:01:06]: PhysicsCollisionCallbacks	table: 000000001168F510	
+[00:01:06]: treasurechest_init_fn	function: 0000000026EE6D70	
+[00:01:06]: piggyback_init_fn	function: 0000000026EE5390	
+[00:01:06]: PORTAL_TEXT_COLOUR	table: 000000003628DAE0	
+[00:01:06]: abigail_flower_init_fn	function: 0000000026EE80F0	
+[00:01:06]: walkingplank_clear_fn	function: 0000000026EE89C0	
+[00:01:06]: _G	table: 0000000010BDC5D0	
+[00:01:06]: PickSome	function: 0000000031190530	
+[00:01:06]: LongUpdate	function: 00000000116ABBB0	
+[00:01:06]: DoRestart	function: 0000000035B180A0	
+[00:01:06]: ActiveDLC	table: 0000000013241BF0	
+[00:01:06]: KEY_END	279	
+[00:01:06]: saddle_basic_init_fn	function: 0000000026EE7C70	
+[00:01:06]: KEY_CAPSLOCK	301	
+[00:01:06]: GetActionFailString	function: 000000003619EEE0	
+[00:01:06]: walrushat_init_fn	function: 0000000026EE6410	
+[00:01:06]: IsInFrontEnd	function: 0000000035D5D470	
+[00:01:06]: oar_driftwood_clear_fn	function: 0000000026EE7400	
+[00:01:06]: RegisterStaticComponentUpdate	function: 00000000116ABAF0	
+[00:01:06]: Translator	table: 0000000035FF4080	
+[00:01:06]: dofile	function: 000000000E49FF30	
+[00:01:06]: KEY_F6	287	
+[00:01:06]: MakeFeedablePet	function: 00000000116AB0F0	
+[00:01:06]: PostUpdate	function: 00000000116EB6C0	
+[00:01:06]: KEY_KP_7	263	
+[00:01:06]: WallUpdate	function: 00000000116EB690	
+[00:01:06]: MakeDeployableFertilizer	function: 00000000116AB670	
+[00:01:06]: DisplayAntiAddictionNotification	function: 0000000035B181E0	
+[00:01:06]: GetTickForTime	function: 0000000031190C50	
+[00:01:06]: DIST_PLATFORM	Steam	
+[00:01:06]: saltbox_init_fn	function: 0000000026EE7310	
+[00:01:06]: IsWithinAngle	function: 00000000311916D0	
+[00:01:06]: KEY_KP_3	259	
+[00:01:06]: LOADING_SCREEN_CONTROLLER_ID_LOOKUP	table: 0000000035FF1D80	
+[00:01:06]: FirstStartupForNetworking	false	
+[00:01:06]: tent_init_fn	function: 0000000026EE6B30	
+[00:01:06]: VideoWidget	table: 0000000035812CF0	
+[00:01:06]: IsDLCEnabled	function: 0000000035D5E0D0	
+[00:01:06]: PreventCharacterCollisionsWithPlacedObjects	function: 00000000116AB270	
+[00:01:06]: FindPlayersInRange	function: 0000000030FDC5E0	
+[00:01:06]: earmuffshat_clear_fn	function: 0000000026EE6860	
+[00:01:06]: SpawnSaveRecord	function: 0000000035D5C540	
+[00:01:06]: DecoratorNode	table: 000000001041B190	
+[00:01:06]: ToggleOnAllObjectCollisionsAt	function: 00000000116EADF0	
+[00:01:06]: minerhat_init_fn	function: 0000000026EE6590	
+[00:01:06]: UserToName	function: 000000000ED8C1E0	
+[00:01:06]: AddHauntableDropItemOrWork	function: 00000000116EACA0	
+[00:01:06]: SetPurchases	function: 0000000035D5CBA0	
+[00:01:06]: AddHauntableCustomReaction	function: 00000000116EAC70	
+[00:01:06]: event_server_data	function: 000000002A25B310	
+[00:01:06]: MakeHauntableLaunchAndDropFirstItem	function: 00000000116EAC40	
+[00:01:06]: LOADING_SCREEN_CONTROL_TIP_KEYS	table: 0000000035FF1880	
+[00:01:06]: rainhat_clear_fn	function: 0000000026EE6560	
+[00:01:06]: loadstring	function: 00000000127EE8E0	
+[00:01:06]: MakeHauntablePlayAnim	function: 00000000116EAB80	
+[00:01:06]: resolvefilepath_soft	function: 0000000031320DC0	
+[00:01:06]: MakeHauntablePanic	function: 00000000116EAB20	
+[00:01:06]: QUAGMIRE_NUM_SEEDS_PREFABS	7	
+[00:01:06]: FESTIVAL_EVENT_BACKEND_PREFABS	table: 0000000036285E80	
+[00:01:06]: CONTROL_TARGET_LOCK	69	
+[00:01:06]: DoWorldOverseerShutdown	function: 0000000035D5CF00	
+[00:01:06]: GetGameModeHoverTextString	function: 000000000C699BB0	
+[00:01:06]: MakeHauntableFreeze	function: 00000000116EA9D0	
+[00:01:06]: hutch_fishbowl_init_fn	function: 0000000026EE7EB0	
+[00:01:06]: meatrack_clear_fn	function: 0000000026EE70A0	
+[00:01:06]: FindEntityToDraw	function: 00000000127AB780	
+[00:01:06]: SPECIAL_EVENT_FRONTEND_PREFABS	table: 0000000036285D40	
+[00:01:06]: armorskeleton_clear_fn	function: 0000000026EE6140	
+[00:01:06]: MakeHauntableLaunch	function: 00000000116EA910	
+[00:01:06]: bgsacred	table: 000000000F48A160	
+[00:01:06]: VecUtil_NormalAndLength	function: 00000000127A3C00	
+[00:01:06]: ROAD_PARAMETERS	table: 0000000036289D50	
+[00:01:06]: KEY_KP_EQUALS	272	
+[00:01:06]: pighouse_init_fn	function: 0000000026EE7D30	
+[00:01:06]: TALKINGFONT	talkingfont	
+[00:01:06]: MOD_RPC_HANDLERS	table: 0000000011687770	
+[00:01:06]: rainhat_init_fn	function: 0000000026EE6530	
+[00:01:06]: tacklecontainer_init_fn	function: 0000000026EE7550	
+[00:01:06]: nightsword_clear_fn	function: 00000000127BC400	
+[00:01:06]: TEXT_FILTER_CTX_SERVERNAME	0	
+[00:01:06]: reviver_init_fn	function: 00000000127BC280	
+[00:01:06]: SERVER_LEVEL_SHARDS	table: 0000000035FF0250	
+[00:01:06]: MakeHauntable	function: 00000000116EA8E0	
+[00:01:06]: DisableRPCSending	function: 00000000116E1EB0	
+[00:01:06]: SuUsed	function: 0000000035B16BE0	
+[00:01:06]: MakeFeedablePetPristine	function: 00000000116EA850	
+[00:01:06]: panflute_init_fn	function: 0000000026EE9A10	
+[00:01:06]: mast_item_init_fn	function: 0000000026EE91D0	
+[00:01:06]: reviver_clear_fn	function: 0000000026EE9530	
+[00:01:06]: CreateSphereEmitter	function: 000000001201ED90	
+[00:01:06]: HIBERNATE	hibernate	
+[00:01:06]: DST_CHARACTERLIST	table: 00000000315BEC90	
+[00:01:06]: cave_entrance_open_clear_fn	function: 0000000026EE79A0	
+[00:01:06]: ClientSleepable	table: 0000000029614980	
+[00:01:06]: Vec3Util_Dot	function: 0000000013CC43C0	
+[00:01:06]: print	function: 00000000359E8AF0	
+[00:01:06]: CLOUD_SAVES_SAVE_OFFSET	100000	
+[00:01:06]: MakeHeavyObstaclePhysics	function: 00000000116EA640	
+[00:01:06]: NORMAL_TEXT_COLOUR	table: 000000003628D540	
+[00:01:06]: KEY_C	99	
+[00:01:06]: KEY_E	101	
+[00:01:06]: GetTick	function: 0000000035D5C6C0	
+[00:01:06]: MakeWaterObstaclePhysics	function: 00000000116EA5E0	
+[00:01:06]: FRONTEND_TITLE_COLOUR	table: 000000003628D9F0	
+[00:01:06]: ChangeToCharacterPhysics	function: 00000000116EA4F0	
+[00:01:06]: ModReloadFrontEndAssets	function: 0000000035B179E0	
+[00:01:06]: SMALLNUMBERFONT	stint-small	
+[00:01:06]: KEYS	table: 0000000011699150	
+[00:01:06]: featherfan_clear_fn	function: 0000000026EE5EA0	
+[00:01:06]: ReleaseID	table: 0000000013247230	
+[00:01:06]: distsq	function: 0000000031190830	
+[00:01:06]: MakeGiantCharacterPhysics	function: 00000000116EA400	
+[00:01:06]: net_int	table: 000000000E2CBB20	
+[00:01:06]: ShadeTypes	table: 000000003628EA30	
+[00:01:06]: IsCharacterIngredient	function: 000000002A2B9000	
+[00:01:06]: MakeProjectilePhysics	function: 00000000116EA340	
+[00:01:06]: CONTROL_INV_8	22	
+[00:01:06]: GetActionString	function: 000000003619EE60	
+[00:01:06]: WasSuUsed	function: 0000000035B16CA0	
+[00:01:06]: pickaxe_clear_fn	function: 0000000026EE5A80	
+[00:01:06]: MakeLargeFreezableCharacter	function: 00000000116AAFF0	
+[00:01:06]: ClientDisconnected	function: 000000000ED8CBA0	
+[00:01:06]: amulet_clear_fn	function: 0000000026EE5D20	
+[00:01:06]: Tune	function: 000000000DE301D0	
+[00:01:06]: RegisterDLC	function: 0000000035B18760	
+[00:01:06]: makereadonly	function: 00000000359E90B0	
+[00:01:06]: SHOWLOG_ENABLED	true	
+[00:01:06]: Print	function: 0000000035D6A620	
+[00:01:06]: rainometer_init_fn	function: 0000000026EE6BF0	
+[00:01:06]: RescaleSubElement	function: 0000000035D20F80	
+[00:01:06]: CONTROL_TOGGLE_PLAYER_STATUS	66	
+[00:01:06]: MakeTinyFreezableCharacter	function: 00000000116AAF30	
+[00:01:06]: GroundImage	function: 0000000030FE47D0	
+[00:01:06]: debugstack_oneline	function: 00000000127AA940	
+[00:01:06]: MakeSmallBurnableCharacter	function: 00000000116AAE70	
+[00:01:06]: OCCUPANTTYPE	table: 000000003628F200	
+[00:01:06]: GROUND_HARD	table: 0000000036284CB0	
+[00:01:06]: clearbit	function: 00000000311916A0	
+[00:01:06]: critter_builder_init_fn	function: 0000000026EE84B0	
+[00:01:06]: GetIsModGameMode	function: 000000000C65C880	
+[00:01:06]: bundlewrap_clear_fn	function: 0000000026EE8060	
+[00:01:06]: AreAnyModsEnabled	function: 00000000336ADA70	
+[00:01:06]: OCEAN_POPULATION_EDGE_DIST	4	
+[00:01:06]: CONTROL_OPEN_INVENTORY	45	
+[00:01:06]: ModManager	table: 00000000132484A0	
+[00:01:06]: OnGesture	function: 0000000012023830	
+[00:01:06]: GetValidRecipe	function: 0000000026F1A220	
+[00:01:06]: glasscutter_init_fn	function: 0000000026EE9710	
+[00:01:06]: getfenv	function: 0000000035B5E400	
+[00:01:06]: FESTIVAL_EVENT_FRONTEND_PREFABS	table: 0000000036285F20	
+[00:01:06]: GetRandomInstWithTag	function: 0000000030FDC730	
+[00:01:06]: ruinshat_init_fn	function: 0000000026EE6890	
+[00:01:06]: TECH_INGREDIENT	table: 000000003628F930	
+[00:01:06]: Shutdown	function: 0000000035D5CF30	
+[00:01:06]: CONTROL_INVENTORY_DROP	54	
+[00:01:06]: Shard_GetConnectedShards	function: 00000000116A4A30	
+[00:01:06]: lureplantbulb_clear_fn	function: 0000000026EE7BE0	
+[00:01:06]: ShakeAllCamerasOnPlatform	function: 0000000030FDC820	
+[00:01:06]: IfNode	function: 0000000030FE25E0	
+[00:01:06]: skeletonhat_clear_fn	function: 0000000026EE69E0	
+[00:01:06]: mastupgrade_lamp_init_fn	function: 0000000026EE8BD0	
+[00:01:06]: portablecookpot_clear_fn	function: 0000000026EE8300	
+[00:01:06]: MakeDeployableFertilizerPristine	function: 00000000116AB630	
+[00:01:06]: LOCKTYPE	table: 000000003628F0C0	
+[00:01:06]: DoesItemHaveTag	function: 000000000C69DFF0	
+[00:01:06]: Vec3Util_Scale	function: 0000000013CC4300	
+[00:01:06]: LanguageTranslator	table: 0000000035FF4530	
+[00:01:06]: MarkUserIDRPC	function: 00000000116A4530	
+[00:01:06]: FONTS	table: 0000000035FF4850	
+[00:01:06]: sanityrock_init_fn	function: 0000000026EE76D0	
+[00:01:06]: arrowsign_post_init_fn	function: 0000000026EE6D10	
+[00:01:06]: KEY_KP_PLUS	270	
+[00:01:06]: Networking_DeathAnnouncement	function: 000000000ED8C3C0	
+[00:01:06]: SuUsedAdd	function: 0000000035B16C60	
+[00:01:06]: TrackingEventsStats	table: 000000001323BC00	
+[00:01:06]: VecUtil_GetAngleInRads	function: 0000000013CC3EB0	
+[00:01:06]: HandleShardModRPC	function: 00000000116A44F0	
+[00:01:06]: IsClothingItem	function: 000000000C69DC90	
+[00:01:06]: SendModRPCToShard	function: 00000000116E1D60	
+[00:01:06]: KEY_RSHIFT	303	
+[00:01:06]: goldenshovel_init_fn	function: 0000000026EE5BD0	
+[00:01:06]: net_entity	table: 000000003611B240	
+[00:01:06]: ModInfoname	function: 00000000336ACED0	
+[00:01:06]: CONTROL_INV_10	24	
+[00:01:06]: COMMAND_RESULT	table: 0000000035FF0520	
+[00:01:06]: oar_init_fn	function: 0000000026EE7370	
+[00:01:06]: CanEntitySeePoint	function: 0000000010416820	
+[00:01:06]: AddShardModRPCHandler	function: 00000000116A4470	
+[00:01:06]: SHARD_MOD_RPC_HANDLERS	table: 00000000116879F0	
+[00:01:06]: telebase_clear_fn	function: 0000000026EE9D40	
+[00:01:06]: IAP_TYPE_VIRTUAL	1	
+[00:01:06]: Vec3Util_LengthSq	function: 0000000013CC4330	
+[00:01:06]: ConditionWaitNode	table: 000000001041B640	
+[00:01:06]: MOD_RPC	table: 00000000116876D0	
+[00:01:06]: KEY_F11	292	
+[00:01:06]: TEXT_FILTER_CTX_CHAT	2	
+[00:01:06]: DEFAULT_FALLBACK_TABLE_OUTLINE	table: 0000000035FF4760	
+[00:01:06]: RPC	table: 0000000011686D20	
+[00:01:06]: SinkEntity	function: 0000000013CC5AA0	
+[00:01:06]: MakeAllPrefixes	function: 0000000013CC34F0	
+[00:01:06]: PlayNIS	function: 0000000035D5C990	
+[00:01:06]: greenstaff_clear_fn	function: 0000000026EE97A0	
+[00:01:06]: SendRPCToShard	function: 00000000116A4330	
+[00:01:06]: trap_init_fn	function: 0000000026EE71F0	
+[00:01:06]: GetTypeForItem	function: 000000000C660000	
+[00:01:06]: KEY_F12	293	
+[00:01:06]: NumEnts	0	
+[00:01:06]: GetFestivalEventServerName	function: 0000000035E57390	
+[00:01:06]: IsRecipeValidInGameMode	function: 000000000C65CA80	
+[00:01:06]: optstring	function: 00000000116E12E0	
+[00:01:06]: FindClosestEntity	function: 0000000030FDC460	
+[00:01:06]: CLIENT_RPC	table: 0000000011686F00	
+[00:01:06]: CONTROL_CUSTOM_START	100	
+[00:01:06]: IsSimPaused	function: 0000000035B17D60	
+[00:01:06]: checknumber	function: 00000000116E1160	
+[00:01:06]: oar_driftwood_init_fn	function: 0000000026EE73D0	
+[00:01:06]: checkbool	function: 00000000116E11C0	
+[00:01:06]: SOUNDDEBUG_ENABLED	false	
+[00:01:06]: beemine_clear_fn	function: 0000000026EE7160	
+[00:01:06]: Shard_StartVote	function: 00000000116E2600	
+[00:01:06]: Label	table: 0000000026FFD350	
+[00:01:06]: ManifestManager	ManifestManager (0000000013FAEF70)	
+[00:01:06]: CONTROL_INSPECT_SELF	72	
+[00:01:06]: TrackingTimingStats	table: 000000001323BCA0	
+[00:01:06]: MAIN	1	
+[00:01:06]: dragonflychest_clear_fn	function: 0000000026EE6E00	
+[00:01:06]: KEY_2	50	
+[00:01:06]: OnPlayerLeave	function: 0000000035D5D110	
+[00:01:06]: ROG_CHARACTERLIST	table: 00000000315BEBF0	
+[00:01:06]: MAZE_TYPE	table: 00000000362880E0	
+[00:01:06]: AwardRadialAchievement	function: 0000000035D5C450	
+[00:01:06]: hutch_init_fn	function: 0000000026EE7F10	
+[00:01:06]: RESOLUTION_X	1280	
+[00:01:06]: json_settings	{"last_world_extraevents":[],"load_screen_image":-5,"save_slot":3,"last_asset_set":"FRONTEND","loading_screen_keys":[],"loaded_mods":[{"name":"MOD_SR_DebugHelper","infoname":"SR_DebugHelper"},{"name":"MOD_workshop-873350047","infoname":"workshop-873350047 (Quick Drop - Client Version)"},{"name":"MOD_workshop-1365141672","infoname":"workshop-1365141672 (Too Many Items Plus)"}],"match_results":[],"reset_action":1}	
+[00:01:06]: SUCCESS	SUCCESS	
+[00:01:06]: critter_lamb_clear_fn	function: 0000000026EE8690	
+[00:01:06]: OnSimUnpaused	function: 0000000035D5CB40	
+[00:01:06]: GetGhostEnabled	function: 000000000C65C9C0	
+[00:01:06]: ClientAuthenticationComplete	function: 000000000ED8CB70	
+[00:01:06]: RATE_SCALE	table: 0000000035FEF8A0	
+[00:01:06]: BASE_LEGS_SIZE	table: 000000000E92F300	
+[00:01:06]: hambat_clear_fn	function: 0000000026EE5480	
+[00:01:06]: SamplerColourMode	table: 000000003628E5D0	
+[00:01:06]: KEY_INSERT	277	
+[00:01:06]: InitDLC	function: 0000000035D5DF80	
+[00:01:06]: steeringwheel_init_fn	function: 0000000026EE8A50	
+[00:01:06]: ReportAction	function: 000000000ED8C7B0	
+[00:01:06]: rabbithouse_clear_fn	function: 0000000026EE77C0	
+[00:01:06]: RequestedLobbyCharacter	function: 000000000ED8C6F0	
+[00:01:06]: MIP_FILTER_MODE	table: 000000003628E3F0	
+[00:01:06]: SpawnSeamlessPlayerReplacementFromSim	function: 000000000ED8C6C0	
+[00:01:06]: AwardPlayerAchievement	function: 0000000035D5C3C0	
+[00:01:06]: FindLandBetweenPoints	function: 0000000013CC59B0	
+[00:01:06]: SpawnNewPlayerOnServerFromSim	function: 000000000ED8C690	
+[00:01:06]: insanityrock_clear_fn	function: 0000000026EE7760	
+[00:01:06]: EntityScript	table: 000000002A25B4F0	
+[00:01:06]: ITEM_DISPLAY_BLACKLIST	table: 0000000036283B30	
+[00:01:06]: SpringCombatMod	function: 0000000030FDCA90	
+[00:01:06]: RADIANS	57.295827908798	
+[00:01:06]: Networking_Talk	function: 000000000ED8C540	
+[00:01:06]: __STRICT	true	
+[00:01:06]: STATS_ENABLE	true	
+[00:01:06]: GetTileInfo	function: 00000000127B1480	
+[00:01:06]: critter_kitten_builder_clear_fn	function: 0000000026EE8660	
+[00:01:06]: Networking_VoteAnnouncement	function: 00000000116A0EF0	
+[00:01:06]: firesuppressor_clear_fn	function: 0000000026EE8360	
+[00:01:06]: farm_hoe_clear_fn	function: 0000000026EE5900	
+[00:01:06]: IsSaleActive	function: 000000000C69D900	
+[00:01:06]: smallhash	function: 0000000036109DB0	
+[00:01:06]: CONTROL_TOGGLE_WHISPER	64	
+[00:01:06]: Networking_Announcement_GetDisplayName	function: 000000000ED8C420	
+[00:01:06]: GetSpawnMode	function: 000000000C65C940	
+[00:01:06]: Networking_Say	function: 000000000ED8C360	
+[00:01:06]: SetPauseFromCode	function: 0000000035D5CF90	
+[00:01:06]: telebase_init_fn	function: 0000000026EE9D10	
+[00:01:06]: Networking_Announcement	function: 000000000ED8C2D0	
+[00:01:06]: LoadMapFile	function: 0000000035D5CE10	
+[00:01:06]: WORLD_TILES_LAND_START	256	
+[00:01:06]: SpawnSecondInstance	function: 000000000ED8C270	
+[00:01:06]: LOCALPLAYER_MUSIC	table: 0000000035FF0660	
+[00:01:06]: ProfileStatsSet	function: 0000000035D68A90	
+[00:01:06]: GetEmotesWordPredictionDictionary	function: 00000000116A0D70	
+[00:01:06]: MAX_CHAT_INPUT_LENGTH	150	
+[00:01:06]: boomerang_init_fn	function: 0000000026EE5510	
+[00:01:06]: SimReset	function: 0000000035D5CED0	
+[00:01:06]: UserToPlayer	function: 000000000ED8C240	
+[00:01:06]: MOD_AVATAR_LOCATIONS	table: 0000000013247EB0	
+[00:01:06]: setbit	function: 0000000031191670	
+[00:01:06]: kleiloadlua	function: 000000003610A110	
+[00:01:06]: IsSteam	function: 000000003346C9B0	
+[00:01:06]: net_event	table: 0000000013BAB280	
+[00:01:06]: AddUserCommand	function: 00000000116A0CF0	
+[00:01:06]: DEFAULT_FALLBACK_TABLE	table: 0000000035FF4670	
+[00:01:06]: OnSaveLoadError	function: 000000000ED875C0	
+[00:01:06]: GetTickTime	function: 0000000035D5C660	
+[00:01:06]: siestahut_init_fn	function: 0000000026EE7A90	
+[00:01:06]: Light	table: 0000000029614890	
+[00:01:06]: stagehand_init_fn	function: 0000000026EE7850	
+[00:01:06]: Umlautify	function: 000000003625FDA0	
+[00:01:06]: LAYER_BELOW_OCEAN	1	
+[00:01:06]: CONTROL_FOCUS_RIGHT	28	
+[00:01:06]: FrontEnd	table: 0000000013BAAF10	
+[00:01:06]: EnableAllDLC	function: 0000000035D5E130	
+[00:01:06]: coldfirepit_clear_fn	function: 0000000026EE8480	
+[00:01:06]: goldenpickaxe_init_fn	function: 0000000026EE5B10	
+[00:01:06]: SPECIAL_EVENT_GLOBAL_PREFABS	table: 0000000036285C00	
+[00:01:06]: USE_SAVEBUFFER	true	
+[00:01:06]: PRINT_TEXTURE_INFO	false	
+[00:01:06]: KEY_F1	282	
+[00:01:06]: UnitRand	function: 000000001201ED00	
+[00:01:06]: farm_hoe_init_fn	function: 0000000026EE58D0	
+[00:01:06]: EmitterManager	table: 0000000013B9CA50	
+[00:01:06]: birdtrap_clear_fn	function: 0000000026EE7280	
+[00:01:06]: FindClosestPlayer	function: 0000000030FDC4F0	
+[00:01:06]: critterlab_clear_fn	function: 0000000026EE6BC0	
+[00:01:06]: ipairs_reverse	function: 0000000031320C40	
+[00:01:06]: razor_init_fn	function: 0000000026EE5990	
+[00:01:06]: CONTROL_CRAFTING_MODIFIER	74	
+[00:01:06]: DebugSpawn	function: 0000000031190110	
+[00:01:06]: module	function: 00000000276BAE40	
+[00:01:06]: coroutine	table: 0000000010BDC760	
+[00:01:06]: SOUNDDEBUGUI_ENABLED	false	
+[00:01:06]: SetSimPause	function: 0000000035B17DE0	
+[00:01:06]: MiniMapEntity	table: 00000000274782C0	
+[00:01:06]: StopUpdatingComponents	table: 00000000135CEB00	
+[00:01:06]: LAYOUT_POSITION	table: 0000000036288360	
+[00:01:06]: CreatePrefabSkin	function: 0000000026EE9DD0	
+[00:01:06]: LOC	table: 0000000011B4E000	
+[00:01:06]: MOVE_LEFT	3	
+[00:01:06]: wall_wood_item_clear_fn	function: 0000000026EE8FC0	
+[00:01:06]: Networking_BanMetricsEvent	function: 00000000116A0E30	
+[00:01:06]: GetRemotePlayerVanityItem	function: 000000000C69E890	
+[00:01:06]: TEMP_ITEM_ID	0	
+[00:01:06]: GetSpecialEventSkinTag	function: 0000000035E57250	
+[00:01:06]: _VERSION	Lua 5.1	
+[00:01:06]: FACING_DOWNRIGHT	6	
+[00:01:06]: net_shortint	table: 000000000E2CB940	
+[00:01:06]: KEY_Q	113	
+[00:01:06]: NotifyPlayerProgress	function: 0000000035D5C3F0	
+[00:01:06]: KEY_R	114	
+[00:01:06]: Networking_PartyChanged	function: 00000000116A1130	
+[00:01:06]: tabletodictstring	function: 000000001072D5C0	
+[00:01:06]: shovel_clear_fn	function: 0000000026EE5BA0	
+[00:01:06]: firestaff_clear_fn	function: 0000000026EE97A0	
+[00:01:06]: InitAllDLC	function: 0000000035D5DF50	
+[00:01:06]: wall_wood_init_fn	function: 0000000026EE8FF0	
+[00:01:06]: RequiredFilesForReload	table: 0000000011E90DD0	
+[00:01:06]: opalstaff_clear_fn	function: 00000000127BC480	
+[00:01:06]: yellowstaff_clear_fn	function: 00000000127BC500	
+[00:01:06]: CONTROL_FOCUS_LEFT	27	
+[00:01:06]: orangestaff_clear_fn	function: 000000002A255D70	
+[00:01:06]: Asset	table: 0000000013247A00	
+[00:01:06]: checkuint	function: 00000000116E11F0	
+[00:01:06]: TESTING_NETWORK	1	
+[00:01:06]: cave_exit_init_fn	function: 0000000026EE79D0	
+[00:01:06]: KEY_F2	283	
+[00:01:06]: orderedNext	function: 0000000035D939F0	
+[00:01:06]: UITransform	table: 00000000274B0D40	
+[00:01:06]: CONTROL_INV_2	16	
+[00:01:06]: MergeKeyValueList	function: 00000000311906E0	
+[00:01:06]: GetEnabledModNamesDetailed	function: 00000000336ADB00	
+[00:01:06]: ShardProxy	table: 00000000131AA180	
+[00:01:06]: bernie_big_clear_fn	function: 0000000026EE9440	
+[00:01:06]: bernie_active_clear_fn	function: 0000000026EE93E0	
+[00:01:06]: bernie_inactive_clear_fn	function: 0000000026EE9380	
+[00:01:06]: KEY_SEMICOLON	59	
+[00:01:06]: ResumeExistingUserSession	function: 0000000035D5D350	
+[00:01:06]: ClickMouseoverSoundReduction	function: 0000000013240CF0	
+[00:01:06]: CA_SEED_MODE	table: 0000000036288040	
+[00:01:06]: fence_clear_fn	function: 0000000026EE90E0	
+[00:01:06]: PRIVACY_TYPE	table: 0000000035FEFE40	
+[00:01:06]: TILE_SCALE	4	
+[00:01:06]: arrowsign_post_clear_fn	function: 0000000026EE6D40	
+[00:01:06]: wall_wood_clear_fn	function: 0000000026EE9020	
+[00:01:06]: OnAccountEvent	function: 0000000035D5D200	
+[00:01:06]: KEY_1	49	
+[00:01:06]: wall_stone_init_fn	function: 0000000026EE8F30	
+[00:01:06]: RunScheduler	function: 0000000035D6A500	
+[00:01:06]: book_brimstone_clear_fn	function: 0000000026EE5DE0	
+[00:01:06]: utf8substr	function: 0000000036109ED0	
+[00:01:06]: reskin_tool_init_fn	function: 0000000026EE5750	
+[00:01:06]: DisableDLC	function: 0000000035D5E040	
+[00:01:06]: CONTROL_OPEN_DEBUG_CONSOLE	42	
+[00:01:06]: mastupgrade_lightningrod_init_fn	function: 0000000026EE8C90	
+[00:01:06]: ACTIONS_MAP_REMAP	table: 0000000010408B30	
+[00:01:06]: anchor_init_fn	function: 0000000026EE8B10	
+[00:01:06]: anchor_item_init_fn	function: 0000000026EE8AB0	
+[00:01:06]: steeringwheel_clear_fn	function: 0000000026EE8A80	
+[00:01:06]: seafaring_prototyper_clear_fn	function: 0000000026EE7520	
+[00:01:06]: SANITY_MODE_LUNACY	1	
+[00:01:06]: DEMO_QUITTING	false	
+[00:01:06]: FunctionOrValue	function: 0000000035D93C00	
+[00:01:06]: error	function: 0000000035B5E340	
+[00:01:06]: minisign_clear_fn	function: 0000000026EE88A0	
+[00:01:06]: type	function: 00000000279E35C0	
+[00:01:06]: IsRestrictedCharacter	function: 000000000C69E560	
+[00:01:06]: AddStartLocation	function: 000000000C659740	
+[00:01:06]: circular_index_number	function: 0000000031190EC0	
+[00:01:06]: ErodeCB	function: 0000000030FDCB20	
+[00:01:06]: EQUIPSLOTS	table: 0000000036284850	
+[00:01:06]: SERVER_LEVEL_CONFIGS	table: 0000000035FF02F0	
+[00:01:06]: Profile	table: 0000000011B4ADB0	
+[00:01:06]: pet_init_fn	function: 0000000026EE84E0	
+[00:01:06]: VisitURL	function: 0000000036109C90	
+[00:01:06]: StartThread	function: 0000000035D6A4A0	
+[00:01:06]: generic_error	function: 0000000035D93D50	
+[00:01:06]: MakeHauntableDropFirstItem	function: 00000000116EAC10	
+[00:01:06]: armorgrass_clear_fn	function: 0000000026EE5F60	
+[00:01:06]: KEY_KP_6	262	
+[00:01:06]: SKIN_FX_PREFAB	table: 000000000E92F440	
+[00:01:06]: yellowstaff_init_fn	function: 00000000127BC4C0	
+[00:01:06]: GetActiveFestivalEventStatsFilePrefix	function: 0000000035E573D0	
+[00:01:06]: cookpot_clear_fn	function: 0000000026EE8240	
+[00:01:06]: boomerang_clear_fn	function: 0000000026EE5540	
+[00:01:06]: PreloadSoundList	function: 0000000035D5E280	
+[00:01:06]: abigail_clear_fn	function: 0000000026EE8180	
+[00:01:06]: KEY_TILDE	96	
+[00:01:06]: IsAnyOtherPlayerNearInst	function: 0000000030FDC670	
+[00:01:06]: alterguardianhat_init_fn	function: 0000000026EE6950	
+[00:01:06]: PREFAB_SKINS_IDS	table: 00000000336A0500	
+[00:01:06]: DefaultIgniteFn	function: 00000000116EA100	
+[00:01:06]: wathgrithrhat_clear_fn	function: 0000000026EE7D00	
+[00:01:06]: wathgrithrhat_init_fn	function: 0000000026EE7CD0	
+[00:01:06]: dumptable	function: 00000000127AA980	
+[00:01:06]: ProfileStatsAddToField	function: 0000000035D68AF0	
+[00:01:06]: subfmt	function: 000000003625FF20	
+[00:01:06]: KEY_I	105	
+[00:01:06]: insanityrock_init_fn	function: 0000000026EE7730	
+[00:01:06]: bugnet_init_fn	function: 0000000026EE81B0	
+[00:01:06]: FILTER_MODE	table: 000000003628E350	
+[00:01:06]: rawset	function: 0000000032B2B8E0	
+[00:01:06]: TintBackground	function: 0000000035D5D230	
+[00:01:06]: CurrentRelease	table: 00000000132473C0	
+[00:01:06]: VecUtil_RotateDir	function: 0000000013CC3F40	
+[00:01:06]: StartNextInstance	function: 0000000035D5CE70	
+[00:01:06]: ToVector3	function: 0000000035A05090	
+[00:01:06]: USE_PREFIX	table: 000000001279AF60	
+[00:01:06]: INVENTORY_PROGRESS	table: 0000000035FF0AC0	
+[00:01:06]: GetActiveFestivalProductName	function: 0000000035E57350	
+[00:01:06]: FADE_WHITE_COLOUR	table: 000000003628DBD0	
+[00:01:06]: icebox_clear_fn	function: 00000000127BC800	
+[00:01:06]: ExecutingLongUpdate	false	
+[00:01:06]: TROPHYSCALE_TYPES	table: 000000003628FED0	
+[00:01:06]: APP_REGION	NONE	
+[00:01:06]: ANCHOR_TOP	1	
+[00:01:06]: AreClientModsDisabled	function: 00000000336ADAD0	
+[00:01:06]: DisplayError	function: 0000000035D5CF60	
+[00:01:06]: DoAutopause	function: 000000001323FA80	
+[00:01:06]: LEGACY_WORLD_TILES_NOISE_START	110	
+[00:01:06]: OnPhysicsSleep	function: 0000000035D5C8A0	
+[00:01:06]: RegisterPrefabs	function: 0000000035B178E0	
+[00:01:06]: MakeTinyFlyingCharacterPhysics	function: 00000000116EA3D0	
+[00:01:06]: NODE_INTERNAL_CONNECTION_TYPE	table: 0000000036287FA0	
+[00:01:06]: SPECIAL_EVENT_BACKEND_PREFABS	table: 0000000036285CA0	
+[00:01:06]: NotifyLoadingState	function: 0000000035B181A0	
+[00:01:06]: researchlab2_init_fn	function: 00000000127BC740	
+[00:01:06]: sculptingtable_init_fn	function: 0000000026EE6EF0	
+[00:01:06]: ruinshat_clear_fn	function: 0000000026EE68C0	
+[00:01:06]: FRONTEND_PREFABS	table: 00000000315BE970	
+[00:01:06]: FailIfRunningDecorator	table: 000000001041BFA0	
+[00:01:06]: wardrobe_init_fn	function: 0000000026EE6E30	
+[00:01:06]: treasurechest_clear_fn	function: 0000000026EE6DA0	
+[00:01:06]: NODE_TYPE	table: 0000000036287F00	
+[00:01:06]: CONTROL_PRIMARY	0	
+[00:01:06]: KEY_LSHIFT	304	
+[00:01:06]: SNOW_THRESH	0.015	
+[00:01:06]: checkentity	function: 00000000116E1250	
+[00:01:06]: GetDisembarkPosAndDistance	function: 000000001072E1C0	
+[00:01:06]: WaveComponent	table: 0000000029789B40	
+[00:01:06]: earmuffshat_init_fn	function: 0000000026EE6830	
+[00:01:06]: WEBCOLOURS	table: 000000003628A250	
+[00:01:06]: beefalohat_clear_fn	function: 0000000026EE67A0	
+[00:01:06]: KEY_F8	289	
+[00:01:06]: GetActiveFestivalEventAchievementStrings	function: 0000000035D20050	
+[00:01:06]: RandomNode	table: 000000001041C450	
+[00:01:06]: featherhat_clear_fn	function: 0000000026EE6680	
+[00:01:06]: GetSpecialCharacterString	function: 000000003619EDE0	
+[00:01:06]: GetModVersion	function: 00000000336ADB30	
+[00:01:06]: flowerhat_init_fn	function: 0000000026EE6350	
+[00:01:06]: DiffAngle	function: 00000000116EF6B0	
+[00:01:06]: CONTROL_FORCE_TRADE	40	
+[00:01:06]: SKIN_SOUND_FX	table: 000000000E92F4E0	
+[00:01:06]: dragonflyfurnace_init_fn	function: 0000000026EE6FB0	
+[00:01:06]: hammer_clear_fn	function: 0000000026EE55A0	
+[00:01:06]: GraphicsOptions	table: 0000000029789C30	
+[00:01:06]: CONTROL_MENU_MISC_3	70	
+[00:01:06]: num_updating_ents	0	
+[00:01:06]: shallowcopy	function: 0000000031190E00	
+[00:01:06]: BEEFALO_CLOTHING	table: 0000000035F8E490	
+[00:01:06]: LAYER_BELOW_GROUND	2	
+[00:01:06]: _IsPackInsideOther	function: 000000000C69D780	
+[00:01:06]: HIDE_SYMBOLS	table: 0000000035F8E300	
+[00:01:06]: net_uint	table: 00000000271B3330	
+[00:01:06]: TheLeaderboards	EventLeaderboardProxy (0000000013FAEF50)	
+[00:01:06]: golden_farm_hoe_clear_fn	function: 0000000026EE5960	
+[00:01:06]: axe_clear_fn	function: 0000000026EE58A0	
+[00:01:06]: MapGenSim	table: 000000000E22F570	
+[00:01:06]: HandleClassInstanceTracking	function: 00000000359E90F0	
+[00:01:06]: MATERIALS	table: 000000003628EF80	
+[00:01:06]: FRONTEND_CHARACTER_CLOSE_COLOUR	table: 000000003628D720	
+[00:01:06]: MAX_FE_SCALE	3	
+[00:01:06]: metapairs	function: 0000000035D93A80	
+[00:01:06]: CURRENT_BETA	1	
+[00:01:06]: GROUND_CREEP_IDS	table: 0000000036284DF0	
+[00:01:06]: RED	table: 0000000036290790	
+[00:01:06]: EventNode	table: 000000001041CA90	
+[00:01:06]: wall_moonrock_item_init_fn	function: 0000000026EE8D50	
+[00:01:06]: TheSim	Sim (000000000E22F340)	
+[00:01:06]: DONT_STARVE_TOGETHER_APPID	322330	
+[00:01:06]: FADE_IN	true	
+[00:01:06]: GetStaticTick	function: 0000000035D5C6F0	
+[00:01:06]: wardrobe_clear_fn	function: 0000000026EE6E60	
+[00:01:06]: SelectorNode	table: 000000001041BC80	
+[00:01:06]: CONTROL_INV_7	21	
+[00:01:06]: InputProxy	table: 0000000013C1E4D0	
+[00:01:06]: ModPreloadAssets	function: 0000000035B17A60	
+[00:01:06]: GESTURE_ZOOM_OUT	901	
+[00:01:06]: FindClosestPlayerOnLandInRangeSq	function: 0000000030FDC550	
+[00:01:06]: fence_gate_clear_fn	function: 0000000026EE91A0	
+[00:01:06]: IsAnyPlayerInRangeSq	function: 0000000030FDC610	
+[00:01:06]: GetEnabledModsModInfoDetails	function: 00000000336ADB60	
+[00:01:06]: EnableDLC	function: 0000000035D5E0A0	
+[00:01:06]: CONTROL_INV_11	77	
+[00:01:06]: FADE_OUT	false	
+[00:01:06]: wall_wood_item_init_fn	function: 0000000026EE8F90	
+[00:01:06]: CONTROL_INV_14	80	
+[00:01:06]: CONTROL_TRADEITEM	36	
+[00:01:06]: GetActiveSpecialEventCount	function: 0000000035D1FE40	
+[00:01:06]: ruins_bat_clear_fn	function: 0000000026EE5420	
+[00:01:06]: FACING_UP	1	
+[00:01:06]: WORLD_FESTIVAL_EVENT	none	
+[00:01:06]: MakeSnowCovered	function: 00000000116EA760	
+[00:01:06]: UI_ATLAS	images/ui.xml	
+[00:01:06]: IsAny_YearOfThe_EventActive	function: 0000000035D1FED0	
+[00:01:06]: grass_umbrella_init_fn	function: 0000000026EE72B0	
+[00:01:06]: TWITCH_COLOR	table: 000000003628D360	
+[00:01:06]: LEGACY_WORLD_TILES_LAND_START	2

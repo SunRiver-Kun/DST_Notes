@@ -56,3 +56,8 @@ AddMinimapAtlas("images/map_icons/人物标记.xml")	--小地图标志
 
 AddModCharacter("人物标记", "FEMALE")		--加入为人物mod，和标签
 
+------------------------------------------------------其他
+--变量
+
+--常量
+FRAMES
