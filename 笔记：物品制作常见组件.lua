@@ -172,7 +172,7 @@ AnimState：动画组件，控制Entity的, 动画播完了不会自己移除的
 	inst.AnimState:SetBuild("scmlname") --scml名字自动打包成同名zip，同时也是这个参数
 	inst.AnimState:SetBank("entityname")  --对应sprite里右下角的第一层名字
 	inst.AnimState:PlayAnimation("idle")	--第一个参数是动画名，对应sprite里右下角的第二层名字；第二个是否重复播放(默认为false)
-	inst.AnimState:AddOverrideBuild("player_hit_darkness")	--添加格外的动画scml
+	inst.AnimState:AddOverrideBuild("player_hit_darkness")	--添加格外的动画scml，Bank是wilson, 
 	sprite左边的x，y对应物体的坐标。改变图片的轴点，再把其x，y改回去，就可以在同一个地方显示。而旋转直接改变angle就行。
 
 	inst.AnimState:GetBuild()  -->string
