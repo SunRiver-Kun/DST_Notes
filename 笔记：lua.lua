@@ -176,7 +176,11 @@ newproxy(bool|proxy) -->Creates a blank userdata with(bool)without an empty meta
 --t[key]、t.str
 --table[key]: key可以为非nil的任意类型！
 --for k,v in pairs(table) do ... end   ipair只遍历num
---#table  最后的index(只记number的)
+--pairs，ipairs不遍历元表
+--for ... in fn(tb, index), tb, index do end	第一返回值是nil时结束，in获取的函数只运行一次
+--只读表可以用 tb:pairs() return pairs(tb) end 来实现遍历，__index来[], __newindex来报错
+--next(tb) 可以判断tb是不是{}
+--#table  最后的index(只记number的)，  #{name="XX", 1,2,3,nil,5}是5   #{1,2,3,nil,5}是3
 --[[
 	metatable={
 		--5.1
@@ -199,9 +203,11 @@ table.remove(table,index=#table)	--> 返回被删除的元素值
 table.maxn(table) --最大的数字index
 table.concat(table,seq="",begin=1,end=#table)  --table全是字符串或数字， table[1]..seq..table[2]...seq...table[end]
 table.pack(...) --> table，...放在了arg这个table里
-table.unpack(table) --> table[1],..,table[#table]
+table.unpack(table) --> table[1],..,table[#table]	注意：unpack(tb)后不应有其他参数，如：local v1, v2, v3, v4, v5 = 1, unpack({2,3,4}), 5  -->   1 2 5 nil nil
 table.sort(table,[function(a,b) return a<b end])
-next(table,[index=initial index])  --> next_index,table[next_index]
+next(table,[index=initial index])  --> next_index,table[next_index]  不会遍历到metatable里的值
+for k,v in ipairs(arr) do print(k,v) end  --> 顺序遍历数组，遇到值为nil停止
+for k,v in pairs(tb) do print(k,v) end --> 遍历表(使用next)，乱序遍历全表(遇到nil不停)，不会遍历metatable
 
 rawget(table,index)  --get table.index. don't call any metatable 
 rawset(table,index,value)
