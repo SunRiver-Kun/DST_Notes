@@ -25,87 +25,19 @@
 --参考代码： modutil.lua   entityscript.lua    entityreplica
 --modutil中env.postinitfns.XXX，在mods.lua中 ModManager:GetPostInitData("XX", key)
 --不想要的直接覆盖掉，或者保存到另一个函数备用，可以在modmain外面用但必须modimport在modmain到里 
---预设物
-AddPrefabPostInitAny(fn(inst))	
-AddPrefabPostInit(prefab, fn(inst))		
-AddMinimapAtlas(atlaspath)  --对应 inst.MiniMapEntity:SetIcon( "xxx.tex" )
---玩家
-AddPlayerPostInit(fn(player)) 
----gender:"FEMALE/MALE/ROBOT/NEUTRAL/PLURAL" modes:选人动画 loadoutselect.lua skinutils.lua
-AddModCharacter(name, gender="NEUTRAL", modes=nil)	
---组件 
-AddComponentPostInit(component, fn(self)) --Class中的self，类比其他语言的this
-AddReplicableComponent(component)	--例如xxx_replica.lua，就写"xxx"
---动画、动作	
---componentaction客户端判断能否执行，执行运行stategraph，执行完回调acion
-AddAction(id:string|Action, str, fn(act))	--actions.lua
----stategraph对应stategraphs文件夹下的文件(无SG)，联机版wilson和wilson_cient
----handle: ActionHandler(Action, "anim_name")	Action是自己注册的或ACTIONS.XXX
-AddStategraphActionHandler(stategraph, handler)	
---actiontype: "SCENE/USEITEM/POINT/EQUIPPED/INVENTORY"  fn参数由actiontype决定
-AddComponentAction(actiontype, component, fn(...)) --componentactions.lua
-
---参考 stategraph.lua	SGwilson.lua	SGwilson_client.lua
-AddStategraphState(stategraph, state)
-AddStategraphEvent(stategraph, event)
-AddStategraphPostInit(stategraph, postfn) 
---类  class, globalclass，全路径文件名
-AddClassPostConstruct(class, fn(self)) --普通class修改
---例 AddGlobalClassPostConstruct("mods","ModManager",function(self) end)
-AddGlobalClassPostConstruct(globalclass, classname, fn(self)) --全局的class修改
---大脑（AI）
-AddBrainPostInit(brain, fn(self))  
---游戏  可以修改main.lua中的全局变量，不过最好先判空
-AddGamePostInit(fn())	--先，没有ThePlayer
-AddSimPostInit(fn())	--后，没有ThePlayer，常用于生成prefab	
-AddGameMode(...)	--移除，在modinfo里改
---物品栏制作
---这里的recipename、name等指Recipe的name，一般也是预设物名
---写法参照recipes.lua  repice.lua 即可
-AddRecipe2(name, ingredients, tech, config, filters)	--添加物品配方
-AddCharacterRecipe(name, ingredients, tech, config, extra_filters)	--filter是玩家
-AddDeconstructRecipe(name, return_ingredients)	--分解掉落物
-AddRecipeFilter(filter_def, index)	--自定义物品栏
-AddRecipeToFilter(recipe_name, filter_name)	--添加物品配方自定义物品栏
-RemoveRecipeFromFilter(recipe_name, filter_name)	
-AddRecipePostInit(recipename, fn(self)) 
-AddRecipePostInitAny(fn(self))
-RegisterInventoryItemAtlas(atlas, prefabname) --tex名要和prefab一样，一般不用
---烹饪
---食物的Prefab在prefabs/preparedfoods.lua和prefabs/preparedfoods_warly.lua
----cooker："cookpot/portablecookpot"
----recipe：参考scripts/preparedfoods.lua和scripts/preparedfoods_warly.lua
-AddCookerRecipe(cooker, recipe)	--烹饪配方
-AddIngredientValues(names, tags, cancook, candry)	--肉度/菜度等  参考cooking.lua
---声音
-RemapSoundEvent(name, new_name)
-RemoveRemapSoundEvent(name)
---RPC  RPC，服务器和客户端交流的一种方式，另一种是用网络变量(netvar.lua)
----namespace用modname最好
----name：独一无二的函数名
----id_table：GetXXXRPC(...)
-AddModRPCHandler(namespace, name, fn(...))
-GetModRPCHandler(namespace, name)	--> Add时的fn
-GetModRPC( namespace, name )	--> id_table
-SendModRPCToServer( id_table, ... )	
-
-AddClientModRPCHandler(namespace, name, fn(...))
-GetClientModRPCHandler(namespace, name)	--> Add时的fn
-GetClientModRPC( namespace, name )	--> id_table
-SendModRPCToClient( id_table, ... )
-
-AddShardModRPCHandler(namespace, name, fn(...))
-GetShardModRPCHandler(namespace, name)	--> Add时的fn
-GetShardModRPC( namespace, name )	--> id_table
-SendModRPCToShard( id_table, ... )
---命令、提示等
-AddUserCommand(command_name, data)
-AddVoteCommand(command_name, init_options_fn, process_result_fn, vote_timeout )
-AddLoadingTip(stringtable, id, tipstring, controltipdata)
-RemoveLoadingTip(stringtable, id)
-SetLoadingTipCategoryWeights(weighttable, weightdata)
-SetLoadingTipCategoryIcon(category, categoryatlas, categoryicon)
---房间	生成世界时用
+AddPrefabPostInit("prefabsname",function(inst) end)	--函数的参数只有inst，表示这个物品；使用API无法修改目标文件的局部函数，局部定义
+AddPlayerPostInit(fn)  --初始化客机玩家，可用GLOBAL.ThePlayer  fn参数为inst
+AddComponentPostInit(component, postfn) --components（组建）修改,postfn的参数是(self)
+AddComponentAction(typename, component, fn)	--fn参数是component除self后的参数+自己定义的参数
+AddReplicableComponent("组件名")	--设置replica
+AddStategraphPostInit(stategraph, postfn) --SG修改（联机版要对wilson和wilson_cient两个sg都进行state绑定）,状态图（动作）,设置动作触发时播放的动画等 actionhandler，
+AddClassPostConstruct(class,postfn(self)) --普通class修改，注意逗号	playerhud  controls  修改UI用到
+AddGlobalClassPostConstruct(GlobalClass, classname, postfn) --全局的class修改
+AddBrainPostInit(brain, fn)  
+AddSimPostInit(函数名)	--添加到世界诞生目录
+AddSkinnableCharacter(prefab)
+AddGameMode()
+AddGamePostInit()
 AddRoomPreInit(name,function(room) end)
 AddTaskPreInit()  
 
@@ -240,7 +172,7 @@ AnimState：动画组件，控制Entity的, 动画播完了不会自己移除的
 	inst.AnimState:SetBuild("scmlname") --scml名字自动打包成同名zip，同时也是这个参数
 	inst.AnimState:SetBank("entityname")  --对应sprite里右下角的第一层名字
 	inst.AnimState:PlayAnimation("idle")	--第一个参数是动画名，对应sprite里右下角的第二层名字；第二个是否重复播放(默认为false)
-	inst.AnimState:AddOverrideBuild("player_hit_darkness")	--添加格外的动画scml
+	inst.AnimState:AddOverrideBuild("player_hit_darkness")	--添加格外的动画scml，Bank是wilson, 
 	sprite左边的x，y对应物体的坐标。改变图片的轴点，再把其x，y改回去，就可以在同一个地方显示。而旋转直接改变angle就行。
 
 	inst.AnimState:GetBuild()  -->string

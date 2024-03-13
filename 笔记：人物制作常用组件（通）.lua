@@ -86,7 +86,7 @@ TUNING{  --游戏数值常量表
 
 CONSTANTS  --颜色、输入等常量表
 STRINGS  --检查表
-PREFAB_SKINS  --皮肤
+PREFAB_SKINS  --皮肤表
 GROUND  --地板
 GLOBAL{ --参考代码：main.lua里的东东都要加GLOBAL才能用。
 	ThePlayer
@@ -102,7 +102,8 @@ GLOBAL{ --参考代码：main.lua里的东东都要加GLOBAL才能用。
 		:ReskinEntity( target.GUID, target.skinname, tool._cached_reskinname[prefab_to_skin], nil, tool.parent.userid )
 	}
 	TheInventory{
-		:CheckClientOwnership(player.userid, PREFAB_SKINS[prefabname][index])
+		:CheckClientOwnership(player.userid:number, PREFAB_SKINS[prefabname][index]:string)   --检查用户是否含哟此皮肤，服务器
+		:CheckOwnershipGetLatest(skin:string)	-->bool,number   客户端检查皮肤
 	}
 	TheWorld{	--world.lua		worldstate.lua
 		GroundCreep{
@@ -157,7 +158,8 @@ TheInput:IsKeyDown(KEY_LCTRL)
 TheInput:GetWorldEntityUnderMouse()
 TheWorld 
 TheSim
-ThePlayer
+ThePlayer  --> ThePlayer.HUD or TheFrontEnd.screenstack[1]
+TheFrontEnd
 
 
 --打印
